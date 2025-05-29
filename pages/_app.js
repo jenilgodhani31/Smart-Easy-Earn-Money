@@ -11,9 +11,8 @@ export default function App({ Component, pageProps }) {
         <GA4Initializer />
         <Component {...pageProps} />
         <ToastContainer
-          position="top-center"
+          position="bottom-right"
           autoClose={2000}
-
           newestOnTop
           closeOnClick={false}
           rtl={false}
