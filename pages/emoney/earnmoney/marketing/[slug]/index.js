@@ -1,10 +1,20 @@
 import EarnMoneyInfo from '@containers/EarnMoneyInfo'
+import Head from 'next/head'
+import React, { Fragment } from 'react'
 
-import React from 'react'
-
-
-const MarketingSlugPage = () => {
-  return <EarnMoneyInfo type={"Marketing"} />
+function index() {
+  return (
+    <Fragment>
+      <Head>
+        <title>{"Robox Exclusive"}</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4575195873243785"
+          crossorigin="anonymous"></script>
+      </Head>
+      <div>
+        <EarnMoneyInfo type={"Marketing"} />
+      </div>
+    </Fragment>
+  )
 }
 
-export default MarketingSlugPage
+export default index

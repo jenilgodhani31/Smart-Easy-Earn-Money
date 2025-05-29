@@ -80,134 +80,601 @@ const gameData = {
 
   blog: [
     {
-      id: 2, name: "Start Copywriting",
-      slug: "/marketing",
+      id: 1, name: "Start Copywriting",
+      slug: "start-copywriting",
+      title: "Copywriting",
       url: "/assets/images/Blog/copywriter.png",
       description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "Copywriting is writing copy for the purpose of advertising or marketing. The copy is meant to persuade someone to buy a product or influence their beliefs.",
+        suitableFor: "People who have the passion for writing.",
+        SkillsRequired: ["Ability to write a scalable copy in order to maximize product sales."],
+        timeRequired: ["You will need to learn the concepts and psychology behind successful copywriting. This depends on your learning speed."],
+        howToMonetize: [
+          "Good copywriters are paid a handsome amount of money for writing a single copy.",
+          "In the beginning, you might not earn much, but with expertise, you can earn hundreds or thousands of dollars just by writing a few hundred words.",
+          "Start by creating a sales copy for the product you are promoting. Analyze the results and continuously improve.",
+          "You can also earn money by freelancing your copywriting skills.",
+          "Register as a copywriter on freelancing websites like:",
+          "https://www.iwriter.com",
+          "https://www.textbroker.com",
+          "https://www.writeraccess.com"
+        ]
+      }
 
     },
     {
-      id: 22, name: "Start Your Podcast",
-      slug: "/marketing",
+      id: 2, name: "Start Your Podcast",
+      slug: "start-your-podcast",
+      title: "Podcast",
       url: "/assets/images/Blog/podcaster.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+
+        whatIs: "A digital audio file made available on the internet for downloading to a computer or portable media player, typically available as a series, new installments of which can be received by subscribers automatically.",
+        suitableFor: "People who like to talk and explain things.",
+        SkillsRequired: [
+          "1. In-depth knowledge of any topic you are interested in.",
+          "2. Ability to persuade with logical reasoning."
+        ],
+        timeRequired: [
+          "There are 3 important steps for creating a podcast:",
+          "1. Prepare a script — determine content and create an outline to discuss or promote.",
+          "2. Record audio for your podcast.",
+          "3. Upload your podcast on your personal website or iTunes."
+        ],
+        howToMonetize: [
+          "Sell your podcast — ensure the content is compelling enough for people to pay.",
+          "Insert commercials into your podcast and earn money through sponsorships or advertising."
+        ],
+        MoreHelp: "Check out this article on making money from podcasting."
+      }
     },
 
     {
       id: 3, name: "Write Articles ",
-      slug: "/affiliate",
+      slug: "write-articles",
       url: "/assets/images/Blog/desktop-computer.png",
-      description: "For further information, please read on for more details"
-    }, {
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "There are many authority websites who are always looking for fresh content and ideas to expand their user base and maximize profits. For this reason, they need new people with new ideas who can do this job for them.",
+        subTitle: [
+          "Although most of them have content research, curation and editorial teams, but no matter how experienced they are they cannot cover everything.  ",
+          "So, many such websites will pay you to write content for them. This helps them to capture new ideas and topics that otherwise would have never been discovered by their content teams. This also provides a great opportunity to writers who want to earn quick cash writing articles without getting into the hassle of creating and marketing their own blog."
+        ],
+        suitableFor: "People who love to write and want to share their knowledge and expertise with the world.",
+
+        SkillsRequired: [
+          "Ability to express knowledge in writing in a simple yet effective way."
+        ],
+        HowToGetStarted: [
+          "The best way to get started is to find the topics that interest you the most, do some research and compile an informative article. ",
+          "Then find the authority websites in the niche related to your topic, contact them via email and forward your article to them.",
+          "Following is the Bonus List of 12 Amazing Authority websites from diverse niche, most of which will pay you up to $100 per article, upon acceptance or publication",
+          "Submit your article and get paid upon acceptance or publication."
+        ],
+        BonusListOfWebsites: [
+          {
+            Name: "Litverse.com",
+            TopicsCovered: "General",
+            Payment: "$100 per article",
+            PaymentMethod: "PayPal"
+          },
+          {
+            Name: "Thepennyhoarder.com",
+            TopicsCovered: "Finance",
+            Payment: "Up to $75 per article",
+            PaymentMethod: "PayPal"
+          },
+          {
+            Name: "Afineparent.com",
+            TopicsCovered: "Parenting",
+            Payment: "$75 per article",
+            PaymentMethod: "PayPal"
+          },
+          {
+            Name: "Uxbooth.com",
+            TopicsCovered: "User Experience",
+            Payment: "$100 per article",
+            PaymentMethod: "Unspecified"
+          },
+          {
+            Name: "Cracked.com",
+            TopicsCovered: "General/Humor",
+            Payment: "$50 - $200 per article",
+            PaymentMethod: "PayPal"
+          },
+          {
+            Name: "Smashingmagazine.com",
+            TopicsCovered: "Web Development/User Experience",
+            Payment: "$50 - $200 per article",
+            PaymentMethod: "Unspecified"
+          },
+          {
+            Name: "Alistapart.com",
+            TopicsCovered: "Internet",
+            Payment: "Up to $200 per article",
+            PaymentMethod: "Unspecified"
+          },
+          {
+            Name: "Writenaked.net",
+            TopicsCovered: "Writing",
+            Payment: "$75 per article",
+            PaymentMethod: "Unspecified"
+          },
+          {
+            Name: "Internationalliving.com",
+            TopicsCovered: "Living Overseas",
+            Payment: "$75 - $400 per article",
+            PaymentMethod: "Unspecified"
+          },
+          {
+            Name: "Sitepoint.com",
+            TopicsCovered: "Web Development",
+            Payment: "$150 - $200 per article",
+            PaymentMethod: "Unspecified"
+          },
+          {
+            Name: "Incomediary.com",
+            TopicsCovered: "Make Money Online/SEO",
+            Payment: "$50 - $200 per article",
+            PaymentMethod: "PayPal"
+          },
+          {
+            Name: "Greatescapepublishing.com",
+            TopicsCovered: "Travel",
+            Payment: "$50 - $200 per article",
+            PaymentMethod: "Unspecified"
+          }
+        ],
+        ClosingNote: "Now, you have the list. Go ahead and earn money writing articles. Enjoy your life!"
+      }
+
+    },
+    {
       id: 4, name: "Become a Captioner",
-      slug: "/ecommerce",
+      slug: "become-a-captioner",
+      title: "Captioning",
       url: "/assets/images/Blog/subtitles.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+
+        whatIs: "In simple terms, captioning is the process of converting the audio content of a video into text. You must have seen subtitles when you watch movies, television series and so on, these subtitles are typed by captioners. Captioning is straightforward and similar to transcription work. But as a captioner, your job will be watch a video and correctly type everything you hear. You'll also need to make sure that captioner sync up correctly with the audio.",
+        suitableFor: "Almost anyone.",
+        SkillsRequired: [
+          "1. Ability to read, write, and fluently speak the language of your operation, along with English.",
+          "2. Ability to listen to and understand multiple accents in your language of operation."
+        ],
+        WhatYouNeed: [
+          "1. A computer with decent speed internet connection.",
+          "2. A Headset"
+        ],
+        HowToGetStarted: [
+          "The best option to get started is to apply for the post of a Captioner on Rev.com. Rev pays you $0.40 to $0.75 per video minute. The average captioner at Rev earns $240 per month while the top captioner earns over $1500 per month! Rev sends payments weekly via Paypal so you don't need to wait longer for receiving your money.",
+        ]
+      }
+
     },
     {
       id: 5, name: "Be a Proofreader",
-      slug: "/home-based-business",
+      slug: "bse-a-proofreader",
+      title: "Proofreading",
       url: "/assets/images/Blog/proofreading.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+
+        whatIs: "In simple terms, proofreading means examining any text carefully to find and correct typing errors, grammar, style, and spelling mistakes.",
+        subTitle: ["With the rise of the internet, blogs, and social media, demand for high-quality content is steadily growing. Which is why there is a huge demand for online proofreaders who can examine any text and make sure it's error-free. You should definitely leverage this opportunity to earn some handsome money online."],
+        suitableFor: "Anyone who loves to read, write, find and correct errors.",
+
+        SkillsRequired: [
+          "Ability to speak and write in English with native-like fluency.",
+          "Excellent reading comprehension skills.",
+          "Ability to follow written instructions and work independently.",
+          "An average proofreading speed of 1000-1500 words per hour."
+        ],
+        HowToGetStarted: [
+          "The best way to get started is by applying for the post of online proofreader on the following two websites:",
+          "Proofreadingservices.com Submit your Proofreadingservices application here. Before you can submit your application, you’ll need to pass a 20-minute test which consists of 20 questions. These questions will test your basic English and Grammar abilities. Strive to get maximum answers correct because your acceptance will be based on your test score. Higher the test score, more are your chances of getting selected. Scribendi.com ",
+          "Submit your Scribendi application here. Scribendi offers great flexibility for proofreaders; you can actually choose when and which projects you want to work on. But you need to commit to proofreading a minimum of 10,000 words per month. ",
+          "Like Proofreadingservices.com, Scribendi doesn’t conduct any qualification test, but candidates having experience in editing, writing, document production, or language teaching have higher chances of acceptance.  ",
+          "Payments are sent via PayPal, and you can also earn monthly incentives ",
+        ]
+      }
+
     },
     {
       id: 21, name: "Become a Ghostwriter",
-      slug: "/home-based-business",
+      slug: "becomea-ghostwriter",
+      title: "Ghostwriter",
       url: "/assets/images/Blog/storyteller.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+
+        whatIs: "In simple terms, a Ghostwriter is a person who writes for other people. Most of the busy bloggers, authors, publishers hire ghostwriters for completing their writing work. As a ghwriter, your completed work will be owned by the person who employs you. Your name will never appear anywhere as an author. But you’ll get handsomely paid for the job. Most of your jobs as a ghostwriter will include writing books, eBooks, blog posts, articles, and press releases.",
+
+        suitableFor: "People who have a passion for writing.",
+        SkillsRequired: [
+          "Ability to get into the minds of clients, understand their needs and convert their story into writing.",
+        ],
+        HowToGetStarted: [
+          "You can get started by visiting the following websites/URLs and applying for the available ghostwriting jobs:.",
+          "1. WriteZillas.com",
+          "2. Jobforwriter.com",
+          "3. Peopleperhour.com",
+        ],
+        ExpectedEarnings: [
+          "At an entry level, you can expect to earn $10-$25 per hour. Once you reach an intermediate level you can expect to earn $30-$50 per hour. You will make $60-$70 per hour once you have lots of experience and positive reviews.",
+        ]
+      }
+
     },
     {
       id: 6, name: "The Side Hustle Guide ",
-      slug: "/real-estate",
+      slug: "the-side-hustle-guide",
       url: "/assets/images/Blog/working.png",
-      description: "For further information, please read on for more details"
-    }, {
+      description: "For further information, please read on for more details",
+      content: {
+        intro: "INTRODUCTION",
+        whatIs: "The internet has given everyone the power to make money online. Gone are the days when websites are only run by organizations with resources. Today, anyone of proper age can earn something online, and it does not take a genius to do. You have heard of millionaires buying and selling cryptocurrency. You've watched content creators earning a full-time income from YouTube. You may have friends and relatives who became technopreneurs or maybe established their own home business during the pandemic. Not to mention the freelancers, artists, designers, writers, tutors, transcribers, and the many more who are earning consistent income online.",
+        subTitle: [
+          "About This App This app is a compilation of side hustles and strategies that you can do to earn online this 2022. It presents different ideas and opportunities so that you too can start earning a side income. It will cover active and passive income ideas, home business ideas, legitimate investment vehicles where you can let your money earn for you, legitimate apps and websites that you can earn money from, and many more. Start with the ideas from this app and continue your learning until you earn. Note that none of the ideas presented in this app are get-rich-quick schemes - we all know those things do not work. Ideas in this app require you to exchange either your time, money, or expertise to earn money. Why? Because that is how the real world works! You need to give up something in exchange for money. Do not worry though, with the PRO tips included in the app, we hope to get you to become a little bit more efficient in your money-making activities.",
+          "We also classified each strategy according to one of the 7 income streams:"
+        ],
+
+        BlogExtra: [
+          "1. Earned income - income from work or job eg. salary ",
+          "2. Business income - income from someone else's time (eg. employee's time) ",
+          "3. Interest income - interest from a savings account or investments ",
+          "4. Dividend income - income dividend from stocks ",
+          "5. Rental income - from real estate propertiess ",
+          "6. Capital gains - income from the sale of art, stocks, business, properties, etc. ",
+          "7. Royalties - income from creative work such as music, photography, videos, etc. ",
+        ],
+        BlogExtraOne: "So sit back, relax, and enjoy the many strategies to earn money today."
+      }
+
+    },
+    {
       id: 7, name: "Freelancing",
-      slug: "/side-hustle",
+      slug: "freelancing",
       url: "/assets/images/Blog/freelancer.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Doing freelance work is one of the most profitable ways online. Clients will pay for your services regularly if you deliver value to them. It is one of the most stable and profitable strategies to earn online if you dedicate time and effort to your freelance services. It is also gaining popularity all over the world especially after the start of the pandemic. In an article from Forbes, up to 20% of employees in America are considering freelance work.",
+        subTitle: [
+          "Advantages of Freelancing Freedom from office politics. Freedom to choose which projects you want to work on. Freedom to regulate workload. Challenges in Freelancing You do not have employment benefits such as health cards, bonuses, allowances, leaves, etc. You need to file all your taxes and other government documents on your own. Takes time to create a consistent and sustainable income. Cash flow issues. Loss of social circles. If you are considering freelancing work, start your career with Fiverr, it is the world's largest digital service marketplace with over 950+ services delivered per hour. You can design a company logo, do voice-over projects, manage social media accounts, do translation jobs, become a virtual assistant, and much more. You can start by registering with Fiverr and posting your service. If someone buys your services you keep 80% of the fee and the 20% go to Fiverr. Services can be from $5 to $995 or more. You can request payment from Fiverr 14 days after closing an order. ",
+        ],
+
+        proTips: [
+          "Make your price lower than the market especially if you are just starting out. ",
+          "Reply to inquiries quickly. Buyers will a lot of options and will not wait for your reply. ",
+          "Manage your time properly especially when working from home. ",
+          "Provide the best experience for your buyers. A good review will improve your visibility ",
+          "Be accurate when creating titles and descriptions. This will set the client's expectations. ",
+          "Give freebies after delivering good quality service. ",
+          "Websites for Freelancers ",
+          "guru.com ",
+          "upwork.com ",
+          "comfreelancer.com ",
+          "compeopleperhour.com ",
+        ],
+      }
+
     },
     {
       id: 8, name: "Create Content ",
-      slug: "/survey",
+      slug: "create-content",
       url: "/assets/images/Blog/creativity.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Getting paid continuously for work done once is one of the most efficient ways to earn money on the side. You can create and publish content every weekend and that work will generate extra income for you for a long time. Earning from royalties is a very rewarding passive income source.",
+        subTitle: [
+          "This method of earning used to be reserved for book authors or singers and artists, but with the advent of platforms like YouTube, Wordpress, ebook, and online course publishers, anyone who is dedicated can now earn royalties from their content.",
+          "This method also requires very little capital. All you need to have is a passion for a subject matter, a little time, and a lot of persistence.",
+          "Below are some ideas to create content and earn royalties from YouTube, blog, or ebooks:",
+          "Tech stuff: Review cellphones and gadgets on YouTube or a blog.  ",
+          "May require initial investments, but you can always resell your gadgets. ",
+          "Online games: Stream online. Drawing: Create a time-lapse video of your creation. Create a video tutorial and publish them on Udemy. ",
+          "Architect/Engineer: Create a channel reviewing houses of famous celebrities (this is becoming a trend now). ",
+          "Video editing: Create a channel featuring highlights or fight scenes of famous movies. Review YouTube policies first. ",
+          "Teacher: Create quick supplemental courses on YouTube. ",
+          "Music and editing: Create a lyrics video. ",
+          "Cooking: Create recipes video. Another big reason to create content besides extra income is to learn. The best way for you to learn something is to teach it. If you are interested in a subject matter, try creating content about it and you will be forced to research and understand concepts. ",
+          "Scared that others might discover your secrets or expertise? Heck, if you are not earning anything from it now, then what’s the purpose of keeping it? The world is so big, that you cannot possibly influence all people. Sharing also becomes a challenge for you to keep on growing on your art and constantly learn something new. ",
+          "Now, why is there an emphasis on doing your passion or something that interests you? Because one of the secrets to Content Creation as mentioned is persistence. Of course, your creation will not get any visitors at first - no visitors, no money. You need to persist, create regular content with value before people can start to appreciate it. Need a little inspiration? Check out how much a YouTube channel earns with socialblade.com. ",
+          "Newsflare.com Earn by selling videos online with Newsflare. It can be anything from current events, festivals, weird customs, funny animals, fail videos, celebrities, sports, bizarre weather, and road incidents (check your dashcam quick!). As long as they are yours and original, you can sell them. When you upload a video, you are granting Newsflare the license to sell them to interested buyers. You still retain the ownership of these videos but it is important to note that you maintain an exclusive arrangement with Newsflare. This means you cannot sell your videos on other platforms. ",
+          "You can earn from Newsflare by direct purchase or by royalty payments. With direct purchase, you will get your money in 24 hours via Paypal. This is a simple buy-and-sell transaction. Royalty payments, on the other hand, are based on the total number of views from partner websites which include; Yahoo, MSN, AOL, Liveleaks, etc. You will get paid within 90 days. You can also earn via shared ad revenue with YouTube. Newsflare will use your video and post it on their YouTube channel. You get to share the ads revenue with Newsflare. This method is especially helpful for ordinary people to monetize their videos without being a YouTube personality. Because YouTube now is prioritizing people who do video creation full time. You need at least 4,000 hours of view time and at least 1,000 subscribers in the past 12 months before being able to monetize your videos. You can only do that if you are a hard-core video creator. ",
+        ],
+
+        proTips: [
+          "Check out Video Brief section and post videos there. These are videos that buyers want and will boost the visibility of your video. They can be anything from festivals, events, specific locations, tourist spots, outdoor activities, sports, weather phenomena, cute pets, and others.",
+          "Consent of people featured in your videos should be obtained.",
+          ` Upload videos with proper tags, description, location, catchy title, and date/ time. This will help with the visibility of your video.`,
+          "Other Websites for Content Creators: viralhog.com"
+        ],
+      }
     },
     {
       id: 9, name: "Earn by Cooking",
-      slug: "/refer-earn",
+      slug: "earn-by-cooking",
       url: "/assets/images/Blog/cooking.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Eatwith.com connects individuals with a passion for cooking to those who love to eat. It works like Airbnb but for sharing meals. Why would people want to dine with a stranger, you might ask? Well, if you are a tourist and crave some authentic home-cooked food in a cozy environment, then Eatwith is the place to go. You can book services like food tours, cooking classes, and wine tasting sessions.",
+        subTitle: [
+          "How can I trust my host? Eatwith qualifies each one of them before becoming a host on the platform. This is an added layer of security. You'll also be able to read their profiles, see their pictures, know their stories and background. EatWith also shows reviews from previous customers. EatWith also provides insurance for its customers for any unwanted incidents. Now, that's even better than a restaurant.",
+          "Let's talk about earning from this website. EatWith maintains a very strict standard for selecting hosts which means not everyone will pass the selection process. Start by clicking Become a Host from the website to create an account. Key in all the required details then create an Experience or listing. Wait for 14 working days for approval. As a host, you control the menu and price. Becoming a host with EatWith is free. "
+        ],
+
+        proTips: [
+          "Provide a safe place and a good experience for your guests. ",
+          "pay attention to little details. ",
+          " Clean the toilets and other places your guests might go to.",
+          "Surprise them with a little something extra. A dessert or a small souvenir will work",
+          "Enjoy what you are doing - enjoy the company, and the experience"
+        ],
+      }
     },
     {
       id: 10, name: "A Stable Way to Earn",
-      slug: "/blog",
+      slug: "a-stable-way-to-earn",
       url: "/assets/images/Blog/stability.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "Transcribing is the process of converting audio files to text. The whole process requires a lot of patience as it can get really boring. TranscribeMe.com is a platform that made this seemingly boring job become more enjoyable. They cut long audio files into short segments and distribute them to different transcribers. In this way, each transcriber only gets 2 to 4-minute voice clips and not very long conversations - too bad you won't get to hear the whole story...",
+        subTitle: [
+          "You can start by creating an account with TranscribeMe and pass the qualifying exam. All the materials needed to pass will be given by the website. The exam includes 8 questions and 3 transcription tasks with each transcription file running about 4 minutes each. Allot 1 whole day for studying and finishing the exam. Remember, follow the style guide as this is where most of the errors come from.",
+          "If you fail the exam twice, TranscribeMe will not let you take it until after 30 days. If you pass, it will take approximately 1 business day to activate your account. TranscribeMe supports English, Spanish, Portuguese, Korean, Italian, Japanese, Chinese, French, Scottish, and Vietnamese - unfortunately, they don't support Chamicuro... TranscribeMe is available globally and pays via PayPal. Check out quicktate.com and rev.com as alternatives to TranscribeMe. "
+        ],
+
+        proTips: [
+          "1. It is necessary to have fast and accurate typing skills. You will develop this over time. ",
+          "2. Use hotkeys, they are there for a reason. They make transcription jobs 10x easier. ",
+          "3. It takes time to get used to the process of transcribing, be patient. Most people simply quit because they feel like they're just typing their days away senselessly. Understand what you are getting into and find a strong motivator. ",
+          "4. TranscribeMe now has its very own Speech-to-text app try using it as a preliminary step. ",
+        ],
+      }
     },
     {
       id: 11, name: "Design Shirts",
-      slug: "/refer-earn",
+      slug: "design-shirts",
       url: "/assets/images/Blog/graphics.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Earn when you design and sell shirts, mugs, pillows, socks, stickers with Teespring. The website will take care of the production, shipping, and payment management. You only need to design and market your product.",
+        subTitle: [
+          "You can immediately create designs after signing up with Teespring. The tools are web-based so you do not need to install anything. List the items and create a campaign so that you can market your product. List down the start and end date, set the renewal frequency, and estimate how many can you sell. Teespring will generate a web address that you can use to market your product. ",
+          "One way to sell your product is by running Facebook ads. Identify a niche group and target them with ads. It can reach hundreds even thousands of people with this method. You can use Teespring's Boosted Network which allows you to connect with Amazon, Etsy, Rakuten, eBay, and other popular e-commerce platforms. Once the campaign period ends, payment can be requested within 24-48 hours. Teespring is available in all Countries worldwide and pays via PayPal, Payoneer, check, or direct mail. ",
+        ],
+
+        proTips: [
+          "1. Humour sells. Be funny, and witty with your design. ",
+          "2. Look for a niche like a profession, sports club, charitable organizations, hobbies, and trends. Use social media to run targeted ads. ",
+          "3. Consider hiring a professional freelance designer. Like any business, you need to spend money to earn money. ",
+          "4. Check out Teespring Inspiration for some ideas. "
+        ],
+      }
     },
     {
       id: 12, name: "Play Games",
-      slug: "/marketing",
+      slug: "play-games",
       url: "/assets/images/Blog/computer.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "Who wouldn't want to earn while doing something that they love? Playtestcloud.com lets you earn money while you play games on your mobile phone! Of course, it is a little different as you need to note how you feel about games, observe, and report bugs. If you are into trying out new games for new experiences, this opportunity is for you.",
+        subTitle: [
+          "To start, sign up with Playtestcloud.com, take their qualification test, download their recording device, and wait for projects to come to your dashboard. You need an Android or iOS device to join. Generally, they pay $9 per 15 minutes of playtesting, paid via PayPal. They send out over 100,000 playtests per month, so you'll probably get a project at least once a month - not meant to replace your job (obviously). Games for testing range from adventure games, strategy, RPG, hardcore, and much more. Playtestcloud.com powers 45 out of the 100 top-grossing games in the App Store. ",
+          "Available for gamers in the US, UK, and Canada."
+        ],
+
+        proTips: [
+          "1. Increase the likelihood of getting projects by making sure your profile is updated. Keep the device you are using updated and your current and favorite games. ",
+          "2. Sign up with multiple play-to-earn websites to make sure you get projects regularly. Alternative websites include antidote.gg and trymyui.com. "
+        ],
+      }
+
     },
     {
       id: 13, name: "Increase Your Value ",
-      slug: "/affiliate",
+      slug: "increase-your-value",
       url: "/assets/images/Blog/sales.png",
-      description: "For further information, please read on for more details"
-    }, {
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Ok, let's hold off on the investing strategies first and talk about what is applicable for most of us. How do I earn more money at work? The short answer to this million-dollar question is to increase your value. Be someone who is irreplaceable at work. Have more expertise, certifications, and experience compared with the rest. Do projects that affect the most number of people. Solve real problems and stay out of politics. Focus on the job rather than the people (and do this every time, all the time). Stay away from people who burn all their energies talking about other people. These people are very contagious and toxic and you should avoid them at all costs. ",
+        subTitle: [
+          "People are paid in two ways, either for their time or for the results or value they create. A CEO earns more than a clerk (usually) because he is paid for the value, results, and strategic direction that he contributes to the company - a contribution that can either make or break the whole company. A clerk on the other hand is paid for his time at work. The goal is NOT to strive to be the CEO, after all, there is only one CEO per company, the goal is to be aware that you need to add value to your work. Do this in all aspects, add value to your co-workers, to the company, and to your customers. If you keep this in mind in everything you do, money will follow. ",
+          "The concept is for everyone regardless of what you do in life. A freelance who delivers quality service is valuable to his clients who will repeatedly avail of his services. A YouTuber who creates the content with value will be watched by many, repeatedly. If you are in a management position in your work, increase your value as a leader by learning management theories. Check out our MBA Lessons and Management Theories App here (Ad). ",
+        ],
+
+
+      }
+    },
+    {
       id: 14, name: "Debt and Budgeting",
-      slug: "/ecommerce",
+      slug: "debt-and-budgeting",
       url: "/assets/images/Blog/debt-consolidation.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Debts affect your cash flow and should be managed correctly. Sometimes it requires whole books to talk about managing debts but here’s a gist on how to manage them.",
+        subTitle: [
+          "Start with the proper mindset and the firm commitment to manage and pay off existing debts. Focus on the merits of achieving financial freedom rather than the pains of saving. ",
+          "Change your lifestyle and minimize expenses. Make your own coffee instead of going to Starbucks every day and you'll be surprised at how much you can save per year. It tastes different, yes, but you get the same kick. List down all your subscriptions. Are you really getting real value from them? Maybe you have Netflix, Disney +, Amazon Prime, Discovery +? Do you really need all these? ",
+          "Pay in cash and not with a credit card. It is a lot easier to spend with a credit card because you do not see physical money flowing out of your hands. When you pay in cash, you can feel psychological guilt when you've spent too much. ",
+          "The next step is prioritization. Check your list of debts and settle those with the high-interest rates first. You can also start with those with the lower remaining balance. Prioritize whichever will give you more positive cash flow. ",
+          "Refinance existing debts for a more favorable deal. Interest rates are going lower and now may be the time to explore this option. Make sure you’ve considered all transfer expenses and taxes before doing this. ",
+          "One of the ways to increase income is to do budgeting correctly. The 50/30/20 rule can be a good starting point: 50% of your net earnings goes to upkeep – utilities, rent, food, transportation, tuition fees, children's allowance, 30% goes to lifestyle – family time, dining out, new clothes, 20% goes to investments, debt repayments, building emergency funds, things that improve your net worth and cash flow. ",
+          "This is by no means a rule that is fixed for everyone. If you are earning more, you can increase 20% of investments to 30% or even 50%. If you have a big family 50% upkeep may not be enough. It depends on the situation, the important thing is you should always be allocating 20% to improve financial health and cash flow. In the next few chapters, we will discuss the different investment vehicles that can provide passive income for life. "
+        ],
+
+        proTips: [
+          "Rule of 20 states that it is advisable not to let your monthly debt payment exceed 20% of your monthly income. For example, you are earning $5,000 a month, no more than $1,000 should be going to debt payment per month. If you stick to this rule, it is less likely that you will encounter debt problems in your life. "
+        ],
+      }
     },
     {
       id: 15, name: "Dividends",
-      slug: "/home-based-business",
+      slug: "dividends",
       url: "/assets/images/Blog/dividends.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Debts affect your cash flow and should be managed correctly. Sometimes it requires whole books to talk about managing debts but here’s a gist on how to manage them.",
+        subTitle: [
+          "Start with the proper mindset and the firm commitment to manage and pay off existing debts. Focus on the merits of achieving financial freedom rather than the pains of saving. ",
+          "Change your lifestyle and minimize expenses. Make your own coffee instead of going to Starbucks every day and you'll be surprised at how much you can save per year. It tastes different, yes, but you get the same kick. List down all your subscriptions. Are you really getting real value from them? Maybe you have Netflix, Disney +, Amazon Prime, Discovery +? Do you really need all these? ",
+          "Pay in cash and not with a credit card. It is a lot easier to spend with a credit card because you do not see physical money flowing out of your hands. When you pay in cash, you can feel psychological guilt when you've spent too much. ",
+          "The next step is prioritization. Check your list of debts and settle those with the high-interest rates first. You can also start with those with the lower remaining balance. Prioritize whichever will give you more positive cash flow. ",
+          "Refinance existing debts for a more favorable deal. Interest rates are going lower and now may be the time to explore this option. Make sure you’ve considered all transfer expenses and taxes before doing this. ",
+          "One of the ways to increase income is to do budgeting correctly. The 50/30/20 rule can be a good starting point: 50% of your net earnings goes to upkeep – utilities, rent, food, transportation, tuition fees, children's allowance, 30% goes to lifestyle – family time, dining out, new clothes, 20% goes to investments, debt repayments, building emergency funds, things that improve your net worth and cash flow. ",
+          "This is by no means a rule that is fixed for everyone. If you are earning more, you can increase 20% of investments to 30% or even 50%. If you have a big family 50% upkeep may not be enough. It depends on the situation, the important thing is you should always be allocating 20% to improve financial health and cash flow. In the next few chapters, we will discuss the different investment vehicles that can provide passive income for life. "
+        ],
+
+        proTips: [
+          "Rule of 20 states that it is advisable not to let your monthly debt payment exceed 20% of your monthly income. For example, you are earning $5,000 a month, no more than $1,000 should be going to debt payment per month. If you stick to this rule, it is less likely that you will encounter debt problems in your life. "
+        ],
+      }
     },
     {
       id: 16, name: "Bonds",
-      slug: "/real-estate",
+      slug: "bonds",
       url: "/assets/images/Blog/bond.png",
-      description: "For further information, please read on for more details"
-    }, {
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Investing in bonds lets you act as a creditor lending money to corporations or the government. In return, you are given a fixed amount of interest given either quarterly, semi-annual, or annual.",
+        subTitle: [
+          "If you invest 100,000 (the face value) and the declared interest is 6% (coupon rate) you will get 6,000 interest, less tax (e.g. 20%), so you will get a total of 4,800 per annum. Once a bond reaches its maturity date, the creditor or investor is given back the full amount. ",
+          "Bonds are fixed-income securities as you can predict the total amount you will get at maturity. Depending on the terms, a bond investment can either be short, medium, or long term. ",
+          "Bond prices fluctuate in the market. Similar to ordinary shares, the more the demand (and less supply) the higher the price. Bond prices tend to go high when inflation is low and vice versa. This is because investors seek other investment vehicles with better returns to beat high inflation. Why would governments and corporations issue bonds when they can borrow from banks? One reason is they are able to make interest rates lower compared to what banks will give them. Another is diversification. ",
+          "Government bonds are almost risk-free investments since the chances of governments getting bankrupt are very slim. ",
+          "Interest rates from government-issued bonds used to be high ranging from 7% to 12% or more but ever since the financial crisis of 2008, government bonds for most countries now average 4%. Check out the historical rates here. ",
+          "Governments issue different kinds of bonds according to the timeline: ",
+          "1. Short Term (1 year) = Treasury Bills (T-Bills) ",
+          "2. Medium Term (1-10 years) = Treasury Notes ",
+          "3. Long Term (10 years) = Treasury Bonds",
+          "Corporate bonds have a higher risk compared to government bonds but they usually give higher returns. Investing in corporate bonds will not make you part owners of a company unlike when you buy stocks but instead, you become a lender to the company. If the company closes down, lenders have priority over stockholders as they need to settle debt obligations first. The maturity date for corporate bonds depends on the issuer. It can be anywhere between 3 to 7 years.",
+          "Bonds, similar to stocks can be bought and sold after acquisition not through exchanges but over the counter, usually in banks. You can start investing in government or corporate bonds by going to your local bank. Regularly check the business news section of your newspaper (or app) to know if there are new bonds being offered. You can also invest in bonds via mutual funds."
+
+        ],
+
+        Terminologies: [
+          "1. Face value – the total amount invested in bonds. ",
+          "2. Coupon rates – interest rate of the bond. ",
+          "3. Maturity date – end of the contract, when the amount equal to the face value is returned to the investor. ",
+          "4. Rating – Letter grading indicating the bond issuer’s ability to pay. ",
+          "5. Zero-coupon bonds – bonds that do not pay interest but sold at a discount. When the maturity date comes, the bond issuer will buy it at a higher price thereby letting investors earn. "
+        ],
+      }
+    },
+    {
       id: 17, name: "REITS ",
-      slug: "/side-hustle",
+      slug: "reits",
       url: "/assets/images/Blog/reit.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Investing in bonds lets you act as a creditor lending money to corporations or the government. In return, you are given a fixed amount of interest given either quarterly, semi-annual, or annual.",
+        subTitle: [
+          "If you invest 100,000 (the face value) and the declared interest is 6% (coupon rate) you will get 6,000 interest, less tax (e.g. 20%), so you will get a total of 4,800 per annum. Once a bond reaches its maturity date, the creditor or investor is given back the full amount. ",
+          "Bonds are fixed-income securities as you can predict the total amount you will get at maturity. Depending on the terms, a bond investment can either be short, medium, or long term. ",
+          "Bond prices fluctuate in the market. Similar to ordinary shares, the more the demand (and less supply) the higher the price. Bond prices tend to go high when inflation is low and vice versa. This is because investors seek other investment vehicles with better returns to beat high inflation. Why would governments and corporations issue bonds when they can borrow from banks? One reason is they are able to make interest rates lower compared to what banks will give them. Another is diversification. ",
+          "Government bonds are almost risk-free investments since the chances of governments getting bankrupt are very slim. ",
+          "Interest rates from government-issued bonds used to be high ranging from 7% to 12% or more but ever since the financial crisis of 2008, government bonds for most countries now average 4%. Check out the historical rates here. ",
+          "Governments issue different kinds of bonds according to the timeline: ",
+          "1. Short Term (1 year) = Treasury Bills (T-Bills) ",
+          "2. Medium Term (1-10 years) = Treasury Notes ",
+          "3. Long Term (10 years) = Treasury Bonds",
+          "Corporate bonds have a higher risk compared to government bonds but they usually give higher returns. Investing in corporate bonds will not make you part owners of a company unlike when you buy stocks but instead, you become a lender to the company. If the company closes down, lenders have priority over stockholders as they need to settle debt obligations first. The maturity date for corporate bonds depends on the issuer. It can be anywhere between 3 to 7 years.",
+          "Bonds, similar to stocks can be bought and sold after acquisition not through exchanges but over the counter, usually in banks. You can start investing in government or corporate bonds by going to your local bank. Regularly check the business news section of your newspaper (or app) to know if there are new bonds being offered. You can also invest in bonds via mutual funds."
+
+        ],
+
+        Terminologies: [
+          "1. Face value – the total amount invested in bonds. ",
+          "2. Coupon rates – interest rate of the bond. ",
+          "3. Maturity date – end of the contract, when the amount equal to the face value is returned to the investor. ",
+          "4. Rating – Letter grading indicating the bond issuer’s ability to pay. ",
+          "5. Zero-coupon bonds – bonds that do not pay interest but sold at a discount. When the maturity date comes, the bond issuer will buy it at a higher price thereby letting investors earn. "
+        ],
+      }
     },
     {
       id: 18, name: "Teach English ",
-      slug: "/survey",
+      slug: "teach-english",
       url: "/assets/images/Blog/teaching.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Online tutoring is not only limited to kids who want to learn English. A better niche would be professionals as lessons can be as simple and entertaining as a conversation. Talking to an adult can help keep your sanity compared to teaching kids (if you are not the type).",
+        subTitle: [
+          "Teaching a language is not only about increasing your vocabulary. It is about practicing the language in a conversation and building confidence to use it. Learning a language online or in an app will teach you vocabulary, having a tutor online will help you build confidence by practicing the language. "
+        ],
+        Idea: "Everything is going global and online today. Web developers in Europe or Asia want to extend their services and reach the English-speaking world. Healthcare workers in Asia who want to migrate to the west need to learn English.",
+        WhatYouNeed: "Fluency in the English language Quiet place to hold classes Curriculum for teaching Stable internet connection Hardware for teaching (PC, microphone, webcam) Your own social media page or website Credentials for teaching Google Meet, Zoom, MS Teams",
+
+        proTips: [
+          "Find a specific niche. Target professionals who need to learn English. Having a conversation with someone in English is more bearable than teaching A for Apple, B for Boy, and C for Cat - you get the idea. ",
+          "Find a professional niche and promote your services there. Examples would be healthcare workers, web developers, network experts, architects, and other professionals who would want to render their services to the rest of the English-speaking world. Once you found a niche, promote your services on LinkedIn and focus on this niche. Word of mouth is a very powerful marketing tool for tutoring services. ",
+          "Experiment with different pricing models. Try one-time payment or subscription for your services. "
+        ],
+      }
     },
     {
       id: 19, name: "Juice in a Bottle",
-      slug: "/refer-earn",
+      slug: "juice-in-a-bottle",
       url: "/assets/images/Blog/juice.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "People are becoming more and more health-conscious at the same time becoming busier. Believe it or not, some people say they don't eat fruits because they feel it's a waste of time. According to the Mayo Clinic website, juicing may reduce the risk of cancer, boost the immune system, remove toxins, aid in digestion and weight loss. Commercial fruit juices have been popular during times when people need to boost their immune systems.",
+        subTitle: [
+          "To set up a juicing business you need the right recipe that balances taste and health benefits. It is not that capital intensive as you only need fresh fruits and vegetables and a chiller, that's it. The rest of the effort goes to being able to consistently supply and also market your products. "
+        ],
+
+        proTips: [
+          " 1. Keep a strict best before timeline to preserve the quality and taste of your product.",
+          "2. Go for organic. The main reason why people buy juiced products is for health reasons. Give them an additional reason to buy from you by making everything organic. True, the cost may go up but you can pass this cost to your consumers. A non-organic juice may even be detrimental to a person's health in the long term. ",
+          "3. Consult a nutritionist for your product's recommended intake. ",
+          "4. Market it enclosed living spaces such as condominiums. In this way, you have access to more people without spending too much on transportation. "
+        ],
+      }
     },
     {
       id: 20, name: "Tour Guide",
-      slug: "/refer-earn",
+      slug: "tour-guide",
       url: "/assets/images/Blog/tour-guide.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "If you have reached this stage of the app and have not found anything that fits you, don't despair, the next opportunity only requires little talent, time, and a little bit of passion. It lets you earn money by becoming a tour guide in your own city. One thing is for sure, people LOVE to talk about their hometown. It gives them a sense of joy and pride. ShowAround is a platform that connects tourists with locals for a unique travel experience. It is present worldwide in over 8,000 cities",
+        subTitle: [
+          "Have you ever attended a city tour booked by a travel agency? Half of the destinations they will bring you to have absolutely nothing to do with the city and its history. Remember all those jewelry stores? These travel agency and their local tour guides earn a commission when you buy in those stores. That's the whole point of bringing you there! With ShowAround, you can rate and review your experience with a local which should minimize these kinds of tricks from travel agencies. ",
+          "Going back - as a local with ShowAround, you get to tour people in places worth seeing in your city. See their jaws drop as you narrate stories about a certain place. Give them an experience they will never forget and they might refer you to their friends, more money! ShowAround is available in almost all countries worldwide. "
+        ],
+
+        proTips: [
+          "1. Don't be creepy! Keep it safe, fun, and wholesome. ",
+          "2. Manage expectations do not over-promise. Communicate everything before the tour including timing, places to visit, expenses, etc. ",
+          "3. Give every customer your best. If you can't give them a quality experience because you need to rush somewhere, don't accept the offer. The more positive reviews you get the higher the ranking and visibility you'll have, the more people will book your services. "
+        ],
+      }
     },
     {
-      id: 1, name: "Write To Earn",
-      slug: "/blog",
+      id: 22, name: "Write To Earn",
+      slug: "write-to-earn",
       url: "/assets/images/Blog/financial-statement.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "Writing articles and taglines in your free time can earn you anywhere between $5 to $500. Have you ever written an article for your corporate newsletter or university publication before? Have you ever received feedback from anyone that you write well? If you answer “Yes” or if you want to earn extra income on the side by writing articles, check out this list of websites below.",
+        subTitle: [
+          "Fiverr.com - You can post your article writing services with Fiverr and price it anywhere between $5 to $950 or more. Posting your service is free but when customers pay, 20% goes to Fiverr and 80% goes to you. Fiverr also made it very easy for customers to include tips on their payments. This means more money for you if your services are good. ",
+          "You can write almost anything with Fiverr including personal finance, wealth creation, banking, health, natural sciences, inspiration, relationships, psychology, just about anything really. Post your gig and if someone is interested, they will avail of your services. You can set different prices according to the word count or depth of research that you will do. It is all up to you. ",
+          "Women on Writing - This website will literally make you say “Wow!” Women on Writing (WoW) has a huge collection of interesting articles about – you guessed it, women and writing. It talks about practical tips on how to write better articles, tips on publishing, marketing, freelancing, different how-to articles, inspirational, and much more. They even have book suggestions and classes you can take to really excel in writing. The website runs 2 quarterly contests for fiction and non-fiction where you can earn anywhere between $200-$500 or $25 Amazon gift cards. ",
+          "SloganSlingers.com - Ok, you will not write complete articles with Slogan Slingers but rather short and catchy taglines (or slogans) for different startup companies. Taglines reflect the values of a company and are so important that others outsource them to gather the best ideas. ",
+          "Companies basically run contests on Slogan Slingers to gather tagline ideas. They post their individual requirements on the website with the corresponding timeline and prize to be won. ",
+          "If the slogan or tagline you created gets selected, you get to earn anywhere between $50 to $999. You can turn ON Slogan Slinger’s automatic notification so you get an email whenever there is a new contest available. ",
+          "Blue Mountain Arts - You can write poems that capture human emotions such as love, family, missing someone, and friendship. Blue Mountain Arts holds regular contests for writing poems choosing 3 winners per round. 1st place winner gets $350, 2nd place gets $200, and 3rd place gets $100. Everyone in the world can join and submit their entries to the website. Prizes are paid using PayPal. ",
+          "FreelanceWriting.com - Freelancewriting.com displays available writing jobs in a list format from 7 sources including Indeed.com, FreelanceJobOpenings.com, FLW Exclusive, Craigslist, FreelanceBloggingJobs, Ed2010, and BloggingPro. You can filter available jobs according to location, skills, and job source. Jobs posted from this website are applicable in the US. ",
+          " PubLoft - Unlike other writing jobs websites, PubLoft takes care of all client interactions for you so that you can focus purely on writing. No need to find and sell your work to customers. It is like working as a freelancer under PubLoft itself. ",
+          " Before you get accepted with PWN (PubLoft Writer Network), you are expected to already have some degree of writing experience. You will need to demonstrate your skills with grammar, fluency, and research during the application process.",
+          "PubLoft is a good way to find high-paying and quality writing jobs. You can earn anywhere between $75 to $250 per post, paid biweekly via Paypal. ",
+        ],
+      }
     },
   ],
 
@@ -815,89 +1282,253 @@ const gameData = {
     },
 
   ],
-  RealEstate: [
 
+  RealEstate: [
     {
-      id: 1, name: "Earning from Your Property",
-      slug: "/blog",
+      id: 1,
+      name: "Types of Real Estate",
+      slug: "types-of-real-estate",
       url: "/assets/images/RealEstate/rental.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 2, name: "Condominiums",
-      slug: "/marketing",
+      id: 2,
+      name: "Condominiums",
+      slug: "condominiums",
       url: "/assets/images/RealEstate/building.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 3, name: "Earning from Your Property ",
-      slug: "/affiliate",
+      id: 3,
+      name: "Earning from Your Property ",
+      slug: "earning-from-your-property",
       url: "/assets/images/RealEstate/investment.png",
       description: "For further information, please read on for more details"
-    }, {
-      id: 4, name: "Tenants",
-      slug: "/e-commerce",
+    },
+    {
+      id: 4,
+      name: "Tenants",
+      slug: "tenants",
       url: "/assets/images/RealEstate/real-estate.png",
       description: "For further information, please read on for more details"
     },
     {
-      id: 5, name: "Checklist",
-      slug: "/home-based-business",
+      id: 5,
+      name: "Checklist",
+      slug: "checklist",
       url: "/assets/images/RealEstate/blueprint.png",
       description: "For further information, please read on for more details"
     },
     {
-      id: 6, name: "Before Buying",
-      slug: "/real-estate",
+      id: 6,
+      name: "Before Buying",
+      slug: "before-buying",
       url: "/assets/images/RealEstate/deal.png",
       description: "For further information, please read on for more details"
-    }, {
-      id: 7, name: "Negotiating the Price",
-      slug: "/side-hustle",
+    },
+    {
+      id: 7,
+      name: "Negotiating the Price",
+      slug: "negotiating-the-price",
       url: "/assets/images/RealEstate/key.png",
       description: "For further information, please read on for more details"
     },
     {
-      id: 8, name: "Notes ",
-      slug: "/survey",
+      id: 8,
+      name: "Notes ",
+      slug: "notes",
       url: "/assets/images/RealEstate/agent.png",
       description: "For further information, please read on for more details"
     }
-
   ],
+
   SideHustle: [
 
     {
       id: 1, name: "Fiverr",
-      slug: "/blog",
+      slug: "fiverr",
       url: "/assets/images/SideHustle/hard-work.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: `Doing freelance work is one of the most profitable ways online. Clients will pay for your services regularly if you deliver value to them. Start freelancing with Fiverr, it is the world's largest digital service marketplace with over 950+ services delivered per hour. You can design a company logo, do voice-over projects, manage social media accounts, do translation jobs, become a virtual assistant, and more. You can start by registering with Fiverr and posting your service. If someone buys your services you keep 80% of the fee and the 20% go to Fiverr. Services can be from $5 to $995 or more. You can request payment from Fiverr 14 days after closing an order.`,
+
+        sellingInfo: [
+          `As a buyer, you can use Fiverr to boost income from other online opportunities. Hire a professional designer for Teespring or a web developer for TravelPayouts. You can even hire a content creator for ModSquad and social media marketers for Shopify.`,
+        ],
+
+        availability: "All Countries",
+
+        paymentModes: [
+          "Bank Transfer",
+          "PayPal",
+          "Payoneer",
+          "Fiverr Revenue Card",
+          "Direct deposit(US)"
+        ],
+
+        proTips: [
+          "Make your price lower than the market especially if you are just starting out.",
+          "Reply to inquiries quickly. Buyers will a lot of options and will not wait for your reply.",
+          "Manage your time properly especially when working from home. ",
+          "Provide the best experience for your buyers. A good review will improve your visibility. ",
+          "Be accurate when creating titles and descriptions. This will set the client's expectations. ",
+          "Give freebies after delivering good quality service. "
+        ],
+
+        startHere: [
+          "Frequently Asked Questions",
+          "Watch Video",
+          "Visit Website"
+        ],
+
+        similarSites: [
+          "Guru",
+          "Upwork ❤",
+          "Freelancer",
+          "People per hour",
+        ]
+      }
     },
     {
       id: 2, name: "Skillshare",
-      slug: "/marketing",
+      slug: "skillshare",
       url: "/assets/images/SideHustle/working.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: `SkillShare is a website to get quality courses taught by creators, professionals, and entrepreneurs. Learn (or teach) anything from creative writing, design, web development, photography, music, soft skills, social media marketing, storytelling, business analytics, leadership, management skills, and a lot more. If you want to jumpstart your freelancing career, SkillShare is almost a necessity. There are tons of quality information for a small price. You can join SkillShare for free and get access to 1,800+ courses. Ramp up your learning and access 25,000+ additional courses just for $6-$12 a month. That's a lot cheaper than other learning websites where you need to pay per course.`,
+
+        sellingInfo: [
+          `Let's talk about earning with SkillShare. As a course creator, you can earn anywhere from $200/month up to $100k/year! That's almost comparable to a full-time job. Teachers get paid by the minute that students watch their videos. It works like a royalty system. SkillShare charges a monthly subscription from its students which then gets pooled and distributed to its content creators monthly. Let's say the monthly subscription pool collected is $1000. If the overall watch time on SkillShare is 100 minutes and your videos were watched for 10 minutes, you get $100 or 10% of the $1000 subscription pool. Don't start telling your mom to watch your videos 24 hours a day. As long as your topic stays relevant and students watch it, you get paid.`,
+        ],
+
+        availability: "All Countries",
+
+        paymentModes: [
+          "PayPal",
+        ],
+
+        proTips: [
+          "1. Teach a subject that you are very familiar with. Experience adds depth and substance to what you are teaching. ",
+          "2. Make the course fun and informative. Keep students engaged until the end. Remember the longer students watch your videos the more you earn. ",
+          "3. Promote your class on the internet - Facebook groups, Twitter, YouTube, Instagram, Pinterest, specialty blogs, and websites. ",
+        ],
+
+        startHere: [
+          "Frequently Asked Questions",
+          "Watch Video",
+          "Visit Website (ad)"
+        ],
+
+        similarSites: [
+          "Teacheable ❤",
+        ]
+      }
     },
     {
       id: 3, name: "WordPress ",
-      slug: "/affiliate",
+      slug: "wordpress",
       url: "/assets/images/SideHustle/responsive.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: `Approximately 34% of all the websites on the internet run on WordPress. We are talking about millions and millions of websites. Notable companies that use WordPress include CNN, Forbes, Reuters, Yelp, TED, TechCrunch, eBay, Sony, Best Buy, Mashable, among others. `,
+
+        sellingInfo: [
+          `Unlike the other websites featured in this app, WordPress does not actually pay you directly. Instead, it is a CMS or Content Management System that helps you build websites. WordPress is the perfect tool for blogging as it has thousands of available plugins and extensions you can download. These plugins add life to a website by adding functionalities such as contact forms, videos, e-commerce, maps, image gallery, stats, ads, comments, related posts, and so much more. You can literally build almost all kinds of websites on this platform. `,
+          `There are a lot of different ways that you can monetize a blog. You can do a sponsored article where you review a product for a fee. You can do affiliate marketing where you lead people to buy a product and earn commissions. You can also display ads where you earn passive income every time someone clicks an ad. You can also sell your own product. See Frequently Asked Questions below for estimated earnings. `
+        ],
+
+        availability: "All Countries",
+
+        proTips: [
+          "1. Find a niche that's at least 2 to 3 levels deep. ",
+          "Health > Diet > Vegetarian Recipes Lifestyle > Minimalism > Condo Design ",
+          "Finance > Personal > Bank Products Review ",
+          "Baking > Cake Recipes > Flourless Recipes ",
+          "You will create an impression of being an expert if your blog is focused on a specific niche. You can also rank better in search engines for keywords in your niche market",
+          "2. Encourage interaction. Ever wonder why YouTube video makers always say - comment below if you are satisfied, etc. This will tell search engine algorithms that your video (or website) is highly engaging and will, therefore, rank better in search results. ",
+          "3. Blog something you love. This will make the whole process of writing including research easier. ",
+          "4. Create listicles such as Top 10 Ways to Invest $100 or 5 Reasons to Stay Fit are titles that viewers will likely click because they create an impression that the article is easy to read. ",
+          "5. Keep your URL or domain name short. If possible, URLs should contain words about your niche market. ",
+          "6. 3000 to 10000-word articles get shared more according to torquemag.io. Search engines also rank articles with more backlinks or links to reputable, high-ranking sites. Articles with internal links or links to other articles in your blog will also perform well with search engines. ",
+          "7. Perfect your SEO. Search engines are your major source of traffic, make sure you do them right. "
+        ],
+
+        startHere: [
+          "Frequently Asked Questions",
+          "How to Start Blogging (ad)"
+        ],
+
+        similarSites: [
+          "Wix â¤",
+          "Squarespace",
+          "Site123",
+          "Webnode",
+          "Jimdo",
+        ],
+        Extra: "Wix is very easy to use but not as flexible and scalable as WordPress. You get more SEO features and plugins with WordPress compared with Wix. SEO or Search Engine Optimization is how websites are found by search engines. Good SEOs bring more visitors to your blog. "
+      }
     }, {
       id: 4, name: "Teach Online",
-      slug: "/e-commerce",
+      slug: "teach-online",
       url: "/assets/images/SideHustle/browsing.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: `SkillShare.com is a website to get quality courses taught by creators, professionals, and entrepreneurs. Learn (or teach) anything from creative writing, design, web development, photography, music, soft skills, social media marketing, storytelling, business analytics, leadership, management skills, and a lot more. If you want to jumpstart your freelancing career, SkillShare is almost a necessity. There are tons of quality information for a small price. You can join SkillShare for free and get access to 1,800+ courses. Ramp up your learning and access 25,000+ additional courses just for $6-$12 a month. That's a lot cheaper than other learning websites where you need to pay per course. `,
+
+        sellingInfo: [
+          `Let's talk about earning with SkillShare. As a course creator, you can earn anywhere from $200/month up to $100k/year! That's almost comparable to a full-time job. Teachers get paid by the minute that students watch their videos. It works like a royalty system. SkillShare charges a monthly subscription from its students which then gets pooled and distributed to its content creators monthly. Let's say the monthly subscription pool collected is $1000. If the overall watch time on SkillShare is 100 minutes and your videos were watched for 10 minutes, you get $100 or 10% of the $1000 subscription pool. Don't start telling your mom to watch your videos 24 hours a day. As long as your topic stays relevant and students watch it, you get paid. SkillShare is available in all countries worldwide and it pays by PayPal. `,
+        ],
+
+
+        proTips: [
+          "Teach a subject that you are very familiar with. Experience adds depth and substance to what you are teaching. ",
+          "Make the course fun and informative. Keep students engaged until the end. Remember the longer students watch your videos the more you earn.   ",
+          "Promote your class on the internet - Facebook groups, Twitter, YouTube, Instagram, Pinterest, specialty blogs, and websites. ",
+
+        ],
+
+      }
     },
     {
       id: 5, name: "Sell Online",
-      slug: "/home-based-business",
+      slug: "sell-online",
       url: "/assets/images/SideHustle/team.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: `Etsy is a platform where people can buy unique goods and handmade crafts from independent sellers around the world. When you shop, you are not buying from Etsy but direct from the sellers who are hobbyists and artists. You can buy anything from custom toys, phone accessories, arts and collectibles, calendars, planners, wedding gifts, craft supplies, and vintage products. A perfect place to do your holiday shopping! `,
+
+        sellingInfo: [
+          `You can sell at Etsy and access thousands of potential customers for a small fee of $0.20 per listing - no need for an expensive rental space. All listings with Etsy are valid for 4 months or until the products are sold out. A listing means 1 item. If you are selling a dress with different sizes, you can add them as variations on the same listing. `,
+          `You can start by signing up and setting up your own Etsy store. You need a shop name, language, pictures, and mode of payment. If someone buys an item from your Etsy shop, Etsy charges a 3.5% transaction fee and a 4.4% + $0.26 processing fee. Selling in Etsy is much like setting up your own physical store minus the expensive rental space. You create product displays, fulfill orders, do refunds, customer support, the whole thing. Etsy is available worldwide and pays via bank deposit and PayPal. `
+        ],
+
+        proTips: [
+          "Create unique products.Create a shop story.Fill out the about section of your store.Buyers always love to know the story behind the products they buy.Shoppers at Etsy are from all over the world.Be sensitive with your items and descriptions so as not to offend any particular culture. Communicate with your customers and reply to complaints as soon as you can.Read reviews and see where you can improve. ",
+          "Upload high-quality and well-lit images. ",
+          "Be active with the Etsy community. This will increase your visibility with Etsy Merchandising Team who can feature your store on the website. ",
+          "Create an online presence with Instagram, Twitter, and Facebook then market your listings there.Stuvia.com - ",
+          "This money-making opportunity will make you regret why you did not take down notes during your university years. Stuvia allows you to sell your notes, essays, thesis, summaries, study guides to other students. Can you do this? Is it legal? Apparently, it is as long as you created them yourself and the material is not something handed to you by your professor. ",
+          "If you created it, then you hold the copyright. This idea came up in The Netherlands some 8 years ago and has helped many students pass (and earn). Next time you are thinking about sleeping in class, remember Stuvia... pay attention... take notes, sell, and earn! ",
+          "The notes you purchased with Stuvia can be accessed at any time on your phones, computers, or tablets. You can buy notes that are specific to a subject at your university, how cool is that? You do not need to take notes, you only need to listen.",
+          "You can start by signing up with the website then select the university and the level you are in. You can start uploading notes immediately, no screening or qualifying is needed. If someone buys your notes, Stuvia takes 30% of the price and the rest goes to you. You can set any price for your materials, the minimum is Â£2.5. The payout request is every Monday if you reach a minimum of Â£10. Imagine the possibilities of this gig if you are able to sell notes to a batch of 300 students or more. ",
+          "Stuvia is available in UK, Spain, South Africa, US, Germany, France, Denmark, The Netherlands, Finland. Alternatives to Stuvia include websites like NotesGen, NexusNotes, and OneClass. ",
+          "Market your listing correctly - use chat groups, Facebook groups, dorm announcement boards, freshmen gatherings, even flyers to spread the word about your listing.",
+          "Keep Stuvia in mind when writing notes. This means you really need to listen, ask questions, and clarify ideas with your professors during class. ",
+          "Experiment with your pricing until you hit the right one. ",
+          "Bookscouter.com - bookscouter does not buy books themselves but they scan over 42 book buyback websites and present you the best offer for your title.It works like Skyscanner or Booking.com but for books.You do not need to go to individual websites to check the price.You can easily select which website offers the highest price tag for your used books. ",
+          "Sign up with Bookscouter.com and you can immediately use their services for free.Key in the ISBN of the book and you will see which site is giving the best rate.Click on a website, fill in another registration form(for that website) then continue the transaction and get shipping details.You can also buy and rent books from Bookscouter. ",
+          "Earning potential for Bookscouter is rated as 1 star because most of the books will sell at an almost depressing price. But again if you have a roomful of unused books, scan each one and maybe you'll find some gold in them. ",
+          "Novels and other old fiction books usually will not sell at all. Textbooks and non-fiction books will get you a few cents to a few dollars but do not expect much either. Recent bestsellers both fiction and non-fiction can be sold between $2 to $10 but it still depends on the title. Medical textbooks, law books, and other reference books can be a treasure ranging from $30 to $100+. Use the Bookscouter app when scanning a huge pile of books. ",
+          "Shopify.com - Set up an online store and reach millions of potential customers with Shopify.The website provides templates so you can easily customize and publish your shop even without coding knowledge.It comes with useful features such as Facebook integration which can maximize your shop's exposure. The basic plan costs $13, then $54, and the advance is $107 per month. The difference between the plans is the number of staff that can access the account, reporting tools, and transaction fees. The calculation for shipping rates is available in the advance plan. ",
+          "You can purchase your own domain or use the free myshopify.com domain. Having your own domain usually sounds more professional. You are given unlimited bandwidth included with the monthly fee. This means your site can accommodate an unlimited number of visits. You can also install apps on your Shopify store to add additional functionalities such as chat features, express checkout, inventory management, popups, email marketing apps, surveys, and a lot more. You do need to pay additional fees to use some of the apps. ",
+          "The hardest part of selling online is establishing your presence.Sometimes no matter how good your products are, it's just so hard to get people to buy from you. Good thing Shopify comes with a lot of useful tutorials online. Simply search Shopify or drop shipping on YouTube and you get a wealth of information. Learn to decipher which ones are useful. ",
+        ],
+
+      }
     },
 
   ],
+
   Survey: [
 
     {
@@ -1337,134 +1968,171 @@ const gameData = {
     },
 
   ],
-  ReferEarn: [
 
+  ReferEarn: [
     {
-      id: 1, name: "Paytm Money",
-      slug: "/blog",
+      id: 1,
+      name: "Paytm Money",
+      slug: "/paytm-money",
       url: "/assets/images/ReferEarn/salaryOne.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "It is an online discount broker with a simple pricing model. If you are a beginner and want to start your journey in the share market then I feel Paytm Money will be one of the best options for you. It offers a fixed brokerage plan to its customers. Paytm Money claims that they provide a low-cost trading option and their trading charges are low compared to others.",
+        subTitle: [
+          "Users can open a Demat account on the Paytm Money app with their basic details like PAN Card number, Aadhar Number, a Mobile number linked with Aadhar etc. In this app, you can buy stocks, mutual funds and gold. Any user can log in to the Paytm Money app with their Paytm number or can sign up if they don’t have a Paytm account yet. ",
+          "paytm Money claims that users can upload their documents and within 24 hours their Demat account will be opened. You can set the price alerts and create multiple watchlists to track real-time price changes up to 50 stocks. For the first time you have to add ₹50 funds into your account then you are ready to invest your money in stocks, equity or NPS."
+        ],
+        AmountPerSurvey: "50 - 500 points (100 points = $1 or £0.77).",
+        reward: "$5 (£3.75).",
+        OurReview: [
+          "As we mention in our Branded Surveys review, this survey site is one of our personal favourites. Great new website, easy to use, well-reviewed on Trustpilot and fast paying.",
+          "You can also earn ongoing points for referring friends and get a percentage of everything they earn.",
+        ]
+      }
+
     },
     {
-      id: 2, name: "Upstox",
-      slug: "/marketing",
+      id: 2,
+      name: "Upstox",
+      slug: "/upstox",
       url: "/assets/images/ReferEarn/revenue.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 3, name: "YSense Survey",
-      slug: "/affiliate",
+      id: 3,
+      name: "YSense Survey",
+      slug: "/ysense-survey",
       url: "/assets/images/ReferEarn/interest-rate.png",
       description: "For further information, please read on for more details"
-    }, {
-      id: 4, name: "Amazon Pay UPI",
-      slug: "/e-commerce",
+    },
+    {
+      id: 4,
+      name: "Amazon Pay UPI",
+      slug: "/amazon-pay-upi",
       url: "/assets/images/ReferEarn/favorite.png",
       description: "For further information, please read on for more details"
     },
     {
-      id: 5, name: "IIFL Securities",
-      slug: "/home-based-business",
+      id: 5,
+      name: "IIFL Securities",
+      slug: "/iifl-securities",
       url: "/assets/images/ReferEarn/earningTwo.png",
       description: "For further information, please read on for more details"
     },
     {
-      id: 6, name: "5Paisa",
-      slug: "/real-estate",
+      id: 6,
+      name: "5Paisa",
+      slug: "/5paisa",
       url: "/assets/images/ReferEarn/earn-money.png",
       description: "For further information, please read on for more details"
-    }, {
-      id: 7, name: "Zerodha",
-      slug: "/side-hustle",
+    },
+    {
+      id: 7,
+      name: "Zerodha",
+      slug: "/zerodha",
       url: "/assets/images/ReferEarn/profit.png",
       description: "For further information, please read on for more details"
     },
     {
-      id: 8, name: "Google Pay",
-      slug: "/survey",
+      id: 8,
+      name: "Google Pay",
+      slug: "/google-pay",
       url: "/assets/images/ReferEarn/salary.png",
       description: "For further information, please read on for more details"
     },
     {
-      id: 9, name: "PhonePe",
-      slug: "/refer-earn",
+      id: 9,
+      name: "PhonePe",
+      slug: "/phonepe",
       url: "/assets/images/ReferEarn/revenueOne.png",
       description: "For further information, please read on for more details"
     },
     {
-      id: 10, name: "Mobikwik",
-      slug: "/blog",
+      id: 10,
+      name: "Mobikwik",
+      slug: "/mobikwik",
       url: "/assets/images/ReferEarn/mobile-money.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 11, name: "Groww App",
-      slug: "/blog",
+      id: 11,
+      name: "Groww App",
+      slug: "/groww-app",
       url: "/assets/images/ReferEarn/earn.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 12, name: "Meesho App",
-      slug: "/blog",
+      id: 12,
+      name: "Meesho App",
+      slug: "/meesho-app",
       url: "/assets/images/ReferEarn/online-earnings.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 13, name: "My11Circle",
-      slug: "/blog",
+      id: 13,
+      name: "My11Circle",
+      slug: "/my11circle",
       url: "/assets/images/ReferEarn/earningOne.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 14, name: "EarnKaro",
-      slug: "/blog",
+      id: 14,
+      name: "EarnKaro",
+      slug: "/earnkaro",
       url: "/assets/images/ReferEarn/earning.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 15, name: "OneCode Referral Program",
-      slug: "/blog",
+      id: 15,
+      name: "OneCode Referral Program",
+      slug: "/onecode-referral-program",
       url: "/assets/images/ReferEarn/coints.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 16, name: "Paytm First Games",
-      slug: "/blog",
+      id: 16,
+      name: "Paytm First Games",
+      slug: "/paytm-first-games",
       url: "/assets/images/ReferEarn/money.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 17, name: "Vision11",
-      slug: "/blog",
+      id: 17,
+      name: "Vision11",
+      slug: "/vision11",
       url: "/assets/images/ReferEarn/passive-income.png",
       description: "For further information, please read on for more details. "
-
     },
     {
-      id: 18, name: "11Challengers",
-      slug: "/blog",
+      id: 18,
+      name: "11Challengers",
+      slug: "/11challengers",
       url: "/assets/images/ReferEarn/profit-margin.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 19, name: "Samsung Referral",
-      slug: "/blog",
+      id: 19,
+      name: "Samsung Referral",
+      slug: "/samsung-referral",
       url: "/assets/images/ReferEarn/investment.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 20, name: "SEO ToolAdda",
-      slug: "/blog",
+      id: 20,
+      name: "SEO ToolAdda",
+      slug: "/seo-tooladda",
       url: "/assets/images/ReferEarn/profitOne.png",
       description: "For further information, please read on for more details. "
     },
     {
-      id: 21, name: "Pro SEO Tools",
-      slug: "/blog",
+      id: 21,
+      name: "Pro SEO Tools",
+      slug: "/pro-seo-tools",
       url: "/assets/images/ReferEarn/salaryTwo.png",
       description: "For further information, please read on for more details. "
-    },
+    }
   ],
+
 
   PassiveIncomeIdea: [
 
@@ -1702,7 +2370,6 @@ const gameData = {
     },
   ],
 
-
   Age: [
     {
       id: 1, name: "12 to 18  ",
@@ -1720,7 +2387,6 @@ const gameData = {
       id: 5, name: "45 +",
     },
   ],
-
 
   Gender: [
     {

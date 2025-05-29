@@ -11,7 +11,7 @@ function index() {
                     crossorigin="anonymous"></script>
             </Head>
             <div>
-                 <EarnMoneyInfo type={"Affiliate"} />
+                 <EarnMoneyInfo type={"SideHustle"} />
             </div>
         </Fragment>
     )

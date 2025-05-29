@@ -19,7 +19,7 @@ function Home() {
 
 
     <Fragment >
-      <div className="text-center bg-primary1 p-5 rounded-b-[30px] shadow-2xl w-[390px] sm:w-[360px]">
+      <div className="text-center bg-primary1 p-5 rounded-b-[30px] shadow-2xl ">
         {"Smart & Easy Earn Money"}
       </div>
       <div className="flex flex-col gap-12 p-5 pt-[80px] items-center justify-center text-black bg-white   ">

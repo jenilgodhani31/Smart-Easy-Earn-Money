@@ -26,27 +26,57 @@ const EarnMoneyInfo = ({ type }) => {
         <Layout title={name} className="p-5  text-[15px]">
             <div className="text-black font-semibold pt-5 px-5 pb-5">
 
-                {title && (<section className="mb-4">
-                    <h2 className="">What is it{title} ?</h2>
+                {title && (<section className="">
+                    <h2 className="">What is it {title} ?</h2>
 
+                </section>)}
+
+                {content.intro && (<section className="mb-4 mt-2">
+                    <p>{content.intro}</p>
                 </section>)}
 
                 <p>{content.whatIs}</p>
 
-                {content.suitableFor && (<section className="mb-4 mt-2">
-                    <h2 className="">Suitable For</h2>
+
+                {content.subTitle && (
+                    <section className="mb-4 mt-4">
+                        <ul className="list-disc list-inside ">
+                            {content.subTitle.map((tip, idx) => <div className='mb-3' key={idx}>{tip}</div>)}
+                        </ul>
+                    </section>
+                )}
+
+                {content.suitableFor && (<section className="mb-4 mt-4">
+                    <h2 className="">Suitable For -</h2>
                     <p>{content.suitableFor}</p>
                 </section>)}
 
 
                 {content.skillsRequired && (<section className="mb-4 mt-2">
-                    <h2 className="">Skills Required</h2>
+                    <h2 className="">Skills Required -</h2>
                     <p>{Array.isArray(content.skillsRequired) ? content.skillsRequired.join(', ') : content.skillsRequired}</p>
                 </section>)}
 
+
+                {content.SkillsRequired && (
+                    <section className="mb-4">
+                        <h2 className="">Skills Required -</h2>
+                        <ul className="list-disc list-inside ">
+                            {content.SkillsRequired.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
+                        </ul>
+                    </section>
+                )}
+
+
                 {content.timeRequired && (<section className="mb-4 mt-2">
-                    <h2 className="">Time Required</h2>
-                    <p>{content.timeRequired}</p>
+                    <h2 className="">Time Required -</h2>
+                    {Array.isArray(content.howToMonetize) ? (
+                        <ul className="list-disc list-inside">
+                            {content.timeRequired.map((item, idx) => <div className='' key={idx}>{item}</div>)}
+                        </ul>
+                    ) : (
+                        <p>{content.timeRequired}</p>
+                    )}
                 </section>)}
 
                 {content.tips && (
@@ -60,10 +90,10 @@ const EarnMoneyInfo = ({ type }) => {
 
                 {content.howToMonetize && (
                     <section>
-                        <h2 className="">How To Monetize</h2>
+                        <h2 className="mb-4">How To Monetize -</h2>
                         {Array.isArray(content.howToMonetize) ? (
                             <ul className="list-disc list-inside">
-                                {content.howToMonetize.map((item, idx) => <li key={idx}>{item}</li>)}
+                                {content.howToMonetize.map((item, idx) => <div className='mb-2' key={idx}>{item}</div>)}
                             </ul>
                         ) : (
                             <p>{content.howToMonetize}</p>
@@ -71,6 +101,90 @@ const EarnMoneyInfo = ({ type }) => {
                     </section>
                 )}
 
+                {content.WhatYouNeed && (
+                    <section className='mt-5 mb-4'>
+                        <h2 className="">What you need -</h2>
+                        {Array.isArray(content.WhatYouNeed) ? (
+                            <ul className="list-disc list-inside">
+                                {content.WhatYouNeed.map((item, idx) => <div className="mb-1" key={idx}>{item}</div>)}
+                            </ul>
+                        ) : (
+                            <p>{content.WhatYouNeed}</p>
+                        )}
+                    </section>
+                )}
+
+                {content.HowToGetStarted && (<section className="mb-4 mt-2">
+                    <h2 className="mb-2">
+
+                        How To Get Started -</h2>
+                    {Array.isArray(content.HowToGetStarted) ? (
+                        <ul className="list-disc list-inside">
+                            {content.HowToGetStarted.map((item, idx) => <div className='mb-2' key={idx}>{item}</div>)}
+                        </ul>
+                    ) : (
+                        <p>{content.HowToGetStarted}</p>
+                    )}
+                </section>)}
+
+                {content.BlogExtra && (<section className="mb-4 mt-2">
+                    {Array.isArray(content.BlogExtra) ? (
+                        <ul className="list-disc list-inside">
+                            {content.BlogExtra.map((item, idx) => <div className='mb-2' key={idx}>{item}</div>)}
+                        </ul>
+                    ) : (
+                        <p>{content.BlogExtra}</p>
+                    )}
+                </section>)}
+
+
+                {content.BlogExtraOne && (<section className="mb-4 mt-4">
+                    <p>{content.BlogExtraOne}</p>
+                </section>)}
+
+
+                {content.MoreHelp && (<section className="mb-4 mt-4">
+                    <h2 className="">More Help -</h2>
+                    <p>{content.MoreHelp}</p>
+                </section>)}
+
+                {content.BonusListOfWebsites && (
+                    <section className="mb-4">
+                        <h2 className="pb-2">Bonus List of Websites:</h2>
+                        <ul className="space-y-2">
+                            {content.BonusListOfWebsites.map((site, index) => (
+                                <div className='pb-4'>
+                                    <div className="" key={index}>
+                                        <div className="mb-2">{site.Name}</div>
+                                        <div className="mb-2">Topics Covered - {site.TopicsCovered}</div>
+                                        <div className="mb-2">Payment - {site.Payment}</div>
+                                        <div className="mb-2">Payment Method - {site.PaymentMethod}
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            ))}
+                        </ul>
+                    </section>
+                )}
+
+                {content.ClosingNote && (<section className="mb-4 mt-4">
+                    <p>{content.ClosingNote}</p>
+                </section>)}
+
+                {content.Terminologies && (
+                    <section className='mt-5 mb-4'>
+                        <h2 className="">Terminologies - -</h2>
+                        {Array.isArray(content.Terminologies) ? (
+                            <ul className="list-disc list-inside">
+                                {content.Terminologies.map((item, idx) => <div className="mb-1" key={idx}>{item}</div>)}
+                            </ul>
+                        ) : (
+                            <p>{content.Terminologies}</p>
+                        )}
+                    </section>
+                )}
                 {/* HBB Card Info */}
 
                 {content.howToStart && (
@@ -91,8 +205,6 @@ const EarnMoneyInfo = ({ type }) => {
                     </section>
                 )}
 
-
-
                 {content.requirements && (
                     <section className='mt-5'>
                         <h2 className="">What you need -</h2>
@@ -106,7 +218,7 @@ const EarnMoneyInfo = ({ type }) => {
                     </section>
                 )}
 
-                {/* E-commerce Card Info*/}
+                {/* E-commerce , sidehustle  Card Info*/}
 
                 {content.sellingInfo && (
                     <section className='mt-5'>
@@ -179,6 +291,10 @@ const EarnMoneyInfo = ({ type }) => {
                     </section>
                 )}
 
+                {content.Extra && (<section className="mb-4 pt-4">
+                    <p>{content.Extra}</p>
+                </section>)}
+
                 {/* Survay Card Info */}
 
                 {content.whatIsSurvey && (<section className="mb-4 mt-2">
@@ -213,7 +329,12 @@ const EarnMoneyInfo = ({ type }) => {
                         )}
                     </section>
                 )}
+                <a href="/" className="w-full ">
+                    <button className="flex items-center justify-center w-full p-5 text-white gap-3 rounded-[15px] bg-primary1 shadow-xl/20 transition-shadow duration-300">
+                        {"Earn Now"}
 
+                    </button>
+                </a>
             </div>
 
         </Layout>

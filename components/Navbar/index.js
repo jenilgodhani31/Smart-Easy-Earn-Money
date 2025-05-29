@@ -27,7 +27,7 @@ function NavBar({ title, className }) {
 
   return (
     <Fragment>
-      <nav className="relative  bg-primary1 rounded-b-[30px]  w-[390px] shadow-2xl sm:w-[360px]  ">
+      <nav className="relative  bg-primary1 rounded-b-[30px]  shadow-2xl">
 
         <div className="flex items-center justify-between px-4">
 
