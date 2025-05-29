@@ -1,13 +1,21 @@
 import Layout from '@components/Layout'
 import gameData from 'data/gameData'
+import { useRouter } from 'next/router'
 import React from 'react'
 
 function PassiveIncomeIdea() {
+
+    const router = useRouter()
+
+    function handleClick(slug) {
+        // Navigate to detail page with slug as URL param (no query)
+        router.push(`/emoney/passive-income-idea/${slug}`)
+    }
     return (
         <Layout title={"Passive Income Idea"} className={"text-[15px]"}>
             <div className='flex w-[350px] flex-col items-center p-5 gap-4 '>
                 {gameData?.PassiveIncomeIdea?.map((item, index) => (
-                    <a href='' key={index}>
+                    <div onClick={() => handleClick(item.slug)} key={index}>
                         <div className="flex gap-2 cursor-pointer p-2 bg-primary1 shadow-2xl rounded-[15px]">
                             <div className='bg-image flex items-center justify-center p-2 bg-white  rounded-[10px] shadow-2xl'>
                                 <img
@@ -20,7 +28,7 @@ function PassiveIncomeIdea() {
                                 <div className='text-[10px] '>{item.description}</div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 ))}
             </div>
 

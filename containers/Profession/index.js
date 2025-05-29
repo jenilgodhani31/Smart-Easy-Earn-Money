@@ -1,16 +1,26 @@
 import Ads from '@components/Ads'
 import Layout from '@components/Layout'
 import gameData from 'data/gameData'
+import { useRouter } from 'next/router';
 import React, { useState } from 'react'
+import { toast } from 'react-toastify';
 
 
 function Profession() {
     const [selected, setSelected] = useState(null);
+    const router = useRouter()
 
+    function handleClick() {
+        if (selected === null) {
+            toast.error("Please select Profession");
+        } else {
+            router.push('/availability');
+        }
+    }
     return (
         <Layout title={"Profession"} className={"text-[15px]"}>
-            <div className="flex flex-col gap-5 mx-auto h-max ls:w-[365px] pb-[100px]">
-                <div className="p-4 ">
+            <div className="flex flex-col gap-5 mx-auto h-max  p-4 pb-[100px]">
+                <div className="">
                     <Ads
                         data-ad-format="auto"
                         data-ad-slot="9852606619"
@@ -18,7 +28,7 @@ function Profession() {
                     />
                 </div>
 
-                <div className='grid grid-cols-1 gap-4 p-4'>
+                <div className='grid grid-cols-1 gap-4'>
                     {gameData?.Profession?.map((item, index) => (
                         <div
                             key={index}
@@ -31,11 +41,13 @@ function Profession() {
                     ))}
                 </div>
 
-                <a href="/availability" className="w-full px-4">
-                    <button className="flex items-center font-semibold  justify-center w-full text-[20px] p-3 text-white gap-3 rounded-[15px] bg-primary1 shadow-xl/20 transition-shadow duration-300">
-                        {"NEXT"}
-                    </button>
-                </a>
+
+                <button
+                    onClick={handleClick}
+                    className="flex items-center font-semibold  justify-center w-full text-[20px] p-3 text-white gap-3 rounded-[15px] bg-primary1 shadow-xl/20 transition-shadow duration-300">
+                    {"NEXT"}
+                </button>
+
             </div>
         </Layout>
     )

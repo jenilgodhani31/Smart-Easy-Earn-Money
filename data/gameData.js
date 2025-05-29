@@ -2134,110 +2134,488 @@ const gameData = {
   ],
 
 
-  PassiveIncomeIdea: [
 
-    { id: 1, name: "Start A YouTube Channel", slug: "/blog", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea1.png", description: "For further information, please read on for more details." },
-    { id: 2, name: "Start A Blog", slug: "/marketing", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea2.png", description: "For further information, please read on for more details." },
-    { id: 3, name: "Do Affiliate Marketing", slug: "/affiliate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea3.png", description: "For further information, please read on for more details." },
-    { id: 4, name: "Create Niche Websites", slug: "/e-commerce", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea4.png", description: "For further information, please read on for more details." },
-    { id: 5, name: "Publish A Kindle eBook", slug: "/home-based-business", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea5.png", description: "For further information, please read on for more details." },
-    { id: 6, name: "Create A Membership Site", slug: "/real-estate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea6.png", description: "For further information, please read on for more details." },
-    { id: 7, name: "Sell Websites On Flippa", slug: "/side-hustle", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea7.png", description: "For further information, please read on for more details." },
-    { id: 8, name: "Sell A Video Course On Udemy", slug: "/survey", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea8.png", description: "For further information, please read on for more details." },
-    { id: 9, name: "Sell A Service On Fiverr", slug: "/refer-earn", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea9.png", description: "For further information, please read on for more details." },
-    { id: 10, name: "Resell Items On eBay", slug: "/blog", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea10.png", description: "For further information, please read on for more details." },
-    { id: 11, name: "Become An Amazon Associate", slug: "/blog", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea11.png", description: "For further information, please read on for more details." },
-    { id: 12, name: "Do CPA Marketing", slug: "/marketing", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea12.png", description: "For further information, please read on for more details." },
-    { id: 13, name: "Sell Art and Crafts on Etsy", slug: "/affiliate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea13.png", description: "For further information, please read on for more details." },
-    { id: 14, name: "Join Leapforce", slug: "/e-commerce", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea14.png", description: "For further information, please read on for more details." },
-    { id: 15, name: "Create WordPress Themes", slug: "/home-based-business", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea15.png", description: "For further information, please read on for more details." },
-    { id: 16, name: "Develop Mobile Apps", slug: "/real-estate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea16.png", description: "For further information, please read on for more details." },
-    { id: 17, name: "Start TeeSpring Campaigns", slug: "/side-hustle", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea17.png", description: "For further information, please read on for more details." },
-    { id: 18, name: "Do Email Marketing", slug: "/survey", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea18.png", description: "For further information, please read on for more details." },
-    { id: 19, name: "Do Facebook Marketing", slug: "/refer-earn", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea19.png", description: "For further information, please read on for more details." },
-    { id: 20, name: "Start Copywriting", slug: "/home-based-business", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea20.png", description: "For further information, please read on for more details." },
-    { id: 21, name: "Click and Sell Photos", slug: "/real-estate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea21.png", description: "For further information, please read on for more details." },
-    { id: 22, name: "Start Your Podcast", slug: "/side-hustle", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea22.png", description: "For further information, please read on for more details." },
-    { id: 23, name: "Start A Book Review Website", slug: "/survey", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea23.png", description: "For further information, please read on for more details." },
-    { id: 24, name: "Teach Your Native Language", slug: "/refer-earn", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea24.png", description: "For further information, please read on for more details." },
-    { id: 25, name: "Do Document Translation", slug: "/refer-earn", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea25.png", description: "For further information, please read on for more details." },
-    { id: 26, name: "Do Interview Transcribing", slug: "/blog", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea26.png", description: "For further information, please read on for more details." },
-    { id: 27, name: "Become An Online Tutor", slug: "/marketing", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea27.png", description: "For further information, please read on for more details." },
-    { id: 28, name: "Become Virtual Call Center Employee", slug: "/affiliate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea28.png", description: "For further information, please read on for more details." },
-    { id: 29, name: "Sell Merchandise On Zazzle", slug: "/e-commerce", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea29.png", description: "For further information, please read on for more details." },
-    { id: 30, name: "Write Articles On Authority Sites", slug: "/home-based-business", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea30.png", description: "For further information, please read on for more details." },
-    { id: 31, name: "Become A Social Media Evaluator", slug: "/real-estate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea31.png", description: "For further information, please read on for more details." },
-    { id: 32, name: "Become A Telephone Mystery Shopper", slug: "/side-hustle", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea32.png", description: "For further information, please read on for more details." },
-    { id: 33, name: "Become A Captioner", slug: "/survey", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea33.png", description: "For further information, please read on for more details." },
-    { id: 34, name: "Be A Proofreader", slug: "/blog", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea34.png", description: "For further information, please read on for more details." },
-    { id: 35, name: "Become A Ghostwriter", slug: "/blog", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea35.png", description: "For further information, please read on for more details." },
-    { id: 36, name: "Become A Graphic Designer", slug: "/blog", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea36.png", description: "For further information, please read on for more details." },
-    { id: 37, name: "Do Voice Acting", slug: "/marketing", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea37.png", description: "For further information, please read on for more details." },
-    { id: 38, name: "Do Instagram Marketing", slug: "/marketing", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea38.png", description: "For further information, please read on for more details." },
-    { id: 39, name: "Start Dropshipping Business", slug: "/affiliate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea39.png", description: "For further information, please read on for more details." },
-    { id: 40, name: "Listen and Rate Music", slug: "/e-commerce", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea40.png", description: "For further information, please read on for more details." },
-    { id: 41, name: "Become A Research Assistant", slug: "/home-based-business", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea41.png", description: "For further information, please read on for more details." },
-    { id: 42, name: "Sell PLR", slug: "/real-estate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea42.png", description: "For further information, please read on for more details." },
-    { id: 43, name: "Sell Quote Printables", slug: "/side-hustle", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea43.png", description: "For further information, please read on for more details." },
-    { id: 44, name: "Write Slogans and Taglines", slug: "/survey", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea44.png", description: "For further information, please read on for more details." },
-    { id: 45, name: "Create A Viral Website", slug: "/refer-earn", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea45.png", description: "For further information, please read on for more details." },
-    { id: 46, name: "Answer Questions On Quora", slug: "/home-based-business", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea46.png", description: "For further information, please read on for more details." },
-    { id: 47, name: "Giveaway Stuff", slug: "/real-estate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea47.png", description: "For further information, please read on for more details." },
-    { id: 48, name: "Become Virtual Bookkeeper", slug: "/side-hustle", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea48.png", description: "For further information, please read on for more details." },
-    { id: 49, name: "Join Q&A Sites", slug: "/survey", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea49.png", description: "For further information, please read on for more details." },
-    { id: 50, name: "Participate In Usability Testing", slug: "/refer-earn", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea50.png", description: "For further information, please read on for more details." },
-    { id: 51, name: "Join Micro Job Sites", slug: "/blog", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea51.png", description: "For further information, please read on for more details." },
-    { id: 52, name: "Do Smartphone Photography", slug: "/marketing", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea52.png", description: "For further information, please read on for more details." },
-    { id: 53, name: "Buy And Sell Domain Names", slug: "/affiliate", url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea53.png", description: "For further information, please read on for more details" },
+
+  PassiveIncomeIdea: [
+    {
+      id: 1,
+      name: "Start A YouTube Channel",
+      slug: "start-a-youtube-channel",
+      piITitle: "Tip 01 : Start A YouTube Channel",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea1.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 2,
+      name: "Start A Blog",
+      slug: "start-a-blog",
+      piITitle: "Tip 02 : Start A Blog",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea2.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 3,
+      name: "Do Affiliate Marketing",
+      slug: "do-affiliate-marketing",
+      piITitle: "Tip 03 : Do Affiliate Marketing",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea3.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 4,
+      name: "Create Niche Websites",
+      slug: "create-niche-websites",
+      piITitle: "Tip 04 : Create Niche Websites",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea4.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 5,
+      name: "Publish A Kindle eBook",
+      slug: "publish-a-kindle-ebook",
+      piITitle: "Tip 05 : Publish A Kindle eBook",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea5.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 6,
+      name: "Create A Membership Site",
+      slug: "create-a-membership-site",
+      piITitle: "Tip 06 : Create A Membership Site",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea6.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 7,
+      name: "Sell Websites On Flippa",
+      slug: "sell-websites-on-flippa",
+      piITitle: "Tip 07 : Sell Websites On Flippa",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea7.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 8,
+      name: "Sell A Video Course On Udemy",
+      slug: "sell-a-video-course-on-udemy",
+      piITitle: "Tip 08 : Sell A Video Course On Udemy",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea8.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 9,
+      name: "Sell A Service On Fiverr",
+      slug: "sell-a-service-on-fiverr",
+      piITitle: "Tip 09 : Sell A Service On Fiverr",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea9.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 10,
+      name: "Resell Items On eBay",
+      slug: "resell-items-on-ebay",
+      piITitle: "Tip 10 : Resell Items On eBay",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea10.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 11,
+      name: "Become An Amazon Associate",
+      slug: "become-an-amazon-associate",
+      piITitle: "Tip 11 : Become An Amazon Associate",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea11.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 12,
+      name: "Do CPA Marketing",
+      slug: "do-cpa-marketing",
+      piITitle: "Tip 12 : Do CPA Marketing",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea12.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 13,
+      name: "Sell Art and Crafts on Etsy",
+      slug: "sell-art-and-crafts-on-etsy",
+      piITitle: "Tip 13 : Sell Art and Crafts on Etsy",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea13.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 14,
+      name: "Join Leapforce",
+      slug: "join-leapforce",
+      piITitle: "Tip 14 : Join Leapforce",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea14.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 15,
+      name: "Create WordPress Themes",
+      slug: "create-wordpress-themes",
+      piITitle: "Tip 15 : Create WordPress Themes",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea15.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 16,
+      name: "Develop Mobile Apps",
+      slug: "develop-mobile-apps",
+      piITitle: "Tip 16 : Develop Mobile Apps",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea16.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 17,
+      name: "Start TeeSpring Campaigns",
+      slug: "start-teespring-campaigns",
+      piITitle: "Tip 17 : Start TeeSpring Campaigns",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea17.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 18,
+      name: "Do Email Marketing",
+      slug: "do-email-marketing",
+      piITitle: "Tip 18 : Do Email Marketing",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea18.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 19,
+      name: "Do Facebook Marketing",
+      slug: "do-facebook-marketing",
+      piITitle: "Tip 19 : Do Facebook Marketing",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea19.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 20,
+      name: "Start Copywriting",
+      slug: "start-copywriting",
+      piITitle: "Tip 20 : Start Copywriting",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea20.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 21,
+      name: "Click and Sell Photos",
+      slug: "click-and-sell-photos",
+      piITitle: "Tip 21 : Click and Sell Photos",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea21.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 22,
+      name: "Start Your Podcast",
+      slug: "start-your-podcast",
+      piITitle: "Tip 22 : Start Your Podcast",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea22.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 23,
+      name: "Start A Book Review Website",
+      slug: "start-a-book-review-website",
+      piITitle: "Tip 23 : Start A Book Review Website",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea23.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 24,
+      name: "Teach Your Native Language",
+      slug: "teach-your-native-language",
+      piITitle: "Tip 24 : Teach Your Native Language",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea24.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 25,
+      name: "Do Document Translation",
+      slug: "do-document-translation",
+      piITitle: "Tip 25 : Do Document Translation",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea25.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 26,
+      name: "Do Interview Transcribing",
+      slug: "do-interview-transcribing",
+      piITitle: "Tip 26 : Do Interview Transcribing",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea26.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 27,
+      name: "Become An Online Tutor",
+      slug: "become-an-online-tutor",
+      piITitle: "Tip 27 : Become An Online Tutor",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea27.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 28,
+      name: "Become Virtual Call Center Employee",
+      slug: "become-virtual-call-center-employee",
+      piITitle: "Tip 28 : Become Virtual Call Center Employee",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea28.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 29,
+      name: "Sell WordPress Plugins",
+      slug: "sell-wordpress-plugins",
+      piITitle: "Tip 29 : Sell WordPress Plugins",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea29.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 30,
+      name: "Sell Print On Demand Products",
+      slug: "sell-print-on-demand-products",
+      piITitle: "Tip 30 : Sell Print On Demand Products",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea30.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 31,
+      name: "Create A Mobile App And Monetize",
+      slug: "create-a-mobile-app-and-monetize",
+      piITitle: "Tip 31 : Create A Mobile App And Monetize",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea31.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 32,
+      name: "Do Dropshipping",
+      slug: "do-dropshipping",
+      piITitle: "Tip 32 : Do Dropshipping",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea32.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 33,
+      name: "Rent Your Car",
+      slug: "rent-your-car",
+      piITitle: "Tip 33 : Rent Your Car",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea33.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 34,
+      name: "Rent Your Home",
+      slug: "rent-your-home",
+      piITitle: "Tip 34 : Rent Your Home",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea34.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 35,
+      name: "Buy And Sell Domain Names",
+      slug: "buy-and-sell-domain-names",
+      piITitle: "Tip 35 : Buy And Sell Domain Names",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea35.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 36,
+      name: "Write And Sell Software Scripts",
+      slug: "write-and-sell-software-scripts",
+      piITitle: "Tip 36 : Write And Sell Software Scripts",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea36.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 37,
+      name: "Invest In Dividend Stocks",
+      slug: "invest-in-dividend-stocks",
+      piITitle: "Tip 37 : Invest In Dividend Stocks",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea37.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 38,
+      name: "Write Paid Reviews",
+      slug: "write-paid-reviews",
+      piITitle: "Tip 38 : Write Paid Reviews",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea38.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 39,
+      name: "License Your Photos",
+      slug: "license-your-photos",
+      piITitle: "Tip 39 : License Your Photos",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea39.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 40,
+      name: "Create A YouTube Review Channel",
+      slug: "create-a-youtube-review-channel",
+      piITitle: "Tip 40 : Create A YouTube Review Channel",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea40.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 41,
+      name: "Create And Sell Online Courses",
+      slug: "create-and-sell-online-courses",
+      piITitle: "Tip 41 : Create And Sell Online Courses",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea41.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 42,
+      name: "Create And Sell WordPress Themes",
+      slug: "create-and-sell-wordpress-themes",
+      piITitle: "Tip 42 : Create And Sell WordPress Themes",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea42.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 43,
+      name: "Create And Sell Plugins",
+      slug: "create-and-sell-plugins",
+      piITitle: "Tip 43 : Create And Sell Plugins",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea43.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 44,
+      name: "Write And Sell eBooks",
+      slug: "write-and-sell-ebooks",
+      piITitle: "Tip 44 : Write And Sell eBooks",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea44.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 45,
+      name: "Start A Dropshipping Store",
+      slug: "start-a-dropshipping-store",
+      piITitle: "Tip 45 : Start A Dropshipping Store",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea45.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 46,
+      name: "Create An Online Store",
+      slug: "create-an-online-store",
+      piITitle: "Tip 46 : Create An Online Store",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea46.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 47,
+      name: "Sell Digital Products",
+      slug: "sell-digital-products",
+      piITitle: "Tip 47 : Sell Digital Products",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea47.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 48,
+      name: "Create A Blog About Your Passion",
+      slug: "create-a-blog-about-your-passion",
+      piITitle: "Tip 48 : Create A Blog About Your Passion",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea48.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 49,
+      name: "Invest In Real Estate Crowdfunding",
+      slug: "invest-in-real-estate-crowdfunding",
+      piITitle: "Tip 49 : Invest In Real Estate Crowdfunding",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea49.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 50,
+      name: "Create An Online Magazine",
+      slug: "create-an-online-magazine",
+      piITitle: "Tip 50 : Create An Online Magazine",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea50.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 51,
+      name: "Start A Patreon Page",
+      slug: "start-a-patreon-page",
+      piITitle: "Tip 51 : Start A Patreon Page",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea51.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 52,
+      name: "Write And Sell Newsletters",
+      slug: "write-and-sell-newsletters",
+      piITitle: "Tip 52 : Write And Sell Newsletters",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea52.png",
+      description: "For further information, please read on for more details."
+    },
+    {
+      id: 53,
+      name: "Create And Sell Audio Products",
+      slug: "create-and-sell-audio-products",
+      piITitle: "Tip 53 : Create And Sell Audio Products",
+      url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea53.png",
+      description: "For further information, please read on for more details."
+    },
     {
       id: 54,
-      name: "Get Paid For Tweeting",
-      slug: "/e-commerce",
+      name: "Create And Sell Printables",
+      slug: "create-and-sell-printables",
+      piITitle: "Tip 54 : Create And Sell Printables",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea54.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details."
     },
-
     {
       id: 55,
-      name: "Video Creation & Editing Services",
-      slug: "/home-based-business",
+      name: "Start A Webinar Series",
+      slug: "start-a-webinar-series",
+      piITitle: "Tip 55 : Start A Webinar Series",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea55.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details."
     },
     {
       id: 56,
-      name: "Build Chat Bots",
-      slug: "/real-estate",
+      name: "Create And Sell Digital Art",
+      slug: "create-and-sell-digital-art",
+      piITitle: "Tip 56 : Create And Sell Digital Art",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea56.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details."
     },
     {
       id: 57,
-      name: "Become A Travel Writer",
-      slug: "/side-hustle",
+      name: "Sell Stock Footage",
+      slug: "sell-stock-footage",
+      piITitle: "Tip 57 : Sell Stock Footage",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea57.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details."
     },
     {
       id: 58,
-      name: "Write Poetry",
-      slug: "/survey",
+      name: "Start A Subscription Box Business",
+      slug: "start-a-subscription-box-business",
+      piITitle: "Tip 58 : Start A Subscription Box Business",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea58.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details."
     },
     {
       id: 59,
-      name: "Create A Coupon Website",
-      slug: "/refer-earn",
+      name: "Rent Out Storage Space",
+      slug: "rent-out-storage-space",
+      piITitle: "Tip 59 : Rent Out Storage Space",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea59.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details."
     },
     {
       id: 60,
-      name: "Create A Comparison Website",
-      slug: "/blog",
+      name: "License Your Music",
+      slug: "license-your-music",
+      piITitle: "Tip 60 : License Your Music",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea60.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details."
     }
   ],
 
@@ -2245,130 +2623,246 @@ const gameData = {
     {
       id: 1,
       name: "Vision",
-      slug: "/blog",
+      slug: "vision",
       url: "/assets/images/LearnToEarn/LearnToEarn1.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Heading: "Ch.01: Vision",
+      Details: [
+        "When it comes to survival, we are visual animals. As a species, our eyesight is our most developed sense. We have a stereoscopic sight that can detect a wide variety of colours and shading. This, in turn, lets us see easily see patterns and movement. These combined abilities allowed us to avoid becoming dinner while trying to get dinner for ourselves. Our vision helped us to physically succeed, and it still does today. ",
+        "When it comes to business success, vision is no less important to survival. However, instead of our sense of sight, this vision involves our sense of imagination and possibility. Vision, in the business sense, is really the ability to visualize successful outcomes. It is the ability to imagine positive results. It is, at its heart, the ability to lucidly dream of where you want to go with your business. ",
+        "Don’t be afraid to dream. As Henry Ford once said, if you think you can do something or if you think you can’t do something, you’re right. So, spend a few minutes each day visualizing where exactly you plan on going and you plan on getting there. This is not daydreaming, far from it. This is focused development, scheduling, and organization. Plan your day by seeing the optimum outcomes. This is the same process that athletes use to hone their performance. When you imagine yourself succeeding, you are more likely to actually succeed. Remember, if you don’t take the time to build your own dreams, someone will hire you to take the time to build theirs."
+      ]
     },
     {
       id: 2,
       name: "Focus",
-      slug: "/marketing",
+      slug: "focus",
       url: "/assets/images/LearnToEarn/LearnToEarn2.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Heading: "Ch.02: Focus",
+      Details: [
+        "In any activity or endeavour, it is important to build endurance. Endurance can be defined as the ability to focus on the task at hand and bring it successfully to a conclusion. Some call it fortitude, other call it strength or stamina. No matter what you call it though, endurance is the ability to persevere and get the job done, no matter what.",
+        "Usually, when we speak of endurance, we’re referring to physical activity. Yet, endurance is as important in the business world as it is anywhere else. In business circles, endurance usually takes the form of focus. Instead of physical prowess, it becomes the ability to concentrate successfully on a given task. Focus is a critical skill for any business owner, especially in today’s fast-­‐paced world where success o\en means keeping several equally important balls in the air at one time.",
+        "So, how do you focus on multitasking, a situation where, by its very definition, several things are happening at once? Well, the key to successful focus is attention. When several things are happening simultaneously, you need to concentrate on only one thing at a time. This doesn’t mean that you bring one task to full completion before you start on another. Rather, you spend just enough time on a given task to take it to the next stage of development and then you turn your attention to another task.",
+        "In some sense, it’s a little like being a mother duck with ducklings. You give your attention to the duckling that is farthest out of line, nudging it forward to where it should be before you turn your attention to the next little duck. Each duckling gets a measure of your focus, but none gets your full attention all the time. In this way, each task gets moved along in turn, and all are successfully completed in time."
+      ]
+
     },
     {
       id: 3,
       name: "Risk Taking",
-      slug: "/affiliate",
+      slug: "risk-taking",
+      Heading: "Ch.03: Risk Taking",
       url: "/assets/images/LearnToEarn/LearnToEarn3.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "We’ve all heard the old saying “nothing ventured, nothing gained”. Like most old sayings, there’s a strong element of truth in those words. At the risk of following one old saying with another, without risk, there is not and cannot be any reward. There is an element of chance inherent in every venture and unless that change is recognized and faced, the venture will never become reality.",
+        "That being said, there are people who are natural risk takers, as well as people who are risk-averse. The key to success when it comes to risk-taking is understanding what type of person you are and how this personality trait can affect your business when it comes to dealing with risk. It is important to keep in mind that the secret of success when it comes to business risk is mitigating potential damage in favour of potential gain. Therefore, neither type of risk personality, in and of itself, provides an advantage over the other when it comes to risk management. A risk-­‐taker can just as easily overreach themselves as a risk adverse person can under reach themselves.",
+        "When faced with a situation that offers reward and risk, the key is to coolly and impartially assess the potential positive and negative outcomes and decide accordingly. Successful business people are sometimes seen as risk-takers simply because they understand the danger in a situation better than anyone else involved. So, while it appears that they are courting disaster, the reality is that the risks involved have been managed so as to control negative consequences.",
+        "In this way, the successful business person who takes a risk is very much like a professional tightrope walker. To the observer, it looks death-­‐defying and, perhaps, frightening. To the performer, it is simply another day at the office. Their skill, training, and preparation sufficiently offset the inherent risk to make the feat only appear to be remarkably dangerous. In your own business, don’t be afraid of risk but, at the same time, don’t take the risk lightly. Weigh your options carefully and, when you arrive at a prudent decision, move forward with confidence."
+      ]
     },
     {
       id: 4,
       name: "Take Responsibility",
-      slug: "/e-commerce",
+      slug: "take-responsibility",
+      Heading: "Ch.04: Take Responsibility",
       url: "/assets/images/LearnToEarn/LearnToEarn4.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "This one is fairly straightforward. President Harry Truman had a sign on his desk that said: “The buck stops here”. What he meant by that was, as President, he did not have the option to pass the buck when it came to mistakes or failure. He was the boss and the buck stopped getting passed with him.",
+        "That’s pretty smart advice for any business owner who wants to be more successful. When it comes to the results of the decisions you make, don’t pass the buck. Everyone is happy to take credit for a successful outcome; as well they should if they were directly responsible for that success. That’s the easy part. The hard part is owning up to your own mistakes.",
+        "There is somewhat of an inclination to try and blame someone or something else for a negative outcome. The most successful people fight that inclination and accept the blame for their mistakes as readily as they accept congratulations for their successes. They do so because they realize that being the captain of the ship means that all decisions start and end with you. If you happen to make a bad decision then you own that fact, tighten your belt and move forward armed with the knowledge on how never to repeat that mistake.  This is a part of the process of growth. It is a process that demonstrates that the greatest opportunity arises from failure. By avoiding the repercussions of that failure, you also avoid the opportunity to grow as a leader and learn from your own mistakes. In other words, you condemn yourself to make that same mistake over and over. So, if and when you are faced with a bad business situation of your own making, don’t pass the buck. The buck stops with you. Accept that and move on."
+      ]
     },
     {
       id: 5,
       name: "Mindfulness",
-      slug: "/home-based-business",
+      slug: "mindfulness",
+      Heading: "Ch.05: Mindfulness",
       url: "/assets/images/LearnToEarn/LearnToEarn5.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "Experience is a great teacher. Each day, all of our lives are jam-packed with numerous experiences. A lot of these experiences are everyday occurrences. Others are less common. Occasionally, some are so unique that they are literally life-changing. However, whether the experience is mundane or out of this world, it offers us a teaching moment. Most of us will, hopefully, come away from a unique experience with a fresh perspective. Yet, very few of us grasp the enlightenment that is inherent in the day-to-day activities that, by necessity, take up the majority of our time. Buddhists call this awareness of the learning potential in the commonplace “mindfulness”. Successful business people understand this concept and utilize it to their advantage.",
+        "When you begin to be mindful, you see that everything that you do has merit. You also realize that no matter what you are doing, you are capable of doing it better. In business, this means that you begin to pay closer attention to every task. You understand that each task fits into others and together they comprise the whole of your business enterprise. If you take a shortcut or cut corners on the smallest of things it only serves to undermine the largest and seemingly most important jobs. Likewise, when you attempt to do the most basic of jobs to the very best of your ability this mindful mindset carries over into other areas and brings a new level of excellence to your entire enterprise. So, use every experience, every day, as a moment to learn. Be mindful of bad or lazy behaviors and work to change them into more positive and productive actions. Your entire business will benefit from this simple attention to detail."
+      ]
     },
     {
       id: 6,
       name: "Be Competitive",
-      slug: "/real-estate",
+      slug: "be-competitive",
+      Heading: "Ch.06: Be Competitive",
       url: "/assets/images/LearnToEarn/LearnToEarn6.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "The world is built, to some extent, on the concept of competition. Everything living competes for specific resources that are needed to grow, thrive and outperform ecological rivals. Sunlight, space, water, and nutrients are utilized to the fullest extent by the smallest to largest creatures wherever they are found and in whatever quantities. As human beings, we are hardwired to engage in this competitive contest too. It’s a part of our genetic heritage and one every business owner needs to embrace.",
+        "The problem is that some people perceive competition as a somewhat undesirable trait. This is because these people look at competition as a black and white issue. It is seen as either a win at all cost, take no prisoners proposition or as a watered down and barely discernible version of itself, where consensus and agreement are the order of the day. This imposed polarity masks the true nature and power of competition. In reality, competitiveness is neither a black or white extreme. Instead, genuine competition is a valid force for positive change.",
+        "The successful business person knows that healthy and honest competition is the motive force behind innovation. The business world, like the natural world, is driven forward by this continuing innovation that occurs in response to changes in the existing environment. In the natural world, these changes are largely climactic. The life form that best adapts to these changes survives and thrives. In the business world, these changes are socio-economic. The business that best predicts market trends and meets demand most efficiently also survives and thrives.",
+        "As a business owner, you need to remember that competition is the lifeblood of the marketplace. It not only drives innovation, it also inspires creativity and helps build new paradigms. Don’t shy away from your natural competitive nature. You are in the game to win the game, so are your fellow business owners. Challenge yourself and challenge them in the process. Through competition, you each drive the others to better products, services, and performance. Each winner shows the way to the next level, the next round, and the next race. Remember, competition is the true heart of business success."
+      ]
     },
     {
       id: 7,
       name: "Be Persistent",
-      slug: "/side-hustle",
+      slug: "be-persistent",
+      Heading: "Ch.07: Be Persistent",
       url: "/assets/images/LearnToEarn/LearnToEarn7.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "Ok, let’s talk about persistence. For starters, how many old sayings, aphorisms and clichés are there about persistence? The early bird gets the worm. Slow and steady wins the race. If at first you don’t succeed, try again. If life gives you lemons make lemonade. The list goes on and on. The reason that there are so many old sayings about persistence is twofold: First, it’s a really important element in success and second, it an element of success that gives a lot of people a lot of trouble. Something that’s as important and troublesome as persistence deserves a lot of clichéd sayings and a lot of attention.",
+        "The problem with the road to success is that many people only picture the destination, not the journey. When they do this, they not only fail to see that true success is not a destination (it’s a lifelong process) but they also fail to see the potential problems that routinely occur when striving for success. This means that when these problems do occur, the unprepared person is stopped dead in their tracks. In their confusion, they forget where they were going and why and instead head back to where they came from.",
+        "When you are prepared for and anticipate the setbacks that can and will happen on the journey to success, you are ready to repair, rethink and re-engage. The persistent person understands that failure is a temporary condition that affects everyone at one time or another before they reach their goal. They also understand that failure and setback teach powerful lessons that ultimately make you stronger. As Gandhi said, strength does not come through winning. Instead, strength comes through failure. When you struggle and decide not to quit, that is strength. It is also persistence and points up why every successful business owner understands that setbacks are opportunities in disguise."
+      ]
     },
     {
       id: 8,
       name: "Network and Connect",
-      slug: "/survey",
+      slug: "network-and-connect",
+      Heading: "Ch.08: Network and Connect",
       url: "/assets/images/LearnToEarn/LearnToEarn8.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "In business, as in life, you can’t go it alone. It’s said that none of us are islands, but if we were each of us form a vast and interconnected archipelago. Bridges and boats stream traffic between all these islands and that traffic is largely information. If you cut yourself off from this flow of information, either purposely or by mistake, you do so at your own peril. Why? Because the island next to you is going to take those connections and the information they provide and use it to his or her advantage.",
+        "Networking is an essential element of every successful business. It provides you with contacts, leads, clients, partners, suppliers and much more. It carries your name and your business reputation further and more efficiently than most advertising. Most importantly, it is an endless source of profit, ideas, collaboration, and support. If you are networking, you should do more. If you’re not networking, you need to start. If you don’t network, your business will stagnate and die.",
+        "When you’re networking you need to keep a couple of important points in mind. First, every social or professional engagement can provide you with an opportunity to network. There’s often nothing more formal about it than an exchange of information and follow-up connection. Remember, as a business owner you’re always “on the clock”, so to speak. Be ready to take advantage of a potentially lucrative networking situation should the opportunity arise.",
+        "Second, when you are networking treat people naturally, the way you’d want to be treated. Offer no strings advice. Often solving a problem for free generates more long-term profit than the cost of the advice or service. Also, listen more than you talk. Silence really can be golden when you take the time to hear what another person is saying.",
+        "Finally, always remember that honesty is the best policy. Don’t promise something that you cannot produce. Don’t be someone you’re not in order to close a deal. Be yourself and watch those connections grow!"
+      ]
     },
     {
       id: 9,
       name: "Growth Mindset",
-      slug: "/refer-earn",
+      slug: "growth-mindset",
+      Heading: "Ch.09: Growth Mindset",
       url: "/assets/images/LearnToEarn/LearnToEarn9.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "So, you may be asking yourself “What exactly is a growth mindset?” Well, a growth mindset is an actual, demonstrable psychological phenomenon. It turns out that many long-term successful individuals possess certain characteristics that they share with other long-term successful individuals. This set of characteristics has been termed a “growth mindset”. Now, some people, who tend to achieve less than their full potential, also possess a set of characteristics that they share with other under-achievers. This set of traits has been dubbed the “fixed mindset”. Most people, more or less, fall into one camp or the other.",
+        "People with a growth mindset tend to have a desire to learn from life. This desire leads to the ability to embrace challenges, to overcome setbacks, to see effort as worth the results, to accept criticism and to admire and learn from the successes of others. These behaviors allow native intelligence to grow throughout a lifetime. (Hence, the name.) People with a growth mindset are believers in free will and this belief allows them to achieve their goals time and time again.",
+        "People with a fixed mindset tend to have a desire to appear smart, with a corresponding fear of looking foolish. Their desire leads them to avoid challenges, to give up easily, to see extra effort as wasted, to ignore or reject criticism and to envy and begrudge the success of others. These behaviors tend to limit native intelligence to a fixed amount. (Again, hence the name.) People with a fixed mindset often plateau early in life and fail to have, let alone reach, fixed goals.",
+        "The good news is that a growth mindset can be cultivated fairly easily by changing some critical behaviors. First of all, you have to decide to choose growth over stagnation. You also have to be willing to take positive action and begin to accept challenges and criticism and learning from both. An excellent way to begin is by developing the philosophy of “yet”. This simple step simple attaches the word “yet” to the end of every negative thought, as in “That will never work, yet...” or “It’s probably not worth going, yet...” This simple trick opens up the possibility for growth and that possibility leads to changed behavior that actually does cause the development of the growth mindset."
+      ]
     },
     {
       id: 10,
       name: "Be Confident",
-      slug: "/blog",
+      slug: "be-confident",
+      Heading: "Ch.10: Be Confident",
       url: "/assets/images/LearnToEarn/LearnToEarn10.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "Nothing succeeds like success, right? Sure. However, true success comes from confidence and confidence, in turn, comes from success. They each revolve around the other in the ultimate symbiotic relationship. However, this is not a “what came first, the chicken or the egg?” kind of proposition. Confidence definitely precedes success in the order of appearance. That’s because of the quiet assurance of true confidence, as opposed to mere cockiness, serves to lay the foundation for reaching a goal. In this way, confidence is more of an outward manifestation of an inward persona than it is a pose or an affectation. Cockiness, on the other hand, is simply an outward shield that masks an inward insecurity.",
+        "As a business owner, you need to be confident of yourself and your product or service. People react positively to a confident person, especially if that confidence is real and a part of that person’s soul. In order to develop this type of true confidence, there are several things that you can do.",
+        "First, always remember that confident people are able to take a stand on an issue or a decision not because they think they are right, but because they are not afraid to be wrong. They see a difficult situation as an opportunity for growth. Finding the right solution to a problem is more important than being right. Therefore, if they are wrong they will be the first people to admit it and move on.",
+        "Confident people often listen far more often than they talk. They are more interested in hearing different information and opinions than they are in broadcasting their own. They also are never afraid to admit fallibility and ask for help. They know that other people’s knowledge is their greatest strength. Finally, they understand that success is a team sport. They know that any goal is achieved through the efforts of many, not the will of the few. Therefore, they share the spotlight of success and shine it on others far more than they shine it on themselves."
+      ]
     },
     {
       id: 11,
       name: "Do The Hustle",
-      slug: "/blog",
+      slug: "do-the-hustle",
+      Heading: "Ch.11: Do The Hustle",
       url: "/assets/images/LearnToEarn/LearnToEarn11.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "There’s a certain urgency to success. This urgency doesn’t apply so much to the fruits of success as it does to the desire for success. You have to want to succeed before you can even begin to try to succeed. You have to want success more than you want anything else. It is this desire that engenders the work ethic that’s necessary to succeed. That’s right, there is a definite work ethic that successful people bring to the table. If you want to succeed, then you have to emulate this work ethic. You have to want to succeed so much that you hustle.",
+        "Hustle is all about walking the success walk. Anyone can talk about success. As they say, talk is cheap. You can talk about success all day long and not get one step closer to actually being successful. The only way to reach your goals is to put in the work necessary to get these. This work requires concentration, creativity, and conscious effort. There’s no secret here. You’re going to have to sweat to get there. The hours are long and the tasks are consuming. There’s no such thing as instant success or overnight success. Often the people who appear to be enjoying overnight success have hustled hard for months and years to get that success.",
+        "So, remember that success means work and work means to hustle. Go the extra mile in everything you do. In the long run, those extra miles will put you ahead of the pack and that much closer to where you want to be."
+      ]
     },
     {
       id: 12,
       name: "Be Passionate",
-      slug: "/marketing",
+      slug: "be-passionate",
+      Heading: "Ch.12: Be Passionate",
       url: "/assets/images/LearnToEarn/LearnToEarn12.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "There is probably nothing as important to achieving success as passion. It may sound extreme, but in order to reach a goal, you have to burn for it. It has to be something that’s on your mind all the time. To has to be all-consuming. In fact, passion is the flip side of our previous subject, hustle. The two go hand in hand with each other.",
+        "So, how do they work together? Well, the one requires the other. They each, in some sense, drive the other. Finally, without one, you cannot have the other. Hustling, as we discussed, is all about hard work, long hours and the extra mile. Passion is the motivation that gets all that hard work done. Face it, if you’re not on fire about a project, you’re not going to be able to motivate yourself to do the hard work needed to complete that project successfully.",
+        "So, how do you obtain or maintain the passion necessary for success? Well, as a business owner you should already be passionate about your business and its success. If you’re not, then you need to examine why. If you’re not doing what you love to do, then you may need to think about what you are passionate about and then get into that line of work. There’s no sense and no reason to waste your time trying to be enthusiastic about something that doesn’t move you. If you are already doing something you love to do, then you're halfway home. Let your love and passion for your line of work show through in that work. Your customers and competitors will notice the difference."
+      ]
     },
     {
       id: 13,
       name: "Be Creative",
-      slug: "/affiliate",
+      slug: "be-creative",
+      Heading: "Ch.13: Be Creative",
       url: "/assets/images/LearnToEarn/LearnToEarn13.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "Creativity can be elusive. It’s not something that you can summon at will. When it happens, it strikes like lightning. Yet, like lightning, it can be maddeningly unpredictable. However, because creativity is an essential element of a successful business mindset, it is necessary to understand the creative process and how you, the business owner, can cultivate your own creative juices.",
+        "The creative process is largely internal and unconscious. No one ever wakes up and says “Hey! Today I’m going to be creative.” Creativity is all about taking in a lot of influences and letting those influences combine, ferment and morph in your subconscious. Together, they form a sort of mental potting soil where new and different ideas have a chance to germinate and grow. The more things you learn, read, see and hear the more creative soil you are able to produce.",
+        "So, as a business owner who wants to be creative, the best thing you can do is get out there and in the world and open yourself up to new experiences. Be curious about many different things. Develop hobbies. Challenge yourself. Do the unexpected. The more you push your own personal envelope the more you are charging your own creative batteries. When those batteries are charged, it is much more likely that inspiration will strike. Who knows where that new idea will take you?"
+      ]
     },
     {
       id: 14,
       name: "Be Flexible",
-      slug: "/e-commerce",
+      slug: "be-flexible",
+      Heading: "Ch.14: Be Flexible",
       url: "/assets/images/LearnToEarn/LearnToEarn14.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+
+      Details: [
+        "There is nothing more stifling to success than rigid thinking. Rigid thinking leads to rigid behaviours and rigid behaviours lead to dead ends, blind alleys, and creative cul de sacs. In other words, while there is a certain amount of comfort to routine, too much routine can choke off all chances that you will be able to successfully reach your business goals. Why? The answer is simple. The world, including the business world, is constantly changing. Rigid thinking and rigid behaviour, by definition, are resistant to change. Therefore, rigidity, in thought and action, spells obsolescence in the business world. Everyone else moves forward while you are left behind in the dust. So what’s the answer to this problem? In a word, flexibility.",
+        "In today’s world, information is power, money, and control all rolled into one. The fast and free flow of information is what makes this possible. Everything changes quickly and what is a successful formula or a popular product in one cycle can be, and usually is, old news in the next. The only way to successfully stay on top of this bucking bronco of information and use it to your advantage is to be flexible enough to roll with the changes.",
+        "Flexibility is easy to achieve as long as you are not too tied down to any single idea, product, service or manner of delivery. If you keep up with changing market conditions through the judicious use of the flow of information, you can easily spot new trends and adapt them successfully, usually before your competitors have had time to act. The only trick is to not fear change and, instead, embrace it. If change is the only reality in the business world then, to be successful in that world, change as to be your reality as well."
+      ]
     },
     {
       id: 15,
       name: "Be Positive",
-      slug: "/home-based-business",
+      slug: "be-positive",
+      Heading: "Ch.15: Be Positive ",
       url: "/assets/images/LearnToEarn/LearnToEarn15.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "We’ve all heard a lot about the supposed power of positive thinking. We’ve heard how it can not only change outlooks but fortunes as well. There are probably some of you reading this right now who still remain sceptical about positivism and its alleged beneficial effects. The thing is that while healthy scepticism is fine, an entrenched and cranky scepticism is usually a sign of negative thinking. So, if you haven’t tried positive thinking in your own business, yet remain sceptical of the concept, you have actually already proved that the power of positive thinking works.",
+        "Positive thinking is about enjoying the ride that life provides. It’s about taking chances and seeing possibilities. It’s about flexibility, creativity and developing and maintaining a strong passion for those things that you loved. It’s about gusto, brio and doing things with panache. It is, in some sense, the very antithesis of rigid scepticism and preconceived negativity. It is, at its heart, an embrace of all of the powers each of us are capable of when we throw off the chains of tradition, expectation and routine results. It is a real thing and it works.",
+        "To use the power of positive thinking in your own business you need to begin with a critical assessment of your own personal style and outlook. Make an honest examination of how you operate on a day to day basis. Are there areas where negativity, in any of its forms, outweighs positivity? If so, then there is room for positive change. Look at concepts like freedom, choice, possibility, optimism, and openness. Can you do more to increase your own options in any of these areas? Instead of asking yourself “How can I do this?” ask yourself instead “How can I NOT do this?” Changing your own personal management style to one that encompasses positivity on a daily basis can give you the freedom to choose success."
+      ]
     },
     {
       id: 16,
       name: "Be Grateful",
-      slug: "/real-estate",
+      slug: "be-grateful",
+      Heading: "Ch.16: Be Grateful ",
       url: "/assets/images/LearnToEarn/LearnToEarn16.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "It is easy to expect success as if being successful was a right instead of a privilege and a gift. The problem with expecting to succeed is that, without more, the self-absorption of that expectation can slowly and subtly poison everything around you, including your business. True success is earned and when it arrives it should be, and needs to be, accompanied by a strong sense of gratitude. This gratitude is not simply about being grateful for what you’ve achieved. It is about being grounded enough in the moment of success to remember and recognize everyone who helped you get to this particular time and place. Without this grounded gratefulness any success is lessened and will, in all likelihood, be fleeting.",
+        "So how do you repay those who helped you in achieving your goals? Well, obviously, acknowledging those individuals and sharing the benefits of your success with them is a great place to start. Yet, above and beyond taking care of your nearest and dearest, you also need to “pay it forward” by becoming a mentor and helper to others who are currently on their own journey towards success. Think about how you can collaborate with someone else in order to further their efforts. See if you can contribute in some way to their projects. This contribution doesn’t have to be monetary. Advice and the wisdom of experience are often far more valuable than cold cash.",
+        "This gratitude can extend even further. There are people who are currently helping you every day that you may not see as mentors. Your customers are among these people. Without them, success becomes impossible. Take the time to let them know how important they are. Your vendors are also equally important. Yes, they provide you with materials that you pay them for, but a true grounded and grateful attitude would also recognize each of them for the critical element they play in your business. Look outside the box and you’ll see that success is not a solo effort, it’s a team sport."
+      ]
     },
     {
       id: 17,
       name: "Be Accepting",
-      slug: "/side-hustle",
+      slug: "be-accepting",
+      Heading: "Ch.17: Be Accepting",
       url: "/assets/images/LearnToEarn/LearnToEarn17.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "There is absolutely no way for you to be successful and reach your goals until you accept who you are. You have to like yourself and what you do before anyone else will. The world detects how you feel about yourself and often simply shares the opinion you have about who you are. Be yourself and free yourself in the process. You are an individual who is unique. Your talents and abilities, your intelligence and interests, your opinions and tastes, make you who you are. There is no need to hide a part of yourself or alter a part of yourself for the sake of conformity. True success is about freedom and all truly successful people are individualists who have, more or less, accepted and glorified who they are. You should do the same.",
+        "At the same time, being yourself does not mean glorying in mediocrity. You need to be the very best version of yourself possible. This means that you have to work at being you. You have to put the time into self-improvement. Acceptance is not an excuse for laziness, cowardice or fear. Life is a privilege. It is a gift. The gift and the privilege of life are that you get to be yourself, the best self you can possibly be. Use the gift, take advantage of the privilege that you’ve been given. Don’t squander the chance. Let your own unique light shine forth. This is the light that will illuminate the path to real success in life. It will also be the light that attracts other people to you."
+      ]
     },
     {
       id: 18,
       name: "Conclusion",
-      slug: "/side-hustle",
+      slug: "conclusion",
+      Heading: "Ch.18: Conclusion",
       url: "/assets/images/LearnToEarn/LearnToEarn18.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      Details: [
+        "So there you have it. Success is a multifaceted achievement that involves many concepts and, often, many different people. However, as you’ve learned, the concepts involved in the successful business mindset are basic and learnable principles that can easily be put into action by anyone dedicated enough to reach the next level of achievement in their lives. It is all matter of doing the work to change the things in your own personal agenda that might need adjustment.",
+        "Remember that you can use this book as a tool to help you make those adjustments. You can, and should, go back and review those sections that can help you anytime the need arises. The point is that life is about success.",
+        "This means that you have your entire life to constantly change things for the better. Success is a process, as well as a journey. Here’s to wishing you a good trip."
+      ]
     },
   ],
+
 
   Age: [
     {
