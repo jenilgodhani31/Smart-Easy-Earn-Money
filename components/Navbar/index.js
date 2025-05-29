@@ -39,7 +39,7 @@ function NavBar({ title, className }) {
               {finalTitle}
             </div>
           </div>
-          <a href="/">
+          <a href="/emoney">
           <div className="flex items-start justify-start bg-primary2 cursor-pointer px-3 py-2 rounded-full ">
             <FaHome size={20} />
           </div>
