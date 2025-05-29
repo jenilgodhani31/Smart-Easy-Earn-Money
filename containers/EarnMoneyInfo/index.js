@@ -348,7 +348,7 @@ const EarnMoneyInfo = ({ type }) => {
                     </section>
                 )}
                 {/* Button */}
-                <a href="/" className="w-full ">
+                <a href="/emoney" className="w-full ">
                     <button className="flex items-center justify-center w-full p-5 text-white gap-3 rounded-[15px] bg-primary1 shadow-xl/20 transition-shadow duration-300">
                         {"Earn Now"}
 

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { useRouter } from "next/router";
 import { FaArrowLeftLong } from "react-icons/fa6";
-import { RiSettingsFill } from "react-icons/ri";
+import { FaHome } from "react-icons/fa";
 
 function NavBar({ title, className }) {
   const router = useRouter();
@@ -41,7 +41,7 @@ function NavBar({ title, className }) {
           </div>
           <a href="/">
           <div className="flex items-start justify-start bg-primary2 cursor-pointer px-3 py-2 rounded-full ">
-            <RiSettingsFill size={20} />
+            <FaHome size={20} />
           </div>
           </a>
 
