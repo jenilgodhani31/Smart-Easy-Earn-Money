@@ -12,7 +12,7 @@ function Currency() {
 
     function handleClick() {
         if (selected === null) {
-            ToastContainer.error("Please select Currency");
+            toast.error("Please select Currency");
         } else {
             router.push('/profession');
         }
