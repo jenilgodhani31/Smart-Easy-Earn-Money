@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
           rtl={false}
           draggable={false}
           pauseOnHover
-          theme="light"
+          theme="colored"
         />
       </div>
 
