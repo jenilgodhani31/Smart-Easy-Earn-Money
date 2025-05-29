@@ -5,7 +5,10 @@ import NavBar from "@components/Navbar";
 function Layout({ children, title, className }) {
   return (
     <Fragment>
-      <NavBar title={title} className={className} />
+
+  <NavBar title={title} className={className} />
+
+    
       <div >
         {children}
       </div>

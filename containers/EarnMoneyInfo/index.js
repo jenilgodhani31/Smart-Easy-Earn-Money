@@ -23,11 +23,10 @@ const EarnMoneyInfo = ({ type }) => {
 
     return (
         <Layout title={name} className="p-5  text-[15px]">
-            <div className="text-black font-semibold pt-5 px-5 pb-5">
+            <div className="text-black font-semibold px-5 pb-5 pt-[100px]">
 
                 {title && (<section className="">
                     <h2 className="">What is it {title} ?</h2>
-
                 </section>)}
 
                 {content?.intro && (<section className="mb-4 mt-2">

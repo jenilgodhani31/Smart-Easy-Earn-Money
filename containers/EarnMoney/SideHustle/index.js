@@ -12,7 +12,7 @@ function SideHustle() {
   }
   return (
     <Layout title={"Side Hustle"} className={"text-[15px]"}>
-      <div className='flex w-[350px] flex-col items-center p-5 gap-4 '>
+      <div className='flex pt-[100px] flex-col items-center p-5 gap-4 '>
         {gameData?.SideHustle?.map((item, index) => (
           <div onClick={() => handleClick(item.slug)} key={index}>
             <div className="flex gap-2 cursor-pointer p-2 bg-primary1 shadow-2xl rounded-[15px]">

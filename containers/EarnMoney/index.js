@@ -5,7 +5,7 @@ import React from 'react'
 function EarnMoney() {
   return (
     <Layout title={"Earn Money Info"} className={"text-[15px]"}>
-      <div className='flex  flex-col items-center p-5 gap-4 '>
+      <div className='flex  flex-col items-center p-5 gap-4 pt-[100px]'>
         {gameData?.earnMoneyInfo?.map((item, index) => (
           <a href={item.slug} key={index}>
             <div className="flex gap-2 cursor-pointer p-2 bg-primary1 shadow-2xl rounded-[15px]">

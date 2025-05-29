@@ -14,7 +14,7 @@ function Marketing() {
 
   return (
     <Layout title={"Marketing"} className={"text-[15px]"}>
-      <div className='flex w-[350px] flex-col items-center p-5 gap-4'>
+      <div className='flex pt-[100px] flex-col items-center p-5 gap-4'>
         {gameData?.Marketing?.map((item, index) => (
           <div
             key={index}

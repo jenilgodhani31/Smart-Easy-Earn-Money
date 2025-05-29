@@ -27,7 +27,8 @@ function NavBar({ title, className }) {
 
   return (
     <Fragment>
-      <nav className="relative  bg-primary1 rounded-b-[30px]  shadow-2xl">
+      <nav className="fixed md:static  top-0 left-0 w-full   z-50 bg-primary1 rounded-b-[30px] shadow-2xl">
+
 
         <div className="flex items-center justify-between px-4">
 
@@ -40,9 +41,9 @@ function NavBar({ title, className }) {
             </div>
           </div>
           <a href="/emoney">
-          <div className="flex items-start justify-start bg-primary2 cursor-pointer px-3 py-2 rounded-full ">
-            <FaHome size={20} />
-          </div>
+            <div className="flex items-start justify-start bg-primary2 cursor-pointer px-3 py-2 rounded-full ">
+              <FaHome size={20} />
+            </div>
           </a>
 
         </div>

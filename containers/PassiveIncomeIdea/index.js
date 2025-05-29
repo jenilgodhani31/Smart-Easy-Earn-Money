@@ -13,7 +13,7 @@ function PassiveIncomeIdea() {
     }
     return (
         <Layout title={"Passive Income Idea"} className={"text-[15px]"}>
-            <div className='flex  flex-col items-center p-5 gap-4 '>
+            <div className='flex pt-[100px] flex-col items-center p-5 gap-4 '>
                 {gameData?.PassiveIncomeIdea?.map((item, index) => (
                     <div onClick={() => handleClick(item.slug)} key={index}>
                         <div className="flex gap-2 cursor-pointer p-2 bg-primary1 shadow-2xl rounded-[15px]">
