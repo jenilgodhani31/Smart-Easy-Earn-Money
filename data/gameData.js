@@ -2143,7 +2143,41 @@ const gameData = {
       slug: "start-a-youtube-channel",
       piITitle: "Tip 01 : Start A YouTube Channel",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea1.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea1.png",
+        whatIs: "Starting a Youtube channel is the easiest and you won’t need any money.",
+        subTitle: [
+          "Youtube star PewDiePie earned 12 million dollars in 2017 running a single YouTube channel. ",
+          "You too can see be as successful as him."
+        ],
+        GreatFor: [
+          "People who love creating videos, talking about a video, shooting documentaries or short films. "
+        ],
+        SkillsetNeeded: [
+          "Know-how to create videos using software tools or record a video using a mobile phone or camcorder.",
+
+        ],
+        TimeRequired: [
+          "You can start within minutes. Just visit YouTube.com, create a channel and upload videos."
+        ],
+        Tips: [
+          "Create a YouTube channel with a specific theme such as Humor, Tutorial, Recipe, etc. If you love gadgets, you can create a gadget review channel where you review the latest gadgets and help people decide whether it's the right choice for them.",
+          "Analyze other videos related to your topic, see how many views those videos get. It will help you to get an overview of how many people are interested in your theme.",
+          "Generally, the more the views, the more beneficial the theme is. Since more people are searching for it.",
+          "Check if there’s any concept missing in the currently existing videos related to your theme. You can cover these concepts in your videos to fetch more views.",
+          "Be active and engage with your audience. Study the comments you get on your videos, learn the hidden expectations that your audience has from you.",
+          "Try to find out what they like about your videos and what they don't. Study which videos get the highest retention rate and find the reasons behind them.",
+          "Spy on your competitors and try to model the things that are working for them. But never try to copy them, always maintain your uniqueness.",
+          "Always try to improvise each new video from the last one. So that when you look at your first videos after a few years, you should think about how bad you were earlier. That's a good sign; it shows that you've improved.",
+          "Experiment, experiment, and experiment. Never fear to try something new and see how it works. Experiments are the only way where you can find new and exciting stuff which can catapult you way ahead of your competitors.",
+          "Finally, collaborate with other YouTuber's who are doing similar work. Learn their strategies and mindset. Working together can do wonders for your channel.",
+          "Have fun. Do the things that you love and enjoy your life."
+        ],
+        Earnby: [
+          "The general rule for earning on YouTube is straightforward. The more views your videos get, the more money you’ll earn. You’ll have to enable the monetize option in your YouTube channel settings. It's very simple."
+        ]
+      }
     },
     {
       id: 2,
@@ -2151,7 +2185,40 @@ const gameData = {
       slug: "start-a-blog",
       piITitle: "Tip 02 : Start A Blog",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea2.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea3.png",
+        whatIs: "Being a blogger is one of the easiest ways to earn money from home. Unlike any other job, if you are blogging from home, you don’t need to work 9-5.",
+        subTitle: [
+          "You can work at any time of the day with ease. But beware. Blogging takes time before you start earning.",
+          "Jump into this field slowly. If you have a day job, don’t quit yet. Start part-time with your blog.",
+          "Once it is on the stage where it is earning you more than your comfortable limits, then it’s the best time to turn into full-time blogging mode."
+        ],
+        GreatFor: [
+          "People who love writing and like to share their knowledge and expertise."
+        ],
+        SkillsetNeeded: [
+          "Ability to express knowledge in writing with a simpler yet efficient way."
+        ],
+        TimeRequired: [
+          "The time required depends upon your level of expertise. If you are an expert, you can easily start blogging within a few hours. For a complete beginner, a day or two would be sufficient."
+        ],
+        Tips: [
+          "Start a blog about something in which you are really good at. For example, if you love traveling and you have visited a lot of places then start a travel blog.",
+          "Always try to limit your blog to a particular domain. Don’t put content on multiple domains in one blog. For example, writing about recipe tips on a fashion blog. Keep your blog specific to one domain only.",
+          "Using your experience and expertise try to create unique and phenomenal content. Try to give a lot of value to your readers. Write about something that will make a difference in your reader's’ life.",
+          "Listen to the readers of your blog. Try to solve the problems they are facing. Always reply to their comments. Make them feel better.",
+          "Be committed to your blog. A blog is like a relationship. Give it some love, and it will flourish. Ignore it, and it will die a death. There’s no point in being half-hearted in your blogging efforts - if you don’t care about it, why should anyone else?",
+          "Think about content, style, the tone of voice, audience, etc. Look at the people who are already doing what you’re planning to do. Ask yourself the following questions:• How will I stand out from the crowd?• What can I say that hasn’t already been said?• What’s my unique selling point?• Why do I want to do this?",
+          "Be professional in the way you handle and grow your blog. Don’t criticize other brands, bloggers or people. Remember what goes around comes around. You don’t want something you’ve said to come back and bite you one day.",
+          "Be open-minded and willing to collaborate with other creatives. You’ll meet some fantastic and awe-inspiring people."
+        ],
+        Earnby: [
+          "You can monetize your blog by recommending products or services related to your blog’s topic either by writing an informative article or placing banner ads on your blog’s relevant pages.",
+          "You can earn handsome commissions when a person buys a product recommended by you.",
+          "Another way is you can place Google Adsense ads on your blog. More people click on your ads more money you will make."
+        ]
+      }
     },
     {
       id: 3,
@@ -2159,7 +2226,30 @@ const gameData = {
       slug: "do-affiliate-marketing",
       piITitle: "Tip 03 : Do Affiliate Marketing",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea3.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea3.png",
+        whatIs: "Affiliate marketing is a type of performance-based marketing in which a business rewards a certain percentage of commission for each product bought by the customers who are brought by the affiliate's own marketing efforts.",
+        GreatFor: [
+          "People who love to talk, write, explain and have the ability to persuade."
+        ],
+        SkillsetNeeded: [
+          "Ability to promote a product online using social media, videos, ads, etc."
+        ],
+        TimeRequired: [
+          "Virtually within an hour. You just need to select an online product that pays a commission when you promote and sell it using your affiliate link."
+        ],
+        Tips: [
+          "Select an online product from the domain in which you are well conversant with. For example, if you are a dietician then select a product related to diet. There are lots of products available in every domain you just need to focus on which domain is suitable for you.",
+          "Places to find products: Clickbank.com, Shareasale.com, Jvzoo.com. These websites have thousands of products listed from multiple domains.",
+          "Choose a product that pays you at least 50% commission on each sale.",
+          "Most product websites handle affiliate link generation and payouts so you don’t need to worry about how you’ll get your commissions. Just get your custom affiliate link created by the vendor and start promoting it.",
+          "If you want to earn instant money from affiliate marketing try to promote your affiliate link on social sites such as Facebook, Twitter, Digg, StumbleUpon, and Reddit."
+        ],
+        Earnby: [
+          "Monetization is simple, just make more people buy the product through your affiliate link. Create a Facebook page or Banner ads about the product. Tell people how the product will help them to solve their problems. Improve people’s knowledge about the domain and help them to solve other related problems."
+        ]
+      }
     },
     {
       id: 4,
@@ -2167,7 +2257,33 @@ const gameData = {
       slug: "create-niche-websites",
       piITitle: "Tip 04 : Create Niche Websites",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea4.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea4.png",
+        whatIs: " Niche Website is a small website focused on one particular topic which shares all the information relevant to the topic that is both useful and interesting for the target audience. A niche website can be of few pages or even of hundreds of pages depending upon the size of the niche.",
+        GreatFor: [
+          "People who have an interest in a very specific topic within a large domain. For example, in large a domain like Yoga, you can choose specific sub-domain such as ‘Yoga to lose weight.’",
+          "People who love to talk, write, explain and have the ability to persuade."
+        ],
+        SkillsetNeeded: [
+          "Ability to create Niche website based on specific sub-domain using Wordpress, Blogger or other available software and tools.",
+          "Ability to promote the website using social media, ads, etc."
+        ],
+        TimeRequired: [
+          "You can start a Niche Website within a day. But creating good content for the website might take time."
+        ],
+        Tips: [
+          "Write out as many niche site ideas as you can, using the sub-domain that interests you the most.",
+          "Narrow down your niche idea based on finding the answers to specific questions.",
+          "Create at least 10 articles of rich content with 1000 words that will provide value to your niche targeted audience.",
+          "Sign up for at least 2 affiliate programs that offer products related to your niche with more than 50% commissions.",
+          "Do keyword research and find niche relevant search terms to rank your site for them.",
+          "Network with the owners of authority blogs in your niche and find guest blogging opportunities."
+        ],
+        Earnby: [
+          "Promote relevant products on your niche website through affiliate links. Increase visitors through SEO, forum marketing, social media, and paid ads to earn more commissions. Consider creating multiple Niche Websites to generate passive income."
+        ]
+      }
     },
     {
       id: 5,
@@ -2175,7 +2291,32 @@ const gameData = {
       slug: "publish-a-kindle-ebook",
       piITitle: "Tip 05 : Publish A Kindle eBook",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea5.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea5.png",
+        whatIs: "Publishing a Kindle eBook is another simple way of generating consistent passive income. Did you know that Amazon.com is the biggest competitor to Google than any other search engine like Yahoo or Bing? More shoppers try to search for a product on Amazon than on any traditional search engine. When people want in-depth information on a specific topic, they don’t search for blog posts on Google but instead, try to find a highly recommended book on Amazon.",
+        GreatFor: [
+          "People who have in-depth knowledge of a certain topic or love to do research and explain it in an easily understood."
+        ],
+        SkillsetNeeded: [
+          "Ability to provide detailed insights on a particular topic.",
+          "Ability to provide some extraordinary tips for solving people’s problems."
+        ],
+        TimeRequired: [
+          "The time required completely depends on the creator of the eBook. What topics he/she wants to cover? How many details do the creator want to include? These are the important factors that define the time required."
+        ],
+        Tips: [
+          "Research, research, and research. It is the key to a successful Kindle eBook product. Research about what people are looking for in the domain related to your eBook's topic. For example, if you are creating an eBook on ‘Yoga to lose weight' look for how many people are looking for yoga exercises to lose weight on the internet and Amazon? What are their expectations of a book? You can easily conduct this research by studying the comments, reviews, and popularity of the existing competitor's books on Amazon.",
+          "Write for one reader. When you know your ideal reader, you know how much he/she already knows. You can avoid boring him/her with obvious information, and you can provide exactly the information he/she’s looking for.",
+          "Check out how many people are asking questions on the topic you have chosen, using websites such as Quora, Yahoo Answers, and WikiAnswers. More questions mean more people are looking for answers and that’s a good sign.",
+          "Look out for the market gaps in your selected domain. And see whether there’s demand for some topic, see whether your eBook can cater to that demand.",
+          "Visit Amazon.com and see how many books are present on your selected domain. Are people buying those books? This will help you to understand the demand and purchasing ability of the market in your domain.",
+          "Find a few friendly readers who match your ideal reader profile and give them your first draft. Not only will they help make your book better, but it will also boost your confidence."
+        ],
+        Earnby: [
+          "Sign up to Kindle Direct Publishing Program, with this you award exclusive distribution rights for your Kindle eBook to Amazon. This will allow you to sell your eBook in all the countries where Amazon.com is available giving it a massive exposure at launch. Create a small niche site on the related topic and promote your eBook through it. The more eBooks you sell the more money you make."
+        ]
+      }
     },
     {
       id: 6,
@@ -2183,7 +2324,33 @@ const gameData = {
       slug: "create-a-membership-site",
       piITitle: "Tip 06 : Create A Membership Site",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea6.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea6.png",
+        whatIs: "A membership site is a private website, with exclusive content available only to the signed up members. It usually provides members with the ability to interact with each other. They pay a monthly fee for being a member of the website.",
+        GreatFor: [
+          "People who like to interact with, guide and lead a community."
+        ],
+        SkillsetNeeded: [
+          "In-depth knowledge of any particular domain.",
+          "Ability to research new things and constantly generate new and helpful content."
+        ],
+        TimeRequired: [
+          "Depends on the domain expertise of the creator."
+        ],
+        Tips: [
+          "In the beginning, keep the fee for joining the membership site ridiculously low. Aim to create a minimum viable product instead of creating a perfect product. You can always improve your site in later stages.",
+          "If you’ve never been a part of any membership site till now, consider joining a few related to your domain. Study those sites.",
+          "Find what’s working well for you and other members of that site? What’s makes it worth the monthly fee and how could you replicate this?",
+          "Interact and engage with members. Your membership site shouldn’t be the one that the only drip feeds the content, with little or no input from the owner. You must provide insider access for your members who want to communicate with you. Even if you’re busy, you must spend at least half an hour a day to get involved with your membership site. You can do this in many ways, such as you can interact with the members answer their questions or even lead an interaction inside the forum.",
+          "Run group events and challenges to increase members’ engagement with your site. Organize regular events, challenges, or similar. Make it easy for members to participate. Offer prizes, display leaderboards or similar such things creates a great incentive for members to participate and get involved.",
+          "Periodically review what’s working and what isn’t. Try to adapt the site based on the member's’ needs. For example, if you offer most of your content in text format but your members are engaging more with the video content then shift from text-based to video content.",
+          "Try to introduce new initiatives and see how your audience is responding to it. Such as live Q&A calls or similar. But be careful, don’t overwhelm members with several different initiatives at once. Introduce one thing at a time."
+        ],
+        Earnby: [
+          "Monetization is very simple. More members sign up to your website more income you generate from the monthly fees that members pay. More Help - Check out Matthew Woodward's tutorial on how to create a 6 figure membership site."
+        ]
+      }
     },
     {
       id: 7,
@@ -2191,7 +2358,38 @@ const gameData = {
       slug: "sell-websites-on-flippa",
       piITitle: "Tip 07 : Sell Websites On Flippa",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea7.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea7.png",
+        whatIs: "Flippa.com is an online marketplace for selling and buying websites.",
+        GreatFor: [
+          "People who like to develop websites."
+        ],
+        SkillsetNeeded: [
+          "In-depth knowledge of Wordpress platform and website creation."
+        ],
+        TimeRequired: [
+          "Depends on the expertise of the developer in website creation."
+        ],
+        Tips: [
+          "Choose a topic you are passionate about. You need to be passionate about the subject your website focuses on. If you launch a website about something that you don’t care about, you will lose interest very quickly and inevitably stop working on it.",
+          "Think about your long-term business model. To make your website successful you should do a lot of research beforehand.",
+          "Who are your direct competitors?",
+          "How do your competitors make money?",
+          "How will your website make money?",
+          "How can you make your website stand out from others?",
+          "How long will it take to monetize your website?",
+          "Choose a domain name that is relevant to your topic and appeals to your target audience. A good domain name is an essential part of branding your blog. Choose a .COM as your domain extension because it looks more professional.",
+          "Choose a reliable paid host like Hostgator, Bluehost or anyone that might suit your needs.",
+          "You need to make your website's design and layout look very professional. Believe it or not but first-time visitors will make a judgment about your blog within first 10 seconds of loading, so you need to make sure that your website’s design appeals to them and they like it."
+        ],
+        Earnby: [
+          "Sign up and register your website on Flippa.com. Flippa works on bidding model, the highest bidder gets the ownership of the website.",
+          "Set the bid price of your website 10 times greater than the current monthly income of your site. For example, if your site is earning $500 per month then you can set the basic selling bid price of your site to at least $5000.",
+          "Start the auction and wait for bids. People will start bidding for purchasing your site. Once you receive the bid that satisfies your target selling price, then finalize the deal with the bidder.",
+          "Flippa will manage all the payment and other technical stuff for you and you'll receive your commissions via your selected payment method."
+        ]
+      }
     },
     {
       id: 8,
@@ -2199,7 +2397,36 @@ const gameData = {
       slug: "sell-a-video-course-on-udemy",
       piITitle: "Tip 08 : Sell A Video Course On Udemy",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea8.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea8.png",
+        whatIs: "Udemy.com is an online learning marketplace. Udemy has a huge list of courses in everything from programming to yoga to photography and much more.",
+        GreatFor: [
+          "People who like to teach, explain and solve problems."
+        ],
+        SkillsetNeeded: [
+          "In-depth knowledge of any domain of your choice.",
+          "Ability to express knowledge in an easily understood form.",
+          "Ability to create and record high-quality videos."
+        ],
+        TimeRequired: [
+          "Depends on the scope of the course, the number of modules included and the time required for preparation."
+        ],
+        Tips: [
+          "Pick a topic in which you are specialized in. Study the courses relevant to your topic and see how many people are interested and have actually enrolled in the courses.",
+          "This will give you a rough understanding of the people who are interested in your topic and willing to invest in your course.",
+          "Study the other available courses and find out the things which you can offer that will make your course much better, different than other available courses.",
+          "Identify your audience level and then create the course content. For example, you need to first decide whether your course is for beginner level or expert level audience. Then accordingly you need to create your course content which appeals to the right audience.",
+          "Make sure your course title and description are optimized for appealing your target audience. Try to answer the frequent questions that your audience asks in your course description.",
+          "Deliver at least 80% of your course in video format as it is the most engaging way of interaction. Also, keep the length of each video lesson between 2-10 minutes.",
+          "Build a rapport with the audience, and engage. You can always do quiz ups between lectures to make it engrossing and interactive."
+        ],
+        Earnby: [
+          "Udemy gets a lot of daily visitors so there is a good chance that your course will get noticed and people will enroll in and you will start earning money.",
+          "You can even start a small blog on your course-related topics and promote your course.",
+          "More people sign up for your course more money you make."
+        ]
+      }
     },
     {
       id: 9,
@@ -2207,7 +2434,35 @@ const gameData = {
       slug: "sell-a-service-on-fiverr",
       piITitle: "Tip 09 : Sell A Service On Fiverr",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea9.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea9.png",
+        whatIs: "Fiverr.com is a global online marketplace which offers tasks, services, and products, starting at a cost of $5.\nFiverr gets almost 4.7 million visits per month. Your aim should be to leverage Fiverr’s powerful visitor base to reach more people and sell your services or products to them.\n\nEvery service or task you offer on Fiverr is called a GIG. With Fiverr’s millions of visitor base, you don’t need much to worry about your gig’s promotion and payment handling as Fiverr handles this for you.\nAll you need to do is focus on delivering high-quality work to maintain your ratings, as ratings given by your customers will have a huge impact on the failure or success of your gig.\n\nPeople offer a diverse variety of services on Fiverr which ranges from Graphics and Design, Digital Marketing, Music and Audio, Advertising to anything you can practically think of.\n\nRemember you can sell your gig at any price, $5 is just the minimum price.\nTop Fiverr gig sellers make over $50,000 a year by leveraging the platform and providing high-quality services.",
+        GreatFor: [
+          "People who love to help others by making them easier.",
+          "People who love the freedom to work, doing what they really like."
+        ],
+        SkillsetNeeded: [
+          "People having in-depth skills in any particular area, using which they can help other people to complete their tasks or ease their life."
+        ],
+        TimeRequired: [
+          "You can create a Gig on Fiverr almost within an hour.",
+          "All you need to do is first sign up on Fiverr.",
+          "While creating a gig you’ll have to insert your gig’s title, upload gig’s image, write gig description and insert relevant tags and keywords."
+        ],
+        Tips: [
+          "Find your best skills - Sit down quietly and figure out the skills of which you are the strongest. Stick to tasks related to them till you see some success.",
+          "Do your initial homework - Do some research to ensure that the gig you are planning to offer has interested buyers.",
+          "Find popular gigs related to your skill set - Study popular gigs related to your skill set and model your gig accordingly.",
+          "Craft your gig’s title - Create an intriguing title relevant to your target customers.",
+          "Create your gig’s image - Use free online image editing tools to create a compelling image for your gig.",
+          "Write the gig’s description - Ensure your gig's description is precise, clear, and appealing to potential customers. Do not copy descriptions from other gigs.",
+          "Use right tags - Tags play an important role in ranking your gig higher. Use accurate tags to optimize your gig properly."
+        ],
+        Earnby: [
+          "Monetization is simple. More orders mean more money. Your delivery work influences your user ratings, which affect your order placement. Higher ratings lead to more orders. Fiverr handles all transactions securely."
+        ]
+      }
     },
     {
       id: 10,
@@ -2215,7 +2470,36 @@ const gameData = {
       slug: "resell-items-on-ebay",
       piITitle: "Tip 10 : Resell Items On eBay",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea10.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea10.png",
+        whatIs: "eBay.com is the most popular website to buy and sell goods on the internet. It’s a place where individuals and businesses can buy or sell new or second-hand items, from books and clothes to cars to almost anything.\n\nHere's how eBay works:\nA seller lists an item on eBay, almost anything from antiques to mobile phones, books to sporting goods.\nThe seller chooses whether to sell the item at a fixed price or accept only bids (auction-type listing).\nIn an auction-type listing, the bidding opens at a price the seller specifies and remains on eBay for a certain number of days.\nBuyers then place bids on the item. When the listing ends, the buyer with the highest bid wins.\nIn a fixed price listing, the first buyer willing to pay the seller's price gets the item.",
+        GreatFor: [
+          "People who are self-motivated and know how to spread the word – to friends, family members, acquaintances and strangers using online or offline mediums."
+        ],
+        SkillsetNeeded: [
+          "Some experience of selling goods online or offline is welcome, along with a business savvy mind."
+        ],
+        TimeRequired: [
+          "To start selling you first need to create an eBay account and a PayPal account.",
+          "After that, you need to enlist your product for which you’ll need some product pictures and write an appealing description.",
+          "Even if you are a beginner you can all the above tasks within a day or two."
+        ],
+        Tips: [
+          "If you are completely new to eBay and your account does not have any feedback, then getting some feedback before starting to sell anything is a good practice. People are very wary of buying anything online nowadays, so if your account has 0 feedback then no one’s is going to buy anything from you. It’s recommended that you should get at least 10-15 feedbacks before selling anything.",
+          "Start small - Most of the eBay resellers buy bulk wholesale stock of any particular product then sell it on eBay at a retail price. If you don’t have money to buy a wholesale stock then find out unwanted items present in your house which are in good condition and make a list of them.",
+          "Research - Now as you have a list of few ready to sell items you must ensure that there is a market for them. Take 10 minutes to Google your item and uncover its true market value on eBay and another bunch of e-commerce sites. This will help you to sell the right items more competitively because you’ll have the knowledge of your item’s market and its pricing strategies. Also, dig out relevant targeted keywords which will help people to find your items via Google search engine.",
+          "Craft the title - Title is the single most important factor for grabbing the attention of your potential buyer. Make sure your title is appealing, complete and you’ve included targeted keywords.",
+          "Write item’s description - Fill out all the fields in your listing, and make sure your textual description is providing all the information that your potential buyer might look for. Most of the lazy sellers ignore this and fail badly at selling anything on eBay.",
+          "Upload item’s pictures - Upload only high-quality pictures. Ensure that item’s pictures are new, clear (not blurry) and cover the product from all angles. Also, don’t restrict yourselves to 2-3 pictures upload at least 6 pictures.",
+          "Timing - Most of the expert sellers use 10-day listing starting on Thursday, you should use it too, it will give you two full weekends of eyeballs. You’ll usually receive the highest traffic on weekends."
+        ],
+        Earnby: [
+          "Monetization is very simple. More people place orders with you the more money you make. Your item quality and delivery influence your user feedback which directly affects your order placement. So make sure you are delivering items with good quality.",
+          "eBay handles all your transactions securely so you don’t need to worry about any payment processing issues.",
+          "Once you are in a profit-making stage, buy your most selling products in bulk at a wholesale price and then sell them on retail price to increase your profits. Rinse and repeat."
+        ]
+      }
     },
     {
       id: 11,
@@ -2223,7 +2507,38 @@ const gameData = {
       slug: "become-an-amazon-associate",
       piITitle: "Tip 11 : Become An Amazon Associate",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea11.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea11.png",
+        whatIs: "Amazon Associates is an affiliate marketing program that allows website owners and bloggers to create links and earn referral commissions when any of the website visitors click through and buy products from Amazon.",
+        GreatFor: [
+          "People who love to write, explain things in detail, and would like to share their knowledge and expertise with the world.",
+          "Best for people who already own a blog or website with some daily traffic."
+        ],
+        SkillsetNeeded: [
+          "Ability to express knowledge in writing with a simpler yet effective way.",
+          "Ability to persuade and convince people through the right argument and explanation."
+        ],
+        TimeRequired: [
+          "First, you should sign up for the Amazon Associate program. You’ll need to provide your website’s name while signing up.",
+          "Amazon will analyze your website, and if they find it appropriate according to their standards, they will approve you as an official Amazon associate.",
+          "The approval process might take 2 to 5 days.",
+          "Once you’re approved, find out the relevant products you want to promote on your blog then grab their affiliate links and insert them into your website."
+        ],
+        Tips: [
+          "Dig out relevant products - Find out the products that are relevant to your website’s or blog’s content and audience. For example, promoting wristwatches on a blog that teaches people to do Yoga exercises is highly unlikely to make you any sale. But instead, if you try to promote Yoga mats, pants, and books, you’ll see great success.",
+          "Place affiliate links inside your content - Placing simple text links within the context of an article is the most effective way to get people to click your affiliate links.",
+          "Link product images to Amazon - Use lots of high-quality product images and make those images clickable affiliate links.",
+          "Write a product review article - Doing a quality product review and writing a great article explaining all the facets of a product is another great way to generate high click-thru rates and sales.",
+          "Just send people to Amazon - Send them to Amazon.com through your affiliate link and get a percentage of anything they buy for the next 24 hours.",
+          "Build loyalty and trust - Boost your sales with your reader's’ loyalty and trust towards you and your website."
+        ],
+        Earnby: [
+          "Monetization formula is almost similar to most of the other methods discussed in this app.",
+          "More people visit Amazon.com via your affiliate link and buy products, more money you make.",
+          "Amazon.com will handle all the payment and commission processing for you so you don’t need to worry about it."
+        ]
+      }
     },
     {
       id: 12,
@@ -2231,7 +2546,36 @@ const gameData = {
       slug: "do-cpa-marketing",
       piITitle: "Tip 12 : Do CPA Marketing",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea12.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea12.png",
+        whatIs: "CPA stands for “Cost Per Action.\" CPA is one of the popular ways of making money on the internet. CPA marketing is very simple: you get paid when someone clicks on your affiliate link and completes an action. That action could be: Providing an email address, Signing up for a free trial of a product, Downloading a mobile app, Requesting a quote. CPA is easier because you’ll earn money even if a product is not sold. Unlike affiliate marketing where somebody must purchase a product for you to receive commissions. CPA model works on lead generation. Many big companies are willing to pay big commissions for generating targeted leads.",
+        GreatFor: [
+          "People who love to talk, write, explain, and have the ability to persuade.",
+          "Best for people who already own a blog or website with some daily traffic."
+        ],
+        SkillsetNeeded: [
+          "Ability to promote CPA affiliate links using social media, videos, forum marketing, paid ads, etc.",
+          "Ability to persuade and convince people through the right argument and explanation."
+        ],
+        TimeRequired: [
+          "To start CPA marketing and earn commissions you need to find an offer to promote, then get accepted by a CPA network.",
+          "You can find an offer almost instantly but getting accepted into a CPA network might take a week.",
+          "But, once accepted you can instantly start promoting an offer of your wish."
+        ],
+        Tips: [
+          "Find different offers - Your first step here will be to find different CPA offers available in the market.",
+          "Select your perfect offer - If you already own a blog in any particular niche then select an offer related to that niche.",
+          "Getting accepted - Believe it or not but getting accepted into CPA networks has become a huge stumbling block for most of the marketers.",
+          "Optimize your blog - Once you’ve joined a network and selected your CPA offer, it’s time to promote it on your blog."
+        ],
+        Earnby: [
+          "Commissions for CPA offers usually range from $0.10 to $10 per action.",
+          "In some niches such as Insurance, Attorney, Antivirus Software it can go up to $50 per action.",
+          "Commissions offered are decided based on factors such as niche, back-end product cost, product demand and supply, targeted country and so on.",
+          "In order to earn maximum commissions, it is best that you choose offers which are relevant to your audience and pay higher commissions."
+        ]
+      }
     },
     {
       id: 13,
@@ -2239,7 +2583,47 @@ const gameData = {
       slug: "sell-art-and-crafts-on-etsy",
       piITitle: "Tip 13 : Sell Art and Crafts on Etsy",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea13.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        whatIs: "Etsy.com is an online buyer and seller community similar to eBay but focuses on selling arts, crafts, handmade or vintage items and supplies. ",
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea13.png",
+        subTitle: [
+          "With around 30 million visitors per month, Etsy provides a wonderful platform for artisans, crafters and creative designers which helps them in spreading their work to the worldwide audience and grow their business. Top Etsy sellers make up to 1 million dollars a year by selling arts, crafts and handmade items. If you take action, you can also be one among them."
+        ],
+        GreatFor: [
+          "Artistic and craftier people who love to envision, design and create their own items/products."
+        ],
+        SkillsetNeeded: [
+          "Creative abilities to imagine, think, design and create items which can be sold online.",
+          "Ability to promote your Etsy store using social media channels such as Facebook, Instagram, and Twitter.",
+          "And through blogging, guest posting, networking."
+        ],
+        TimeRequired: [
+          "You can register on Etsy almost instantly.",
+          "But while creating your store you’ll need to craft its title, get photos of items that you want to sell, write a compelling description, decide on pricing points.",
+          "To complete the above-mentioned steps it might take one or two days."
+        ],
+        Tips: [
+          "Decide what you are going to sell - Before getting your feet inside Etsy make a list of items that you think you can create.",
+          "Select a name for your store - Once you register an account with Etsy, the first thing you’ll have to do is to set up your store. And naming your store is the first step of the setup process.",
+          "Set up your store - Following are the important steps you’ll need to follow while setting up for the store.",
+          "Create a logo - Creating a logo is very important for building a brand and improving credibility.",
+          "Take appealing item photos - Photos are going to be the first point of contact between your potential customer and your item.",
+          "Offer varying price points and sizes - Most of the successful Etsy sellers offer varying item sizes and prices.",
+          "Write compelling description - Your item’s description is the second most important factor after photos, it does the job of persuading potential customers to place an order with you.",
+          "Include right tags and keywords - Most of the potential customers will find your store through search.",
+          "Other Options To Etsy - When you are planning to sell arts and crafts item Etsy should be your first choice of platform. But if you want to expand your reach even further you should consider selling your arts on the following websites."
+        ],
+        Earnby: [
+          "Monetization is very simple. More people place orders with you more money you make.",
+          "Your customer's rating is going to have a huge impact on improving your sales, brand buildup and credibility.",
+          "So make sure that you deliver quality items within your promised delivery dates.",
+          "Take time and care while packaging your item so that it doesn’t bend, chip or break in transit.",
+          "Try to cover the cost of packing materials into your shipping charges.",
+          "That's all!",
+          "happy selling arts and craft on Etsy"
+        ]
+      }
     },
     {
       id: 14,
@@ -2247,7 +2631,37 @@ const gameData = {
       slug: "join-leapforce",
       piITitle: "Tip 14 : Join Leapforce",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea14.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea14.png",
+        whatIs: "Leapforce is a US-based company that provides work-at-home opportunities across the globe. They will mostly offer you an online job of 'Personalized Search Engine Evaluator.' ",
+        subTitle: [
+          "Joining Leapforce is one of the most legitimate ways of making money online from home, and you must definitely think of giving it a shot.",
+          " Leapforce is an independent company contracted by Google, Bing, and other big search engines to help them assess their algorithms. As a search engine evaluator, your job is to follow the instructions given to you in the assignments, research, and analyze the search engine results."
+        ],
+
+        GreatFor: [
+          "Anyone who has a laptop and a decent speed internet connection."
+        ],
+        SkillsetNeeded: [
+          "People who have excellent web research skills and analytical abilities.",
+          "People having good verbal and written communication skills."
+        ],
+        TimeRequired: [
+          "In order to get hired, you need to visit Leapforce's job listing page, fill out an online application and upload your resume.",
+          "If you are shortlisted you are required to take and pass a three-part qualification exam.",
+          "It takes mostly 14 days to complete all the processes from registration till final qualification."
+        ],
+        Tips: [
+          "Position yourself as an ideal candidate – To improve your chances of acceptance, you must be an active user of Google’s search engine and Google’s other popular products such as Gmail, Youtube, Google Play and Google+.",
+          "Fulfilling other important requirements – To get accepted you must use Google Play at least once per week; use Google+ more than once per month and have more than 11 people in per circle. You must have a Gmail account with web history turned on.",
+          "Study well – Leapforce will provide you all the study material required for preparing your initial qualification exam. Make sure you study them well before taking an attempt. Remember you are allowed to take only two attempts, if you fail at both of them then you’ll never be able to apply to Leapforce in future."
+        ],
+        Earnby: [
+          "You’ll earn $13/hour if you're a U.S. citizen and $7/hour if you are a citizen of any Asian or African country.",
+          "All the payments are sent at the end of the month by cheques."
+        ]
+      }
     },
     {
       id: 15,
@@ -2255,7 +2669,33 @@ const gameData = {
       slug: "create-wordpress-themes",
       piITitle: "Tip 15 : Create WordPress Themes",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea15.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea15.png",
+        whatIs: "WordPress is the easiest and most powerful blogging and website content management system. It powers a large portion of websites across the globe, making it a massive market for theme developers.",
+        GreatFor: [
+          "Creative web designers and coders."
+        ],
+        SkillsetNeeded: [
+          "Ability to understand the basics of WordPress theme creation.",
+          "Ability to write HTML, CSS, and some PHP code."
+        ],
+        TimeRequired: [
+          "Completely depends on the expertise of the developer.",
+          "More experienced developers may build a theme in days, while beginners may take weeks."
+        ],
+        Tips: [
+          "Research which WordPress themes are currently selling best in the market.",
+          " Create themes similar to the ones that are already selling and has existing buyer market. If you are targeting a specific market such as Photography, understand the needs of the webmasters in that domain are. Are they facing problems with the current themes available in the market? Do they have more expectations? Research a lot before creating new theme ",
+          "architecture and designs. Create the designs that will cater the market demand."
+        ],
+        Earnby: [
+          "There are many ways to sell your Wordpress Themes. ",
+          "Mentioning few If you have developed a collection of Wordpress themes then you can start your own website, promote it and sell the themes on your own. ",
+          "You can sell your themes on 3 biggest online marketplaces for Wordpress themes: Themeforest.net, Mojo-themes.com If you choose to sell your themes from the above-mentioned marketplaces then you will have to pay them 50% commission on every sale. But the advantage is your theme will reach millions of users within few hours and you can start earning money as they purchase your theme. ",
+
+        ]
+      }
     },
     {
       id: 16,
@@ -2263,7 +2703,33 @@ const gameData = {
       slug: "develop-mobile-apps",
       piITitle: "Tip 16 : Develop Mobile Apps",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea16.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea16.png",
+        GreatFor: [
+          "People who enjoy mobile apps and are interested in mobile technology."
+        ],
+        SkillsetNeeded: [
+          "Having knowledge of Android or iOS coding will give you an advantage but it's not necessary",
+          "Nowadays there are many online app maker tools available online using which you can create professional level apps without coding."
+        ],
+        PopularTools: [
+          "Swiftic.com",
+          "Shoutem.com",
+          "Appinstitute.com",
+          "Appypie.com"
+        ],
+        TimeRequired: [
+          "Depends on your expertise and the scope of the app.",
+        ],
+        Earnby: [
+          "Upload a free app on Android’s Play store and Apple’s App Store. ",
+          "onetize it with AdMob, Google’s mobile advertising network.",
+          "Upload a paid app, set some initial price for downloading the app.",
+          "More people will download your app more money you will make.",
+          "You can also promote affiliate products through your app and earn extra commissions."
+        ]
+      }
     },
     {
       id: 17,
@@ -2271,7 +2737,27 @@ const gameData = {
       slug: "start-teespring-campaigns",
       piITitle: "Tip 17 : Start TeeSpring Campaigns",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea17.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea17.png",
+        whatIs: "TeeSpring.com is an e-commerce platform that allows creators to design and sell custom apparel. You upload your designs, set prices, and when customers place orders, TeeSpring handles production, shipping, and customer service.",
+        GreatFor: [
+          "Artists, designers, and painters who want to monetize their creativity."
+        ],
+        SkillsetNeeded: [
+          "Ability to conceive and create designs.",
+          "Ability to convert designs into digital format using tools such as Photoshop.",
+          "Ability to promote your designs on social media."
+        ],
+        TimeRequired: [
+          "If your design is ready you can create a Teespring campaign within minutes."
+        ],
+        Earnby: [
+          "Select T-shirt color and size. Upload the design.",
+          "Start promoting your T-shirt on social media and/or using paid ads.",
+          "More T-shirts you sell, more money you earn.",
+        ]
+      }
     },
     {
       id: 18,
@@ -2279,7 +2765,27 @@ const gameData = {
       slug: "do-email-marketing",
       piITitle: "Tip 18 : Do Email Marketing",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea18.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea18.png",
+        whatIs: "Email Marketing is another form of affiliate marketing where you use your email list of blog subscribers to promote a certain product.",
+        GreatFor: [
+          "People who love to talk, write, explain and have the ability to persuade."
+        ],
+        SkillsetNeeded: [
+          "Ability to write engaging and persuasive promotional emails.",
+        ],
+        TimeRequired: [
+          "Email marketing is very profitable but building an email list takes time. To build an email list, you will give away a free ebook or an email course anything that will help them in exchange for their email list.",
+          "If you already own a blog you can create an opt-in form and ask your blog readers to subscribe to the weekly newsletter in exchange for their email.",
+          "On an average, it takes 1 to 3 months to build a profitable size of the email list. But from a long-term perspective, an email list is one of the most profitable and stable ways of passive income"
+        ],
+
+        Earnby: [
+          "Send promotional emails to your email list which includes your affiliate links to products you are promoting.",
+          "The more people on your email list more the chances of the higher number of people clicking your affiliate links and purchasing the product. Thus, you generate more money through affiliate commissions.",
+        ]
+      }
     },
     {
       id: 19,
@@ -2287,7 +2793,31 @@ const gameData = {
       slug: "do-facebook-marketing",
       piITitle: "Tip 19 : Do Facebook Marketing",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea19.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea19.png",
+        whatIs: "Facebook Marketing is another form of affiliate marketing in which marketers promote products on Facebook.",
+        GreatFor: [
+          "People who like to use Facebook.",
+
+        ],
+        SkillsetNeeded: [
+          "Ability to create appealing Facebook posts and images.",
+          "Ability to promote your page on Facebook.",
+          "Ability to persuade people with proper reasoning."
+        ],
+        TimeRequired: [
+
+          "You can easily start Facebook marketing by creating promotional posts and creating a Facebook page promoting a product. This can be done within minutes."
+        ],
+
+        Earnby: [
+          "Get more people to visit your Facebook page.",
+          "Start promoting any affiliate product relevant to the Facebook page’s topic.",
+          "If possible, use Facebook ads to promote your posts and pages to a wider range of audience.",
+          "More people buy products through your affiliate link, more money you make."
+        ]
+      }
     },
     {
       id: 20,
@@ -2295,7 +2825,29 @@ const gameData = {
       slug: "start-copywriting",
       piITitle: "Tip 20 : Start Copywriting",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea20.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea20.png",
+        whatIs: "Copywriting is writing copy for the purpose of advertising or marketing. The copy is meant to persuade someone to buy a product or influence their beliefs.",
+        GreatFor: [
+          "People who have a passion for writing."
+        ],
+        SkillsetNeeded: [
+          "Ability to write sales copy to maximize product sales."
+        ],
+        TimeRequired: [
+          "Learning the concepts and psychology behind successful copywriting might take time according to your learning speed."
+        ],
+        Earnby: [
+          "Good copywriters are paid a handsome amount of money for writing a single copy. In the beginning, you might not earn much, but once you become an expert, you can earn hundreds and thousands of dollars just by writing a few hundred copies.Start by creating a sales copy for the product you are promoting. See the results and try to improve as much as possible. ",
+          "You can also earn money by freelancing your copywriting skills. ",
+          "Register on websites like: ",
+          "Iwriter.com ",
+          "Textbroker.com ",
+          "Writeraccess.com "
+        ],
+
+      }
     },
     {
       id: 21,
@@ -2303,7 +2855,29 @@ const gameData = {
       slug: "click-and-sell-photos",
       piITitle: "Tip 21 : Click and Sell Photos",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea21.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea21.png",
+        GreatFor: [
+          "People passionate about photography."
+        ],
+        SkillsetNeeded: [
+          "Ability to take versatile and creative photos."
+        ],
+        TimeRequired: [
+          "If you are an experienced photographer, you can start almost instantly. ",
+          " If you are new, you might need time to learn photography."
+        ],
+        Earnby: [
+          "Sign up at the following websites, upload your photographs, and start earning money once people ",
+          "start buying them:",
+          "Shutterstock.com ",
+          "GettyImages.com ",
+          "Stock.adobe.com ",
+          "Dreamstime.com ",
+          "Creativity is necessary for photography. Merely taking random photographs from your cell phone or a digital camera is not enough. ",
+        ],
+      }
     },
     {
       id: 22,
@@ -2311,7 +2885,27 @@ const gameData = {
       slug: "start-your-podcast",
       piITitle: "Tip 22 : Start Your Podcast",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea22.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea22.png",
+        whatIs: "A digital audio file made available on the Internet for downloading to a computer or portable media player, typically available as a series, new installments of which can be received by subscribers automatically.",
+        GreatFor: [
+          "People who like to talk and explain things."
+        ],
+        SkillsetNeeded: [
+          "In-depth knowledge of any topic you are interested in.",
+          "Ability to persuade with logical reasoning.  "
+        ],
+        TimeRequired: [
+          "There are 3 important steps for creating a podcast. ",
+          "Prepare a script. Determine what will be the content. Create an outline to keep track of what you are going to discuss or promote. ",
+          "Record audio for your podcast.Upload your podcast on your personal website or iTunes. "
+        ],
+        Earnby: [
+          "Sell your podcast by offering compelling content people are willing to pay for.",
+          "Insert commercials into your podcast episodes to earn advertising revenue."
+        ]
+      }
     },
     {
       id: 23,
@@ -2319,7 +2913,30 @@ const gameData = {
       slug: "start-a-book-review-website",
       piITitle: "Tip 23 : Start A Book Review Website",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea23.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea23.png",
+        whatIs: "As the name suggests, a book review website is a platform where reviews of books are published.",
+        subTitle: [
+          "There is a huge market for online language learners willing to pay for language coaching. Leverage this opportunity by teaching your native language online and earning money. ",
+          "To find students, register on iTalki.com, a popular online language learning platform connecting learners with teachers"
+        ],
+        GreatFor: [
+          "People who love teaching and have a gift for imparting knowledge."
+        ],
+        SkillsetNeeded: [
+          "Verbal and written fluency in the language you wish to teach.",
+          "Clear understanding of the language learning process.",
+          "Ability to provide training in a step-by-step manner."
+        ],
+        TimeRequired: [
+          "You can start a website virtually within hours. However, providing honest and appealing reviews is the real challenge."
+        ],
+        Earnby: [
+          "Become an Amazon affiliate and promote books on your website using your affiliate links. Persuade people to buy books through your reviews and affiliate links to earn commissions."
+        ],
+
+      }
     },
     {
       id: 24,
@@ -2327,7 +2944,41 @@ const gameData = {
       slug: "teach-your-native-language",
       piITitle: "Tip 24 : Teach Your Native Language",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea24.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea24.png",
+        whatIs: "Most people in today’s globalized world are interested in learning new languages for various reasons.",
+        subTitle: [
+          "There is a huge market for online language learners willing to pay for language coaching. Leverage this opportunity by teaching your native language online and earning money. ",
+          "To find students, register on iTalki.com, a popular online language learning platform connecting learners with teachers "
+        ],
+        GreatFor: [
+          "People who love teaching and have a gift for imparting knowledge."
+        ],
+        SkillsetNeeded: [
+          "Verbal and written fluency in the language you wish to teach.",
+          "Clear understanding of the language learning process.",
+          "Ability to provide training in a step-by-step manner."
+        ],
+        HowToGetStarteds: [
+          "Submit an application to become an online teacher at iTalki.",
+          "Once approved, create your Teacher Profile, set your online schedule, and create language courses.",
+          "Teach online via Skype or other VOIP software.",
+          "iTalki handles marketing, scheduling, payment, and student management."
+        ],
+        Tips: [
+          "Offer competitive pricing initially and adjust as you gain more students and ratings.",
+          "Use a professional profile picture and video introduction to attract learners.",
+          "Showcase your teaching experience, qualifications, and feedback to enhance your profile.",
+          "Focus on providing high-quality courses to receive positive ratings and feedback."
+        ],
+        ExpectedEarnings: [
+          "Earn iTalki credits for teaching, which can be withdrawn as real cash.",
+          "Most teachers charge between 100 to 200 ITCs ($10 to $20) per hour.",
+          "Diversify your market reach by offering additional modules like language tests or interview preparation.",
+          "The more students sign up for your courses, the more money you make."
+        ]
+      }
     },
     {
       id: 25,
@@ -2335,7 +2986,32 @@ const gameData = {
       slug: "do-document-translation",
       piITitle: "Tip 25 : Do Document Translation",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea25.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea25.png",
+        whatIs: "Document translators convert documents from one language to another to facilitate communication for businesses and individuals.",
+        subTitle: [
+          "They typically work on written materials like emails, product guides, tutorials, and blog content."
+        ],
+        GreatFor: [
+          "Almost anyone, especially those who enjoy writing."
+        ],
+        SkillsetNeeded: [
+          "Fluency in at least two languages, including reading, writing, and speaking.",
+          "Ability to interpret context accurately."
+        ],
+        Tips: [
+          "Set up a home office with necessary equipment like a computer, internet connection, and headset for live conversations.",
+          "Focus on learning popular languages like Spanish, Japanese, Korean, Chinese, or French to increase job opportunities and earnings."
+        ],
+        HowToGetStarted: [
+          "Register on Translatorscafe.com to upload your resume and list your rates and services.",
+          "Explore other websites like Gengo.com and Lingosaur.com for translation jobs."
+        ],
+        ExpectedEarnings: [
+          "Earnings vary but range from $12/hour for normal documents to $40/hour for technical or scientific content."
+        ]
+      }
     },
     {
       id: 26,
@@ -2343,7 +3019,30 @@ const gameData = {
       slug: "do-interview-transcribing",
       piITitle: "Tip 26 : Do Interview Transcribing",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea26.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea26.png",
+        whatIs: "Interview transcribing involves listening to audio or video interviews and converting them into written copies.",
+        subTitle: [
+          "Journalists, writers, and bloggers often outsource this task to speed up the publishing process. ",
+          "Your role as a transcriber is to accurately transcribe interviews word for word."
+        ],
+        GreatFor: [
+          "Almost anyone, especially those who enjoy writing."
+        ],
+        SkillsetNeeded: [
+          "Fluency in the language of operation.",
+          "Ability to understand multiple accents.",
+          "Fast typing skills."
+        ],
+        HowToGetStarted: [
+          "Register on transcription service websites like Verbalink.com and Scribie.com to find available jobs.",
+          "Contact local newspapers, magazines, TV news stations, bloggers, and writers to offer your transcribing services."
+        ],
+        ExpectedEarnings: [
+          "$5 to $40 per hour, depending on expertise."
+        ]
+      }
     },
     {
       id: 27,
@@ -2351,7 +3050,27 @@ const gameData = {
       slug: "become-an-online-tutor",
       piITitle: "Tip 27 : Become An Online Tutor",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea27.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea27.png",
+        whatIs: "Due to the growth of busy lifestyle, many people prefer the convenience of online coaching. The demand for online tutors is increasing rapidly.",
+        GreatFor: [
+          "People who love to teach and have expertise in specific subjects."
+        ],
+        SkillsetNeeded: [
+          "Expertise in the subject you wish to teach.",
+          "A college degree or equivalent study in the subject.",
+          "Some experience as a tutor is beneficial."
+        ],
+        HowToGetStarteds: [
+          "Enroll with online tutoring sites like Tutor.com, TutorVista.com, e-Tutor.com, and SmarThinking.com to get students assigned based on your profile.",
+          "Alternatively, start your own tutoring service by creating local ads, flyers, and a Facebook page to attract students."
+        ],
+        ExpectedEarnings: [
+          "$9 to $40 per hour, depending on reputation and experience.",
+          "Certified teachers with expertise in advanced subjects can charge more."
+        ]
+      }
     },
     {
       id: 28,
@@ -2359,7 +3078,31 @@ const gameData = {
       slug: "become-virtual-call-center-employee",
       piITitle: "Tip 28 : Become Virtual Call Center Employee",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea28.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea28.png",
+        whatIs: "A virtual call center employs agents who work from their homes to handle customer inquiries, complaints, and orders.",
+        GreatFor: [
+          "Almost anyone, especially those who enjoy oral communication and explaining things."
+        ],
+        SkillsetNeeded: [
+          "Fluency in the language you'll be operating in.",
+          "Ability to read and deliver a script naturally.",
+          "Effective verbal communication skills."
+        ],
+        WhatYouWillNeed: [
+          "A quiet, distraction-free workspace at home.",
+          "A corded telephone and dedicated landline.",
+          "A corded headset compatible with your telephone.",
+          "A computer with wired internet connection."
+        ],
+        HowToGetStarteds: [
+          "Enroll on websites like WorkingSolutions.com and LiveOps.com to become an agent at a virtual call center company."
+        ],
+        ExpectedEarnings: [
+          "$7 to $15 per hour, plus commissions on sales."
+        ]
+      }
     },
     {
       id: 29,
@@ -2367,7 +3110,30 @@ const gameData = {
       slug: "sell-wordpress-plugins",
       piITitle: "Tip 29 : Sell WordPress Plugins",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea29.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea29.png",
+        whatIs: "Zazzle.com is an online marketplace where users can print their designs on customizable products such as coffee cups, t-shirts, and bags.",
+        GreatFor: [
+          "Artists, designers, painters."
+        ],
+        SkillsetNeeded: [
+          "Ability to conceive and create designs.",
+          "Ability to convert designs into digital format using tools like Photoshop."
+        ],
+        Earnby: [
+          "Create and refine your digital designs.",
+          "Register and set up your shop on Zazzle.com.",
+          "Customers select designs and merchandise, place orders.",
+          "Zazzle handles printing, shipping, and payments.",
+          "You get paid for each design sold."
+        ],
+        ExpectedEarnings: [
+          "More customers ordering your designs means more money.",
+          "Create designs appealing to different age groups to maximize reach and earnings.",
+          "Set up your Zazzle store now; it's easy!"
+        ]
+      }
     },
     {
       id: 30,
@@ -2375,111 +3141,449 @@ const gameData = {
       slug: "sell-print-on-demand-products",
       piITitle: "Tip 30 : Sell Print On Demand Products",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea30.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea30.png",
+        whatIs: "Many authority websites are always looking for fresh content and ideas to expand their user base and maximize profits. They need new people with new ideas to write content for them.",
+        subTitle: [
+          "Writing articles for authority sites provides a great opportunity for writers who want to earn quick cash without creating and marketing their own blog."
+        ],
+        GreatFor: [
+          "People who love to write and share their knowledge and expertise."
+        ],
+        SkillsetNeeded: [
+          "Ability to express knowledge effectively in writing."
+        ],
+        HowToGetStarteds: [
+          "Find topics that interest you, research, and compile informative articles. Contact authority websites in your niche via email and submit your articles.",
+          "Bonus List of 12 Amazing Authority"
+        ],
+        Websites: [
+          { "Listverse.com": "General - $100 per article" },
+          { "Thepennyhoarder.com": "Finance - Up to $75 per article" },
+          { "Afineparent.com": "Parenting - $75 per article" },
+          { "Uxbooth.com": "User Experience - $100 per article" },
+          { "Cracked.com": "General/Humor - $50 - $200 per article" },
+          { "Smashingmagazine.com": "Web Development/User Experience - $50 - $200 per article" },
+          { "Alistapart.com": "Internet - Up to $200 per article" },
+          { "Writenaked.net": "Writing - $75 per article" },
+          { "Internationalliving.com": "Living Overseas - $75 - $400 per article" },
+          { "Sitepoint.com": "Web Development - $150 - $200 per article" },
+          { "Incomediary.com": "Make Money Online/SEO - $50 - $200 per article" },
+          { "Greatescapepublishing.com": "Travel - $50 - $200 per article" }
+        ]
+      }
     },
     {
       id: 31,
-      name: "Create A Mobile App And Monetize",
-      slug: "create-a-mobile-app-and-monetize",
-      piITitle: "Tip 31 : Create A Mobile App And Monetize",
+      name: "Become A Social Media Evaluator",
+      slug: "become-a-social-media-evaluator",
+      piITitle: "Tip 31: Become A Social Media Evaluator",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea31.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea31.png",
+        whatIs: "Today social media has become an important part of all our lives. If I am not wrong, you probably might be spending at least 20-30 minutes per day checking your various social media accounts.",
+        subTitle: [
+          "If so, then why not utilize this time for making some money online? Nowadays most companies and brands run social media campaigns for improving user engagement, product marketing, and maintaining an online presence. Hence, to do these things in a better way, they hire social media evaluators. Evaluators are nothing but regular social media users like you who help big companies manage their accounts, study campaign outcomes, and gain insight into what works and what doesn't.",
+          "In recent years, demand for such kind of jobs has grown at large. You can too take advantage of this opportunity and get paid for using social media."
+        ],
+        GreatFor: [
+          "Anyone who loves social media and is active on it daily."
+        ],
+        SkillsetNeeded: [
+          "Ability to follow instructions and analyze outcomes.",
+          "Work independently and meet deadlines.",
+          "Clear verbal and written English communication."
+        ],
+        WhatYouWillNeed: [
+          "Personal accounts on Facebook, Twitter, Instagram, Pinterest, etc.",
+          "Daily use of social media accounts."
+        ],
+        HowToGetStarteds: [
+          "The best option to get started is to apply for the post of a Social Media Evaluator on Appen.com",
+          "What is Appen? Appen.com is a company that serves web-based businesses and brands to make their social media campaign more relevant to their target audience. As a social media evaluator, your job will be to evaluate newsfeed on different social media platforms and provide feedback. Depending on the project you've been assigned you may have to work on Instagram, Facebook, Twitter, etc. To get started check out Appen's job listing, then select a job and apply for it, you'll need to submit an application where you'll have to fill in your personal details, education, work experience, qualifications, and provide a resume. After that, Appen team will review your application to verify if you are the right person for the job. Once accepted you'll have to complete a qualification process over a one-week period for which you'll get all the necessary guidelines and materials from the Appen team. Once the qualification process is finished, you'll be instantly assigned to projects. You'll need to complete the given tasks which will earn you money."
+        ],
+        ExpectedEarnings: ["As an independent social media evaluator at Appen.com, you can usually expect to earn $13.75 per hour. Sometimes payment also varies depending on the position and the country you reside in. You can work from 12 hours to 30 hours per week depending on the work availability. You'll receive an email from the Appen team when any work pops up. Appen pays only via bank transfer (wire transfer) so make sure you have an active bank account in your name."]
+      }
     },
     {
       id: 32,
-      name: "Do Dropshipping",
-      slug: "do-dropshipping",
-      piITitle: "Tip 32 : Do Dropshipping",
+      name: "Become A Telephone Mystery Shopper",
+      slug: "become-a-telephone-mystery-shopper",
+      piITitle: "Tip 32 : Become A Telephone Mystery Shopper",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea32.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea32.png",
+        whatIs: "If you love to talk on a phone, you can earn some handsome amount of money as a telephone mystery shopper. Most of the businesses and retail outlets today constantly try to stay ahead of their competition. To do this, they need to analyze and study what their competitors are doing so that they can create a plan to improvise their products and service offerings. That’s where they need mystery shoppers to do competitor research for them and get them valuable data. Most of the market research and survey companies also hire mystery shoppers for collecting data for their studies. As a telephone mystery shopper, your job will be to call businesses, retail outlets, call centers and ask questions or pretend to be a good customer who is interested in their services. When you’re done collecting information, you will have to write and submit a report based on what you found by asking questions.",
+        GreatFor: [
+          "Anyone who is comfortable talking on a phone and loves to ask questions."
+        ],
+        SkillsetNeeded: [
+          "Ability to speak fluently on the phone in the native language and English.",
+          "Ability to listen with a strong focus on details.",
+          "Ability to clearly write down analysis report in English."
+        ],
+        HowToGetStarteds: [
+          "The best way to get started is by applying for the post of telephone mystery shopper on the following websites:",
+          "Callcenterqa.org: Callcenterqa pays at a flat rate of $5 per call. And the best thing is that they pay you via PayPal within 48 hours of completing the call. You should consider starting with this company first if you are in need of instant cash.",
+          "Arllc.com: Arllc payment varies from $3.50 per call to $12 per call depending on the country and location. Payments are made through direct bank deposits.",
+          "Intelichek.com: Visit intellicheck's job listing page and apply for the position of Telephone Mystery Shopper. Intelichek will pay you $1 per call in the beginning as calls are very short you just need to ask a couple of questions. Some experienced workers have been reported to earn $50 to $100 per day. Payments are sent bi-weekly via check until you reach three-star status after that payment is made through direct bank deposit.",
+          "Perstrat.com: Perstrat works in the healthcare sector you’ll have call doctor’s office or medical stores for gathering information. They’ll also assign you shops, you’ll have to visit them in person and submit a detailed report. They usually pay you in between $12 to $17 per call and even more for in-person shop visits. You’ll receive your payment via check.",
+          "Telexpertise.com: To apply for the telephone mystery shopping position at TeleXpertise, you need to send them an email at jobs@telexpertise.com and Make sure to include your resume and any other relevant qualifications. TeleXpertise will usually pay you between $3 to $10 per call."
+        ]
+      }
     },
     {
       id: 33,
-      name: "Rent Your Car",
-      slug: "rent-your-car",
-      piITitle: "Tip 33 : Rent Your Car",
+      name: "Become a Captioner",
+      slug: "become-a-captioner",
+      piITitle: "Tip 33 : Become a Captioner",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea33.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea33.png",
+        whatIs: "In simple terms, captioning is the process of converting the audio content of a video into text. You must have seen subtitles when you watch movies, television series and so on, these subtitles are typed by captioners. Captioning is straightforward and similar to transcription work. But as a captioner, your job will be to watch a video and correctly type everything you hear. You’ll also need to make sure that captions sync up correctly with the audio.",
+        GreatFor: [
+          "Almost anyone."
+        ],
+        SkillsetNeeded: [
+          "Ability to read, write and fluently speak the language of your operation along with English.",
+          "Ability to listen and understand multiple accents in your language of operation."
+        ],
+        WhatYouWillNeed: [
+          "A computer with decent speed internet connection.",
+          "A Headset."
+        ],
+        HowToGetStarteds: ["The best option to get started is to apply for the post of a Captioner on Rev.com. Rev pays you $0.40 to $0.75 per video minute. The average captioner at Rev earns $240 per month while the top captioner earns over $1500 per month! Rev sends payments weekly via PayPal so you don’t need to wait longer for receiving your money."]
+      }
     },
     {
       id: 34,
-      name: "Rent Your Home",
-      slug: "rent-your-home",
-      piITitle: "Tip 34 : Rent Your Home",
+      name: "Be A Proofreader",
+      slug: "be-a-Proofreader",
+      piITitle: "Tip 34: Be A Proofreader",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea34.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea34.png",
+        whatIs: "What is Proofreading? In simple terms, proofreading means examining any text carefully to find and correct typing errors, grammar, style and spelling mistakes. With the rise of the internet, blogs, and social media, demand for high-quality content is steadily growing. Which is why there is a huge demand for online proofreaders who can examine any text and make sure it’s error-free. You should definitely leverage this opportunity to earn some handsome money online.",
+        GreatFor: [
+          "Anyone who loves to read, write, find and correct errors."
+        ],
+        SkillsetNeeded: [
+          "Ability to speak and write in English with native-like fluency.",
+          "Excellent reading comprehension skills and the ability to follow written instructions and work independently.",
+          "An average proofreading speed of 1000-1500 words per hour."
+        ],
+        HowToGetStarteds: ["The best way to get started is by applying for the post of online proofreader on the following two websites: Proofreadingservices.com - Before you can submit your application, you’ll need to pass a 20-minute test which consists of 20 questions. These questions will test your basic English and Grammar abilities. Strive to get maximum answers correct because your acceptance will be based on your test score. Higher the test score more are your chances of getting selected. Scribendi.com - Scribendi offers great flexibility for proofreaders, you can actually choose when and which projects you want to work on. But you need to commit to proofreading a minimum of 10,000 words per month. Like Proofreadingservices.com Scribendi doesn’t conduct any qualification test but candidates having experience in editing, writing, document production or language teaching have higher chances of acceptance. Payments are sent via PayPal, and you can also earn monthly incentives."]
+      }
     },
     {
       id: 35,
-      name: "Buy And Sell Domain Names",
-      slug: "buy-and-sell-domain-names",
-      piITitle: "Tip 35 : Buy And Sell Domain Names",
+      name: "Become a Ghostwriter",
+      slug: "become-a-ghostwriter",
+      piITitle: "Tip 35 : Become a Ghostwriter",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea35.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea35.png",
+        whatIs: "Who is a Ghostwriter? In simple terms, a Ghostwriter is a person who writes for other people. Most of the busy bloggers, authors, publishers hire ghostwriters for completing their writing work. As a ghostwriter, your completed work will be owned by the person who employs you. Your name will never appear anywhere as an author. But you’ll get handsomely paid for the job. Most of your jobs as a ghostwriter will include writing books, eBooks, blog posts, articles and press releases.",
+        GreatFor: [
+          "People who have the passion for writing."
+        ],
+        SkillsetNeeded: [
+          "Ability to get into the minds of clients, understand their needs and convert their story into writing."
+        ],
+        HowToGetStarted: [
+          "You can get started by visiting the following websites/URLs and applying for the available ghostwriting jobs:",
+          "WriteZillas.com",
+          "Jobforwriter.com",
+          "Peopleperhour.com"
+        ],
+        ExpectedEarnings: [
+          "At an entry level, you can expect to earn $10-$25 per hour.",
+          "Once you reach an intermediate level you can expect to earn $30-$50 per hour.",
+          "You will make $60-$70 per hour once you have lots of experience and positive reviews."
+        ]
+      }
     },
     {
       id: 36,
-      name: "Write And Sell Software Scripts",
-      slug: "write-and-sell-software-scripts",
-      piITitle: "Tip 36 : Write And Sell Software Scripts",
+      name: "Become  a Graphic Designer",
+      slug: "become-a-graphic-designer",
+      piITitle: "Tip 36 : Become  a Graphic Designer",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea36.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea36.png",
+        whatIs: "Graphic design is one of the most important aspects for businesses because graphics is something that catches our attention and attracts us towards products and brands. Imagine, how would you feel when your newly purchased iPhone comes in a poorly designed, dull-colored box? Not happy, right? Quality graphics help to build the brand’s image into customer’s eyes, they create a long-lasting positive impression on people. Due to the rise of the internet and technology, new businesses are spawning up every day that’s why the need for eye-catching graphics has become crucial to many businesses. This is why there’s an ever growing demand for graphics designers. You as a person who wants to make money online can leverage this opportunity to change your fortunes. As a graphics designer, most of your jobs will include designing websites, logo, print headers, illustrations and product interfaces.",
+        GreatFor: [
+          "Artists, designers, painters."
+        ],
+        SkillsetNeeded: [
+          "Creativity and imagination.",
+          "An understanding of current trends and styles.",
+          "Ability to conceive and create designs.",
+          "Ability to convert designs into digital format using tools such as Photoshop.",
+          "Ability to manage your time, meet deadlines and work within the budget."
+        ],
+        HowToGetStarteds: [
+          "You can find graphic design jobs by visiting following websites/URLs:",
+          "99designs.com",
+          "Envato.com",
+          "Coroflot.com",
+          "Dribble.com",
+          "Behance.net",
+          "Designweek.co.uk",
+          "Designjobsboard.com"
+        ],
+        ExpectedEarnings: [
+          "As an entry-level graphics designer, you can expect to earn $15-$35 per hour.",
+          "Once you reach an intermediate level, you can expect to earn $35-$60 per hour.",
+          "You will make $65-$100+ per hour once you have lots of experience and positive reviews."
+        ]
+      }
     },
     {
       id: 37,
-      name: "Invest In Dividend Stocks",
-      slug: "invest-in-dividend-stocks",
-      piITitle: "Tip 37 : Invest In Dividend Stocks",
+      name: "Do Voice Acting",
+      slug: "do-voice-acting",
+      piITitle: "Tip 37 : Do Voice Acting",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea37.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea37.png",
+        whatIs: "What is voice acting? Voice acting is an art of doing voice-overs or just providing voices to represent a character. Have you ever imagined, where do cartoon characters get their voices? Well, they are all provided by voice actors. Yeah, the Mickey Mouse, Donald Duck, Goku and almost everyone has gotten their voices from voice actors. If you have a great voice or you are splendid at mimicry, becoming a voice actor can fetch you lot of money online. As a voice actor, you can lend your voice to animated movies, presentations, product videos, television programs, cartoons, anime series, video games, commercials, audiobooks and so on.",
+        GreatFor: ["Anyone having a clear and compelling voice."],
+        SkillsetNeeded: [
+          "Ability to control your voice frequency.",
+          "Ability to exhibit acting skills.",
+          "Ability to be comfortable with recording equipment and have the basic understanding of how the equipment works."
+        ],
+        HowToGetStarteds: [
+          "Visit the following websites, create your profile and dig out the voice over jobs for yourself.",
+          "Voicebunny.com",
+          "Voice123.com"
+        ],
+        ExpectedEarnings: [
+
+          "Earnings are extremely flexible in this industry. So there’s no exact number I can give here. Earnings also depend on the amount of work involved in a project. Naturally, big projects will make you more money. You can start doing small assignments, in the beginning, once you have the confidence and experience, then you can hop on to doing medium and larger projects."
+        ]
+      }
     },
     {
       id: 38,
-      name: "Write Paid Reviews",
-      slug: "write-paid-reviews",
-      piITitle: "Tip 38 : Write Paid Reviews",
+      name: "Do Instagram Marketing",
+      slug: "do-instagram-marketing",
+      piITitle: "Tip 38 :Do Instagram Marketing",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea38.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea38.png",
+        whatIs: "In recent years, Instagram has become a real force in the social media world. With over 500 million monthly active users, Instagram has become a favorite social media channel for many brands. These brands are now spending a substantial amount of their social media budget for gaining more customers and leads from Instagram. So, this is the best time to cash in on the growing popularity of Instagram. If you are ready to put in the time and efforts, you can definitely grow your Instagram account to a level which can fetch you serious money online.",
+        GreatFor: [
+          "People who love to use Instagram and take photos."
+        ],
+        SkillsetNeeded: [
+          "Ability to take good quality photographs.",
+          "Ability to edit photos professionally.",
+          "Ability to edit high-quality photos or wallpapers using tools such as Canva, Befunky, etc.",
+          "Creativity and imagination."
+        ],
+        HowToGetStarted: [
+          "To get started all you need is an Instagram account, a nice username, attractive profile picture, and an impressive bio.",
+          "If you are ready for these things, then you are ready to post and begin your marketing campaign."
+        ],
+        Tips: [
+          "Select your niche: Before you can start marketing on Instagram, you need to pick a niche in which you’re going to operate. The best way to find a suitable niche for yourselves is to look at the things which interest you the most or the things in which you are good at.",
+          "Fill out your bio correctly: Your bio is the first place where your potential followers get the information about you. So you need to make sure it is creating the perfect first impression on them.",
+          "Create posts for your ideal followers: Before you can start posting images on your account do some research and find out what people like the most in your niche?",
+          "Post regularly: To grow your followers at a faster rate, you must post several images per day. But make sure you don’t post all of them at once, post them at a different time in a day. Sometimes if you are too busy to post several images then try to post at least one picture every day.",
+          "Use only high-quality images: Your Instagram account should be a brand. So make sure you are posting only high-quality images with the best effects.",
+          "Use relevant hashtags: Hashtags are the most dominant feature of Instagram, if used cleverly they’ll help your posts to reach millions of people who might be interested in your profile. Do some research and find the best hashtags within your niche and make sure you are including them in every single post.",
+          "Engage with your followers: You need to interact with your followers to build trust, get an insight into their problems, needs, and expectations so that you can use this data to bring in more relevant content for them."
+        ],
+        Earnby: [
+          "Affiliate Marketing: This is a good way to start making money especially when your Instagram account has gathered few thousand followers and is growing fast.",
+          "Create Sponsored Posts: If you have a high engagement with your followers, you can earn some handsome money by creating sponsored posts for brands.",
+          "Sell your photos: If you are taking high-quality photographs and professionally editing for your Instagram posts then why not sell them to make some extra cash?",
+          "Sell your own products: If you personally create any product or you are a retailer, you need to leverage the power of Instagram for getting more sales.",
+          "Sell your Instagram account: If you already made it big on Instagram by gathering millions of followers, you can sell your Instagram account and earn some hefty amount of money."
+        ],
+        AdditionalTip: [
+          "Above mentioned are the best ways to monetize your Instagram account once you get few thousand followers, but I’ll suggest you not to start any promotions until you get 10 thousand followers."
+        ]
+      }
     },
     {
       id: 39,
-      name: "License Your Photos",
-      slug: "license-your-photos",
-      piITitle: "Tip 39 : License Your Photos",
+      name: "Start Dropshipping Business",
+      slug: "start-dropshipping-business",
+      piITitle: "Tip 39 : Start Dropshipping Business",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea39.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea39.png",
+        whatIs: "Dropshipping is a concept related to e-commerce where the online store doesn't produce or stock the products it sells. Instead, it sells the products first, then purchases them from a third party at a lower price and gets them shipped directly to the customer's address.",
+        subTitle: [
+          "It's an excellent business model for those with little money to invest because you only buy a product after you've made a sale and been paid by the customer."
+        ],
+        GreatFor: [
+          "Anyone interested in e-commerce."
+        ],
+        SkillsetNeeded: [
+          "Ability to confidently deal with clients and suppliers, solve problems, and provide instructions.",
+          "Excellent written and verbal communication skills.",
+          "Ability to spot trends, opportunities, and adapt quickly.",
+          "Analytical skills.",
+          "Up-to-date knowledge of the industry."
+        ],
+        HowToGetStarted: [
+          "Sign up on Shopify.com, a website that provides all the technical aspects needed to set up an online store, including hosting, domain name, design, themes, payment gateways, and more."
+        ],
+        Tips: [
+          "Decide what products you want to sell. Make a list based on your interests and research.",
+          "Conduct research on product demand, pricing, target audience, trends, and more.",
+          "Find suppliers on sites like Everbuying.net or Alibaba.com.",
+          "Set up your store on Shopify, choose a custom domain name, theme, product categories, and add products.",
+          "Set your pricing strategy based on your research data.",
+          "Promote your products on social media and offer discount codes.",
+          "Once someone places an order, use the money to place the order with your supplier who handles shipping and packing.",
+          "The more targeted visitors make purchases, the more money you make."
+        ],
+      }
     },
     {
       id: 40,
-      name: "Create A YouTube Review Channel",
-      slug: "create-a-youtube-review-channel",
-      piITitle: "Tip 40 : Create A YouTube Review Channel",
+      name: "Listen and Rate Music",
+      slug: "listen-and-rate-music",
+      piITitle: "Tip 40 : Listen and Rate Music",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea40.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea40.png",
+        whatIs: "If you love listening to music and can write an opinion based on your review of the music, then this could be an excellent opportunity for you to make some money.",
+        subTitle: [
+          "Companies, advertising agencies, and individual music creators need people to listen to their music, review it, and write an opinion.These opinions help them determine if their music is the right fit for their project or if it needs improvement."
+        ],
+        GreatFor: [
+          "Anyone who loves to listen to music."
+        ],
+        SkillsetNeeded: [
+          "Excellent written communication skills.",
+          "Ability to formulate and present your opinion clearly and precisely."
+        ],
+        HowToGetStarteds: [
+          "Sign up on legitimate sites as music lovers:",
+          "Slicethepie.com",
+          "Musicxray.com"
+        ],
+        ExpectedEarnings: [
+          "The payment for rating and reviewing music isn't substantial. You can make a few dollars here and there, but it's a good way to earn some extra bucks in your free time."
+        ]
+      }
     },
     {
       id: 41,
-      name: "Create And Sell Online Courses",
-      slug: "create-and-sell-online-courses",
-      piITitle: "Tip 41 : Create And Sell Online Courses",
+      name: "Become a Research Assitance",
+      slug: "become-a-research-assitance",
+      piITitle: "Tip 41: Become a Research Assitance",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea41.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea41.png",
+        whatIs: "What does a research assistant do? A research assistant conducts research, collects data, and presents it in a neat, concise manner to help clients find answers to their questions.",
+        subTitle: [
+          "Most businesses, market research agencies, scientists, and media companies need data for their projects, decision- making, and strategic planning but often lack the resources and time to conduct research themselves, so they hire research assistants."
+        ],
+        GreatFor: [
+          "Anyone comfortable with research and eager to learn."
+        ],
+        SkillsetNeeded: [
+          "Ability to conduct proper research on the internet, collect valuable data, and summarize it into an easy-to-read report.",
+          "Ability to dissect important points and pay attention to details.",
+          "Strong English grammar and writing skills.",
+          "Strong critical analysis and logical reasoning skills.",
+          "Creative problem-solving skills."
+        ],
+        HowToGetStarteds: [
+          "Submit an online application to become a research assistant at Askwonder.com.",
+          "What is Askwonder? Askwonder.com offers personal research services to businesses and entrepreneurs by providing detailed answers to their queries, saving them time.",
+        ],
+
+        HowDoesItWork: [
+          "Fill out the Askwonder application.",
+          "Once accepted, visit the research dashboard and choose assignments that interest you.",
+          "Conduct research, find answers, and summarize them into reports.",
+          "Submit your work and earn money."
+        ],
+        ExpectedEarnings: [
+          "Earnings depend on the number and complexity of assignments completed.",
+          "Most questions pay between $8 to $16.",
+          "Top researchers earn up to $35 per hour."
+        ]
+      }
     },
     {
       id: 42,
-      name: "Create And Sell WordPress Themes",
-      slug: "create-and-sell-wordpress-themes",
-      piITitle: "Tip 42 : Create And Sell WordPress Themes",
+      name: "Sell PLR",
+      slug: "sell-plr",
+      piITitle: "Tip 42 : Sell PLR",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea42.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea42.png",
+        whatIs: "PLR stands for Private Label Rights. It’s a license offered by product creators that allows buyers to do anything with the purchased product, including claiming it as their own, modifying it, and reselling it at any price.",
+        subTitle: [
+          "PLR provides a great return on investment as buyers only need to invest once in purchasing the product and its PLR license, then they can sell the product multiple times without sharing profits with the original creator."
+        ],
+        WhereToBuy: [
+          "Theplrstore.com",
+          "Idplr.com",
+          "Bigcontentsearch.com",
+          "Master-resale-rights.com",
+          "Plr.me",
+          "Plrassassin.com",
+          "Surefirewealth.com"
+        ],
+        Earnby: [
+          "Offer paid membership courses: Break the product into logical parts and offer them as a paid membership course.",
+          "Create your own product: Combine multiple PLRs to create a new product for selling.",
+          "Build your email list: Offer a PLR eBook or report as a lead magnet to build your email list, then promote affiliate offers to subscribers.",
+          "Create a blog: Divide PLR products into articles for your blog to earn money from ads and affiliate promotions."
+        ]
+      }
     },
     {
       id: 43,
-      name: "Create And Sell Plugins",
-      slug: "create-and-sell-plugins",
-      piITitle: "Tip 43 : Create And Sell Plugins",
+      name: "Sell Quote Print labels",
+      slug: "sell-quote-print-labels",
+      piITitle: "Tip 43 : Sell Quote Print labels",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea43.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea43.png",
+        whatIs: "A quote printable is a simple quote written on a beautifully designed canvas using creative fonts, which can be printed and displayed on walls for aesthetic and motivational purposes.",
+        GreatFor: [
+          "Artistic and creative people who love designing."
+        ],
+        SkillsetNeeded: [
+          "Creative abilities to design and create printables.",
+          "Ability to promote printables using social media and blogging."
+        ],
+        Tips: [
+          "Get inspiration: Visit Pinterest for design ideas and inspirations.",
+          "Decide on tools: Choose from various online photo editing tools or software based on your needs.",
+          "Collect design stuff: Find free resources for images, fonts, icons, and vectors.",
+          "Get started: Start designing your quote printable using selected tools and collected resources."
+        ],
+        "HowToMonetize": [
+          "Upload designs to art selling sites like Fineartamerica.com, Cafepress.com, etc.",
+          "Set prices between $5 to $25 or higher."
+        ]
+      }
     },
     {
       id: 44,
@@ -2487,87 +3591,275 @@ const gameData = {
       slug: "write-and-sell-ebooks",
       piITitle: "Tip 44 : Write And Sell eBooks",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea44.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea44.png",
+        whatIs: "Are you creative enough to describe any product or service in a sentence? Can you convey a broad message in few concise words? ",
+        subTitle: [
+          "If yes, then you can definitely make money online writing slogans and taglines.",
+          " Most companies need corporate taglines, product taglines, and advertising slogans that convey a strong message using short phrases.",
+          " Apart from companies, Tee-shirt, sticker, toy, and greeting card makers need catchy sayings or funny one-liners to print on their products. You can write slogans and thoughts for these and earn extra money."
+        ],
+        GreatFor: [
+          "Avid readers",
+          "Thinkers"
+        ],
+        SkillsetNeeded: [
+          "Creative thinking"
+        ],
+        HowToGetStarted: [
+          "A. Sloganizer.net: Generates random phrases for inspiration.",
+          "B. Idiomsite.com: Find idioms and phrases for creative use.",
+          "C. BrainyQuote.com: Discover popular quotes for inspiration.",
+        ],
+        Other: [
+          "Most of the companies and advertising agencies run slogan-writing contests in which anyone can participate.",
+          "Reputed websites for participating in slogan-writing contests:",
+          "A. Sloganslingers.com: Compete in slogan contests for potential earnings.",
+          "B. Freelancer.com: Find slogan-related projects and place bids."
+        ]
+      }
     },
     {
       id: 45,
-      name: "Start A Dropshipping Store",
-      slug: "start-a-dropshipping-store",
-      piITitle: "Tip 45 : Start A Dropshipping Store",
+      name: "Create a Virtual Website",
+      slug: "create-a-vitual-website",
+      piITitle: "Tip 45 : Create a Virtual Website",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea45.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea45.png",
+        whatIs: "A viral website publishes interesting, informative, or surprising content that inspires readers to share it on social media. Examples include Buzzfeed.com, Upworthy.com, Viralnova.com, and Boredpanda.com. Social media users love sharing interesting content, making it go viral without extensive advertising efforts. You can leverage this trend to make money by creating and sharing engaging articles, driving traffic to your website, and earning through ads.",
+        GreatFor: [
+          "People who love to read and write about interesting topics",
+          "People who love social media"
+        ],
+        SkillsetNeeded: [
+          "Ability to write interesting articles",
+          "Ability to find share-worthy topics",
+          "Basic Wordpress website operating skills"
+        ],
+        TimeRequired: ["You'll need time to set up your website, social media fan page, find topics, and write articles. Depending on your experience, the time required may vary, but most can get started within a week."],
+        HowToGetStarteds: [
+          "Setup your Wordpress viral website by obtaining a domain name and hosting.",
+          "Create a Facebook fan page for your viral website with professional-looking photos and details.",
+          "Publish viral content on your website and share it on your Facebook page.",
+          "Rewrite articles from popular viral websites on trending topics.",
+          "Place Adsense ads on your website to generate revenue.",
+          "Grow your Facebook fan page using Facebook ads to promote your posts.",
+          "Repeat the process by finding, rewriting, publishing, and promoting new content regularly."
+        ]
+      }
     },
     {
       id: 46,
-      name: "Create An Online Store",
-      slug: "create-an-online-store",
-      piITitle: "Tip 46 : Create An Online Store",
+      name: "Answer Question On Quora",
+      slug: "answer-question-on-quora",
+      piITitle: "Tip 46 : Answer Question On Quora",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea46.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea46.png",
+        whatIs: "Quora is the world’s most famous question and answer platform, attracting around 190 million unique visitors each month. It's a great place to connect with like-minded people, find advice, and help others with your knowledge. Quora doesn't directly pay you for answering questions, but it offers other ways to make money online.",
+        GreatFor: [
+          "People who love to read and write",
+          "People who like to answer questions"
+        ],
+        SkillsetNeeded: [
+          "Expertise in any area of interest or domain"
+        ],
+        TimeRequired: ["Almost instant, just register on Quora, create your profile, and start answering questions."],
+        Tips: [
+          "Start with the mindset of helping others: Provide genuine, helpful answers to questions.",
+          "Only answer questions regarding your domain of expertise: Focus on areas where you have expertise.",
+          "Write neatly and make it easy to digest: Use proper grammar, punctuation, and formatting.",
+          "Avoid unnecessary long answers: Keep answers concise and precise.",
+          "Provide references: Include images, videos, and links to external references when necessary."
+        ],
+        Monetize: [
+          "Drive traffic and do affiliate or email marketing: Use Quora to drive traffic to your blog or niche website, promote affiliate products, and build an email list for marketing.",
+          "Sell eBooks/online courses: Create niche-specific eBooks or online courses to sell to Quora traffic.",
+          "Sell your services: Offer services like freelance writing, web development, SEO, etc., and attract clients from Quora."
+        ]
+      }
     },
     {
       id: 47,
-      name: "Sell Digital Products",
-      slug: "sell-digital-products",
-      piITitle: "Tip 47 : Sell Digital Products",
+      name: "Giveaway Stuff",
+      slug: "giveaway-stuff",
+      piITitle: "Tip 47 : Giveaway Stuff",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea47.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea47.png",
+        whatIs: "This strategy involves organizing giveaways of high-value physical products, software, eBooks, live event passes, online services, etc. Promote the giveaway to a specific interested audience, ask them to participate by registering via email, and sharing the giveaway. Choose random winners and provide them with the promised products or services for free. ",
+        subTitle: [
+          "Monetize the email list by promoting affiliate offers via email marketing. Giveaway strategy helps build a targeted email list for free or at a low advertising cost, which can be later used to promote affiliate offers and make money."
+        ],
+        GreatFor: [
+          "People who love to talk, write, explain, and have the ability to persuade"
+        ],
+        SkillsetNeeded: [
+          "Ability to write promotional emails"
+        ],
+        HowToGetStarteds: [
+          "Research: Find out prominent pain points in your niche, where your audience is active, and how they want the solution.",
+          "Get all tools: You'll need a viral marketing application and an autoresponder.",
+          "Decide your giveaway strategy: Determine the actions visitors need to take before participating.",
+          "Promote your giveaway: Promote it on platforms identified during research.",
+          "Monetize: Once the email list grows, promote relevant affiliate offers and products via email."
+        ]
+      }
     },
     {
       id: 48,
-      name: "Create A Blog About Your Passion",
-      slug: "create-a-blog-about-your-passion",
-      piITitle: "Tip 48 : Create A Blog About Your Passion",
+      name: "Become a virtual Bookkeeper",
+      slug: "become-a-virtual-bookkeeper",
+      piITitle: "Tip 48 : Become a virtual Bookkeeper",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea48.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea48.png",
+        whatIs: "Nowadays, there’s a good demand for virtual bookkeepers as many business owners, startups, and digital marketers prefer them for enhanced flexibility. You can find bookkeeping jobs on freelance websites like Upwork.com. If you love accounting and want to help businesses stay organized, you can become a virtual bookkeeper and earn a stable income online. ",
+        subTitle: [
+          "Do you need to be a CPA (Certified Public Accountant) for becoming a bookkeeper? No, you don’t have to be a CPA."
+        ],
+
+        GreatFor: [
+          "People who love accounting"
+        ],
+        SkillsetNeeded: [
+          "Ability to use a computer proficiently",
+          "Ability to communicate effectively using the internet"
+        ],
+        HowToGetStarted: [
+          "Visit https://learntobeabookkeeper.com and sign up for a free training series by Bookkeeper Business Academy.",
+          "Learn everything about bookkeeping, finding clients, and closing deals."
+        ],
+        ExpectedEarnings: [
+          "On average, a bookkeeper earns around $60 per hour and $40,000 a year.",
+          "You can increase your hourly rate with experience and reputation."
+        ]
+      }
     },
     {
       id: 49,
-      name: "Invest In Real Estate Crowdfunding",
-      slug: "invest-in-real-estate-crowdfunding",
-      piITitle: "Tip 49 : Invest In Real Estate Crowdfunding",
+      name: "Join Q&A Sites",
+      slug: "join-q&a-sites",
+      piITitle: "Tip 49 : Join Q&A Sites",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea49.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea49.png",
+        whatIs: "Sometimes search engines aren’t enough to find personalized answers. That’s where Q&A sites come in. When someone needs a quick personalized answer, they turn to popular answer sites for help. If you're an expert in any field, answering people's questions on Q&A sites can earn you income online. Questions on top Q&A sites are priced from $5 to $25 or more for complex problems. Provide appropriate answers to questions of your choice, and if the asker accepts your answer, they pay the agreed amount. Answering on Q&A sites is one of the easiest ways to make money online using your existing skills, without needing any investment or learning new skills.",
+        subTitle: [
+          "Answering on Q&A sites is one of the easiest ways to make money online using your existing skills, without needing any investment or learning new skills.",
+          "Reputed Q&A sites to consider joining:",
+          "JustAnswer.com",
+          "Ether.com"
+        ]
+
+
+      }
     },
     {
       id: 50,
-      name: "Create An Online Magazine",
-      slug: "create-an-online-magazine",
-      piITitle: "Tip 50 : Create An Online Magazine",
+      name: "Participate In Usability Testing",
+      slug: "participate-in-usability-testing",
+      piITitle: "Tip 50 : Participate In Usability Testing",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea50.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea50.png",
+        whatIs: "Usability testing involves testing apps, websites, software, etc., and providing feedback to developers to help them find bugs, problems, or improve user experience. You need to assess whether the website, app, or software is easy to understand, learn, efficient, and error-free. ",
+        subTitle: ["The great thing about usability testing is that you don’t need any special knowledge, equipment, or tools to get started. You can use your mobile phone or laptop for testing. Sign up and create an account on usability testing sites to access testing jobs, most of which pay through direct cash deposits.",
+          "Reputed usability testing sites to try:",
+          "UserTesting.com",
+          "Enrollapp.com",
+          "ErliBird.com",
+          "Userlytics.com",
+          "StartupLift.com"
+        ],
+      }
     },
     {
       id: 51,
-      name: "Start A Patreon Page",
-      slug: "start-a-patreon-page",
-      piITitle: "Tip 51 : Start A Patreon Page",
+      name: "join Micro Jod Sites",
+      slug: "join-micro-jod-sites",
+      piITitle: "Tip 51 : join Micro Jod Sites",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea51.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea51.png",
+        whatIs: "Micro job sites post small tasks and pay you upon completion of these tasks. Tasks can include counting shopping list items, calculating total bill amount, commenting on blogs, etc. ",
+        subTitle: [
+          "However, micro tasks typically don't pay much per task. To earn a substantial income from these sites, you'll need to complete many tasks as quickly as possible.",
+          "Micro-tasks are suitable if you have plenty of free time. Many people join micro job sites to earn side income and make good use of their time.",
+          "Reputed usability testing sites to try:",
+          "Amazon mTurk.com",
+          "ClickWorker.com",
+          "Microworkers.com",
+        ],
+
+
+      }
     },
     {
       id: 52,
-      name: "Write And Sell Newsletters",
-      slug: "write-and-sell-newsletters",
-      piITitle: "Tip 52 : Write And Sell Newsletters",
+      name: "Do Smart Phone Photography",
+      slug: "do-smart-phone-photography",
+      piITitle: "Tip 52 : Do SmartPhone Photography",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea52.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea52.png",
+        whatIs: "Smartphone photography offers a unique way to make money. Instead of using a camera, you'll use your smartphone to take photos and upload them using specific apps. ",
+        subTitle: [
+          "These apps will assign you photographic tasks such as capturing nature, fruits, or items in your fridge. Complete the assignments by taking professional-looking photos with your smartphone and upload them.",
+          "If your photos are selected, you'll be paid handsomely. Ensure your pictures look professional to maximize your earnings. ",
+          "Recommended apps for selling smartphone pictures: ",
+          "Foap",
+          "Clashot",
+          "SnapWire"
+        ],
+      }
     },
     {
       id: 53,
-      name: "Create And Sell Audio Products",
-      slug: "create-and-sell-audio-products",
-      piITitle: "Tip 53 : Create And Sell Audio Products",
+      name: "Buy ANd Sale Domain Names",
+      slug: "buy-and-sale-domain-names",
+      piITitle: "Tip 53 : Buy ANd Sale Domain Names",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea53.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea53.png",
+        whatIs: "A domain name is a website address like facebook.com or upwork.com. Your task is to find and register domain names with commercial value that may grow in demand.",
+        subTitle: [
+          "For example, pokemongo.com or 99acres.com. ",
+          "Registering a domain is inexpensive; you can get one for $2 on Namecheap.com. After acquiring a domain, list it for sale on platforms like Sedo.com or Flippa.com at a higher price. ",
+          "This method has the potential to generate significant revenue. In 2013, a startup purchased the domain 'housing.com' for $1 million. ",
+        ],
+
+      }
     },
     {
       id: 54,
-      name: "Create And Sell Printables",
-      slug: "create-and-sell-printables",
-      piITitle: "Tip 54 : Create And Sell Printables",
+      name: "Get Pain for Tweeting",
+      slug: "get-pain-for-tweeting",
+      piITitle: "Tip 54 : Get Pain for Tweeting",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea54.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea54.png",
+        whatIs: "You can earn money on Twitter by posting sponsored tweets. While it won't make you a millionaire, it's a good way to earn instant money.",
+        subTitle: [
+          "Depending on your follower base, you can earn $50 to $100 per tweet for a larger following, and $5 to $20 per tweet for a smaller following. The amount you make also depends on your followers' demographics and niche.",
+          "For example, if you have a large following in countries like USA, UK, Canada, or Australia, network marketing companies might pay you over $50 per sponsored tweet.",
+          "The key benefit of this method is that you don’t need to invest any money or set up a website. Just tweet and earn! ",
+          "Sign up on sponsoredtweets.com or paidpertweet.com to find sponsors."
+        ],
+
+      }
     },
     {
       id: 55,
@@ -2575,47 +3867,223 @@ const gameData = {
       slug: "start-a-webinar-series",
       piITitle: "Tip 55 : Start A Webinar Series",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea55.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea55.png",
+        whatIs: "Videos are in high demand, but not everyone knows how to make or edit them. You can offer video creation or editing services to fill this gap.",
+        subTitle: [
+          "Video Creation Service You can learn how to create videos using free online tools like Audacity for audio files, Camstudio for creating videos, OpenOffice.org for presentation software, and Jing for screen captures. ",
+          "Video Editing Services You can sell your services to edit videos, regardless of whether you're a beginner or an expert. You can find tutorials online to learn video editing. ",
+          "To edit videos, your clients will need to provide: ",
+          "A script for each slide in the video presentation, aiming for 10 words or less per slide. ",
+          "A musical loop in MP3 format, which you can purchase or select based on the client's preference. Sometimes, a voiceover file provided by the client.",
+          " Make sure you understand the file formats compatible with the free software you're using. ",
+          "How To Monetize ",
+          "You can sell your services to individual business owners via email or their website contact form. Advertise your services on online forums or offer them as an add-on service for webmasters. You can also create gigs on platforms like Fiverr.com or register as a video creator on Upwork.com. ",
+          "The video creation and editing market offers significant earning potential. ",
+
+        ]
+      }
     },
     {
       id: 56,
-      name: "Create And Sell Digital Art",
-      slug: "create-and-sell-digital-art",
-      piITitle: "Tip 56 : Create And Sell Digital Art",
+      name: "Build Chat Bords",
+      slug: "build-chat-bord",
+      piITitle: "Tip 56 : Build Chat Bords",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea56.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea56.png",
+        whatIs: "A chatbot is software that communicates with leads on your behalf in a human-like manner, engaging, qualifying, and developing connections with them through messaging apps.",
+        subTitle: [
+          "Chatbots use messaging apps like Facebook Messenger for communication, delivering messages similar to email marketing but via messaging apps. ",
+          "Chatbots are the future of marketing due to their high efficiency. Businesses using messaging apps for marketing have seen over 70% open rates and over 20% link click rates, surpassing other online marketing mediums. ",
+          "Early adopters of chatbots offer free lead magnets and ask visitors to subscribe to Facebook Messenger to receive them, simplifying the subscription process and reducing friction, thus increasing lead generation. ",
+          "Businesses use chatbots for retargeting on Facebook by offering discount coupons to those who clicked on messenger ads but didn't make a purchase. Chatbots also help nurture leads through communication sequences leading to product purchases. ",
+          "You can make money by learning to build chatbots and offering your services to businesses. Chatbot developers are charging between $500 to $6000 for building a chatbot, plus a monthly maintenance fee. ",
+          "To get started, visit botacademy.com for comprehensive information on building and monetizing chatbots.",
+
+        ]
+      }
     },
     {
       id: 57,
-      name: "Sell Stock Footage",
-      slug: "sell-stock-footage",
-      piITitle: "Tip 57 : Sell Stock Footage",
+      name: "Become A Travel Writer",
+      slug: "become-a-travel-writer",
+      piITitle: "Tip 57 : Become A Travel Writer",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea57.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea57.png",
+        whatIs: "If you love to travel and write beautifully, you can make money online writing travel articles for websites and magazines, even without currently traveling.",
+        subTitle: [
+          "Here are some top travel websites that pay between $30 - $50 per article:"
+        ],
+        TopPayingWebsites: [
+          {
+            "Name": "Matador Network",
+            "Payment": "$40 USD per article upon acceptance"
+          },
+          {
+            "Name": "Travelista Club",
+            "Payment": "$40 AUD per article (1000 words) upon acceptance"
+          },
+          {
+            "Name": "Go World Travel",
+            "Payment": "$30 to $40 USD per article (up to 1600 words) upon acceptance"
+          },
+          {
+            "Name": "The Expeditioner",
+            "Payment": "$30 USD per article (from 1200 words and up) upon acceptance"
+          },
+          {
+            "Name": "Wanderful",
+            "Payment": "$50 USD per article (750 - 2500 words) upon acceptance"
+          }
+        ],
+        AdditionalInfo: [
+          "These websites accept various travel-related topics.",
+          "Some offer free professional training courses to improve writing skills.",
+          "Start by writing about places you've visited in the past."
+        ]
+      }
     },
     {
       id: 58,
-      name: "Start A Subscription Box Business",
-      slug: "start-a-subscription-box-business",
-      piITitle: "Tip 58 : Start A Subscription Box Business",
+      name: "Write Poetry",
+      slug: "write-poetry",
+      piITitle: "Tip 58 : Write Poetry",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea58.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea59.png",
+        whatIs: "If you love writing poetry, there are some online opportunities to earn money by submitting your poems to paying websites.",
+        TopPayingWebsites: [
+          {
+            "Name": "The Sun Magazine",
+            "Payment": "$100 - $250 per poem"
+          },
+          {
+            "Name": "Poetry Foundation",
+            "Payment": "$10 per line, minimum $300"
+          },
+          {
+            "Name": "Crazy Horse",
+            "Payment": "$20 - $200 per poem"
+          },
+          {
+            "Name": "Rattle",
+            "Payment": "$50 per poem"
+          },
+          {
+            "Name": "Boulevard Magazine",
+            "Payment": "$25 - $250 per poem"
+          },
+          {
+            "Name": "Three Penny Review",
+            "Payment": "$200 per poem"
+          },
+          {
+            "Name": "Alaska Quarterly Review",
+            "Payment": "$10 - $50 per poem"
+          },
+          {
+            "Name": "Chicken Soup For The Soul",
+            "Payment": "$200 per poem"
+          },
+          {
+            "Name": "Arc Poetry Magazine",
+            "Payment": "$50 per page"
+          },
+          {
+            "Name": "Slice Magazine",
+            "Payment": "$75 per poem"
+          },
+          {
+            "Name": "VQR Online",
+            "Payment": "$200 per poem"
+          },
+          {
+            "Name": "New Myths",
+            "Payment": "$30 per poem"
+          },
+          {
+            "Name": "Dreams And Nightmares",
+            "Payment": "$12 per poem"
+          },
+          {
+            "Name": "Leading Edge Magazine",
+            "Payment": "$5 - $20 per poem"
+          },
+          {
+            "Name": "Goblin Fruit",
+            "Payment": "$15 per poem"
+          }
+        ],
+        AdditionalInfo: ["These websites pay for your poetry upon acceptance. Explore these to earn from your poetic talent."]
+
+      }
     },
     {
       id: 59,
-      name: "Rent Out Storage Space",
-      slug: "rent-out-storage-space",
-      piITitle: "Tip 59 : Rent Out Storage Space",
+      name: "Create a Coupen website",
+      slug: "create-a-coupen-website",
+      piITitle: "Tip 59 : Create a Coupen Website",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea59.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea59.png",
+        whatIs: "The concept of a coupon website is similar to an affiliate website, and that is to generate sales for others.",
+        subTitle: [
+          "But these websites leverage a brilliant psychological notion that encourages people to buy, and that is to offer discounts or coupons. ",
+          "Following statistics show the importance of coupons and discounts on purchase decisions made by internet users of various age groups. ",
+          "Discount websites make money through affiliate marketing, when a visitor clicks on buttons like “View Deal,” “Get Deal,” “See Deal,” etc. they’re being referred to a merchant site through an affiliate link. ",
+          "Websites earn commissions when their referrals buy products. ",
+          "This system also works in other way, merchants assign specific coupon code to a particular coupon website, when a buyer clicks on buttons like “Show Code,” “Show Coupon,” he or she is shown the previously assigned coupon code. ",
+          "When the buyer enters that coupon code at checkout, the merchant knows from where the buyer had been referred, and the coupon website is rewarded with commission. ",
+          "Some of the top discount/coupon websites such as Groupon, Retailmenot, Techbargains and more use this model to earn millions of dollars every year. ",
+
+        ],
+        AdditionalInfo: [
+          "You can implement the same idea in your niche and make money. ",
+          "People are always searching for coupons and discount offers when they’re about to buy something. ",
+          "Here’s an example of coupon keywords related to web hosting. ",
+          "You can dig out such keywords in your niche and rank your website in search engines to generate free traffic and passive income. ",
+          "You can also promote coupons on social media and try to generate viral traffic as people love to share them with their friends. ",
+        ]
+
+
+      }
     },
     {
       id: 60,
-      name: "License Your Music",
-      slug: "license-your-music",
-      piITitle: "Tip 60 : License Your Music",
+      name: "Create a Comparison WEbsite",
+      slug: "create-a-comparison-website",
+      piITitle: "Tip 60 : Create a Comparison WEbsite",
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea60.png",
-      description: "For further information, please read on for more details."
+      description: "For further information, please read on for more details.",
+      content: {
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea60.png",
+        whatIs: "I am sure you must have visited a comparison website at some point in your life. You might have used them while comparing hotels, flights, travel packages, insurance, loans, cars and so on.",
+        subTitle: [
+          "I am sure you must have visited a comparison website at some point in your life. You might have used them while comparing hotels, flights, travel packages, insurance, loans, cars and so on. ",
+          "Comparison websites help users to find the right products or services from a group of similar ones, and they earn money via referral affiliate links. ",
+          "Take a look at Trivago.com; it’s one of the world’s largest comparison site for hotel deals. ",
+          "Now the idea is to bring this comparison concept to the niche level and create a website comparing similar or related niche products. To implement this idea you need to find a niche which has hundreds of products with similar or confusing specs. ",
+          "Think of Television (TV) niche for example. You’ll find a variety of TVs from multiple companies having similar specs and most of us don’t what they really mean. ",
+          "Such situations create massive confusion in the minds of buyers, and they take help of the internet for getting more clarity. ",
+          "You could tap on this opportunity and create a site which compares products spec by spec and explains their meaning, benefits, and value for money of them. ",
+          "You can also add other related content such as tips, tutorials, installation instructions and more which your customers will find helpful. ",
+          "Once your site is ready, you can drive laser targeted traffic from low competition keywords by doing SEO and generate stable passive income. ",
+        ],
+        Monetize: [
+          "Monetize by referring visitors via affiliate links and earn commissions when they purchase the product.",
+          "If you own an e-commerce store, you can refer site users directly to your store and generate sales."
+        ]
+
+
+      }
+
     }
   ],
 

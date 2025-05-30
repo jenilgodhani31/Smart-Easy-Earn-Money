@@ -40,11 +40,13 @@ function NavBar({ title, className }) {
               {finalTitle}
             </div>
           </div>
-          <a href="/emoney">
-            <div className="flex items-start justify-start bg-primary2 cursor-pointer px-3 py-2 rounded-full ">
-              <FaHome size={20} />
-            </div>
-          </a>
+          {!["availability", "currency", "country", "profession", "age"].includes(pageName?.toLowerCase()) && (
+            <a href="/emoney">
+              <div className="flex items-start justify-start bg-primary2 cursor-pointer px-3 py-2 rounded-full ">
+                <FaHome size={20} />
+              </div>
+            </a>
+          )}
 
         </div>
         {/* Title */}
