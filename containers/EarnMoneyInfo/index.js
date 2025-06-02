@@ -25,17 +25,14 @@ const EarnMoneyInfo = ({ type }) => {
 
                 {content?.url && (
                     <div className='flex justify-center'>
-                                            <img src={content.url}
-                        className=" w-[250px] h-[200px] pb-10"
-                    />
+                        <img src={content.url}
+                            className=" w-[250px] h-[200px] pb-10"
+                        />
                     </div>
 
                 )}
 
-                {piITitle && (
-                    <section className="">
-                        <h2 className=""> {piITitle} ?</h2>
-                    </section>)}
+
                 {title && (<section className="">
                     <h2 className="">What is it {title} ?</h2>
                 </section>)}
@@ -90,6 +87,14 @@ const EarnMoneyInfo = ({ type }) => {
                         )}
                     </section>)}
 
+                {content?.other && (
+                    <section className="mt-4">
+
+                        <div className="list-disc list-inside ">
+                            {content.other.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
+                        </div>
+                    </section>
+                )}
                 {content?.tips && (
                     <section className="mb-4">
                         <h2 className="">Tips-</h2>
@@ -190,7 +195,7 @@ const EarnMoneyInfo = ({ type }) => {
 
                 {content?.Terminologies && (
                     <section className='mt-5 mb-4'>
-                        <h2 className="">Terminologies - -</h2>
+                        <h2 className="">Terminologies -</h2>
                         {Array.isArray(content?.Terminologies) ? (
                             <div className="list-disc list-inside">
                                 {content?.Terminologies.map((item, idx) => <div className="mb-1" key={idx}>{item}</div>)}
@@ -347,170 +352,6 @@ const EarnMoneyInfo = ({ type }) => {
                         ) : (
                             <p>{content?.OurReview}</p>
                         )}
-                    </section>
-                )}
-
-                {/* Passive Income Idea Info */}
-                {content?.GreatFor && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">Great For :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.GreatFor.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.SkillsetNeeded && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">Skillset Needed :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.SkillsetNeeded.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.PopularTools && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">Popular Tools :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.PopularTools.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.WhatYouWillNeed && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">What You Will Need :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.WhatYouWillNeed.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.TimeRequired && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">TimeRequired  :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.TimeRequired.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.HowToGetStarteds && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">How To Get Started  :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.HowToGetStarteds.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.Tips && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">Tips :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.Tips.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.WhereToBuy && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">Where To Buy :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.WhereToBuy.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.Earnby && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">Earn by :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.Earnby.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.HowDoesItWork && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">How Does It Work :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.HowDoesItWork.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.ExpectedEarnings && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">Expected Earnings:</h2>
-                        <div className="list-disc list-inside ">
-                            {content.ExpectedEarnings.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.Websites && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">Websites :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.Websites.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.AdditionalTip && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">Additional Tip :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.AdditionalTip.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.Monetize && (
-                    <section className="mt-4">
-                        <h2 className="mb-1">How To Monetize :</h2>
-                        <div className="list-disc list-inside ">
-                            {content.Monetize.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.TopPayingWebsites && (
-                    <section className="mt-4">
-
-                        <div className="list-disc list-inside ">
-                            {content.TopPayingWebsites.map((tip, idx) =>
-                                <div className='mb-1' key={idx}>
-                                    <div>{tip.Name}</div>
-                                    <div>{tip.Payment}</div>
-
-                                </div>)}
-                        </div>
-                    </section>
-                )}
-
-                {content?.AdditionalInfo && (
-                    <section className="mt-4">
-
-                        <div className="list-disc list-inside ">
-                            {content.AdditionalInfo.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-                {/* learn-to-earn Info */}
-
-                {Heading && (
-                    <section className="mb-1 mt-2">
-                        <p>{Heading}</p>
-                    </section>)}
-
-                {Details && (
-                    <section className="">
-                        <div className="list-disc list-inside ">
-                            {Details.map((tip, idx) => <div className='mb-4' key={idx}>{tip}</div>)}
-                        </div>
                     </section>
                 )}
 

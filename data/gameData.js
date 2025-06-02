@@ -518,20 +518,17 @@ const gameData = {
       url: "/assets/images/Blog/dividends.png",
       description: "For further information, please read on for more details",
       content: {
-        whatIs: "Debts affect your cash flow and should be managed correctly. Sometimes it requires whole books to talk about managing debts but here’s a gist on how to manage them.",
+        whatIs: "You already checked that a company's fundamentals are sound, you think it is in a stable and growing industry, you checked the track record of a company and its owners, now let us amp that conviction to buy further by taking into consideration the company's dividends.",
         subTitle: [
-          "Start with the proper mindset and the firm commitment to manage and pay off existing debts. Focus on the merits of achieving financial freedom rather than the pains of saving. ",
-          "Change your lifestyle and minimize expenses. Make your own coffee instead of going to Starbucks every day and you'll be surprised at how much you can save per year. It tastes different, yes, but you get the same kick. List down all your subscriptions. Are you really getting real value from them? Maybe you have Netflix, Disney +, Amazon Prime, Discovery +? Do you really need all these? ",
-          "Pay in cash and not with a credit card. It is a lot easier to spend with a credit card because you do not see physical money flowing out of your hands. When you pay in cash, you can feel psychological guilt when you've spent too much. ",
-          "The next step is prioritization. Check your list of debts and settle those with the high-interest rates first. You can also start with those with the lower remaining balance. Prioritize whichever will give you more positive cash flow. ",
-          "Refinance existing debts for a more favorable deal. Interest rates are going lower and now may be the time to explore this option. Make sure you’ve considered all transfer expenses and taxes before doing this. ",
-          "One of the ways to increase income is to do budgeting correctly. The 50/30/20 rule can be a good starting point: 50% of your net earnings goes to upkeep – utilities, rent, food, transportation, tuition fees, children's allowance, 30% goes to lifestyle – family time, dining out, new clothes, 20% goes to investments, debt repayments, building emergency funds, things that improve your net worth and cash flow. ",
-          "This is by no means a rule that is fixed for everyone. If you are earning more, you can increase 20% of investments to 30% or even 50%. If you have a big family 50% upkeep may not be enough. It depends on the situation, the important thing is you should always be allocating 20% to improve financial health and cash flow. In the next few chapters, we will discuss the different investment vehicles that can provide passive income for life. "
+          "Dividends are money or shares that a company pays its investors or stockholder from its net profit. Not all blue-chip companies or large companies pay good dividends. It is purely the discretion of the company how much dividends it wants to distribute to its investors.",
+          "An investor needs to check three things before deciding whether a company is good for dividend investing or not. These are; Dividend Yield, Payout Ratio, and Dividend Growth. You can see these data either on the Morningstar website, Bloomberg.com, investing.com or thru your online stockbroker. Below are screenshots from Morningstar and Bloomberg.",
+          "Dividend Yield is simply the amount in dividends per share that a company gives per annum divided by the current price of the stock multiplied by 100. If a company gives quarterly dividends, then you add all four dividends to compute for the numerator. Dividend Yields are like your Return on Investment (ROI) per year and as with ROI, the higher the yield, the better.",
+          "You should also check the Dividend Payout Ratio of a company before deciding to invest. The dividend Payout Ratio is the number of dividends that a company pays relative to its net income. Good companies usually set aside a portion of their net income for investments, expansion, or R&D. Go for companies with a dividend payout ratio somewhere between 35% to 55%.",
+          "Dividend investing can be one of the most profitable ways to invest in the stock market. Again, good dividends should be backed up by good fundamentals and a sound operating environment for the company. You can (almost) never go wrong when you do this unless of course there is sudden unexpected bad news for the company.",
+          "Gotrade - Invest in the US stock market including dividend stocks even if you are a non-US citizen with Gotrade (Ad). Use the code 295571 when registering to get freebies on your account (Ad)."
         ],
 
-        proTips: [
-          "Rule of 20 states that it is advisable not to let your monthly debt payment exceed 20% of your monthly income. For example, you are earning $5,000 a month, no more than $1,000 should be going to debt payment per month. If you stick to this rule, it is less likely that you will encounter debt problems in your life. "
-        ],
+
       }
     },
     {
@@ -571,28 +568,40 @@ const gameData = {
       url: "/assets/images/Blog/reit.png",
       description: "For further information, please read on for more details",
       content: {
-        whatIs: "Investing in bonds lets you act as a creditor lending money to corporations or the government. In return, you are given a fixed amount of interest given either quarterly, semi-annual, or annual.",
+        whatIs: "Investing in Real Estate Investment Trust (REIT) is another strategy to earn money. We discussed the viability of owning a property for rental income in the previous chapter. In reality, real estate investment may not be for everyone. It is capital extensive even if you plan to loan it from a bank. Having a rental property also entails a lot of human interaction. Some people after engaging in a real estate business for a few years would simply liquidate their assets due to stress from tenants. Buying a real estate property is also a huge risk. You are never really 100% sure whether the property that you bought with your life savings will be perfect for you.",
         subTitle: [
           "If you invest 100,000 (the face value) and the declared interest is 6% (coupon rate) you will get 6,000 interest, less tax (e.g. 20%), so you will get a total of 4,800 per annum. Once a bond reaches its maturity date, the creditor or investor is given back the full amount. ",
-          "Bonds are fixed-income securities as you can predict the total amount you will get at maturity. Depending on the terms, a bond investment can either be short, medium, or long term. ",
-          "Bond prices fluctuate in the market. Similar to ordinary shares, the more the demand (and less supply) the higher the price. Bond prices tend to go high when inflation is low and vice versa. This is because investors seek other investment vehicles with better returns to beat high inflation. Why would governments and corporations issue bonds when they can borrow from banks? One reason is they are able to make interest rates lower compared to what banks will give them. Another is diversification. ",
-          "Government bonds are almost risk-free investments since the chances of governments getting bankrupt are very slim. ",
-          "Interest rates from government-issued bonds used to be high ranging from 7% to 12% or more but ever since the financial crisis of 2008, government bonds for most countries now average 4%. Check out the historical rates here. ",
-          "Governments issue different kinds of bonds according to the timeline: ",
-          "1. Short Term (1 year) = Treasury Bills (T-Bills) ",
-          "2. Medium Term (1-10 years) = Treasury Notes ",
-          "3. Long Term (10 years) = Treasury Bonds",
-          "Corporate bonds have a higher risk compared to government bonds but they usually give higher returns. Investing in corporate bonds will not make you part owners of a company unlike when you buy stocks but instead, you become a lender to the company. If the company closes down, lenders have priority over stockholders as they need to settle debt obligations first. The maturity date for corporate bonds depends on the issuer. It can be anywhere between 3 to 7 years.",
-          "Bonds, similar to stocks can be bought and sold after acquisition not through exchanges but over the counter, usually in banks. You can start investing in government or corporate bonds by going to your local bank. Regularly check the business news section of your newspaper (or app) to know if there are new bonds being offered. You can also invest in bonds via mutual funds."
-
+          "REITs are good stable investment vehicles that may provide a passive income source. You get the stability of a real estate asset, the passive income from dividends, and the probability of capital appreciation of a stock. A REIT is an alternative investment meant to diversify your portfolio. It is considered a low-risk investment vehicle perfect for capital preservation. Note that there are different types of REITs. Some are focused on office buildings, some data centers, others operate malls, warehouses, or a mix. Read the company prospectus before investing.",
+          "Gotrade -",
+          "Invest in the US stock market including US REITS even if you are a non-US citizen with Gotrade (Ad). Use the code 295571 when registering to get freebies on your account (Ad).",
+          "REITs are good stable investment vehicles that may provide a passive income source. You get the stability of a real estate asset, the passive income from dividends, and the probability of capital appreciation of a stock. A REIT is an alternative investment meant to diversify your portfolio. It is considered a low-risk investment vehicle perfect for capital preservation.",
+          "There are different types of REITs, some focused on office buildings, data centers, others operate malls, warehouses, or a mix."
         ],
+        other: [
 
+
+          "US REITs",
+          "1.Regency Centers Corp. (REG)",
+          "2.Sun Communities Inc. (SUI)",
+          "3.Duke Realty Corp. (DRE)",
+          "4.Life Storage Inc. (LSI)",
+          "5.SL Green Realty Corp. (SLG)",
+          "6.American Tower (AMT)",
+          "7.Americold (COLD)",
+          "8.Digital Realty (DLR)",
+          "9.Plymouth Industrial REIT (PLYM)",
+        ],
         Terminologies: [
-          "1. Face value – the total amount invested in bonds. ",
-          "2. Coupon rates – interest rate of the bond. ",
-          "3. Maturity date – end of the contract, when the amount equal to the face value is returned to the investor. ",
-          "4. Rating – Letter grading indicating the bond issuer’s ability to pay. ",
-          "5. Zero-coupon bonds – bonds that do not pay interest but sold at a discount. When the maturity date comes, the bond issuer will buy it at a higher price thereby letting investors earn. "
+          " Assets",
+          " 1.Retail centers",
+          " 2.Housing, marinas, resorts",
+          " 3.Logistics and industrial properties",
+          " 4.Self-storage properties",
+          " 5.Office properties in the New York metropolitan area",
+          " 6.Cell sites",
+          " 7.Temperature controlled warehouses",
+          " 8.Owns 291 data centers",
+          " 9.Distribution centers, warehouses, industrial properties",
         ],
       }
     },
@@ -1245,16 +1254,14 @@ const gameData = {
       url: "/assets/images/HomeBasedBusiness/renta.png",
       description: "For further information, please read on for more details",
       content: {
-        whatIs: "Terrariums are much more complicated to build than succulent plants. It requires a lot more creativity and materials, but in return, you can charge more than a simple succulent plant. Your target market is also different as terrariums may not appeal to a lot of people given their price. It's much more complicated than simply growing succulent plants.\n\nBy its definition, terrariums are supposed to be an ecosystem on their own. Terrariums have plants and animals living together in a small space. You can do this, but this requires more materials and knowledge as you need to make sure these animals (reptiles or insects) can live together. Simple terrariums can just be an arrangement of rocks and plants. It's up to you if you want to make a complicated or just a simple terrarium.",
-        noExperience: "It is relatively easy to do as you will not create your own raw materials, instead, you will just buy existing products and re-arrange them in a nice gift basket. The real difficulty comes in marketing, selling your products, and looking for suppliers. Logistics can also be difficult as you need a rider or delivery person who will take care of the product so as not to mess it up.",
+        whatIs: "TYou can create a gift with assorted products and put it in a nice and presentable gift basket to make it a new product altogether. Gift baskets are desirable for the recipient because they address multiple needs at the same time. It is not limiting as you can put as many unique items in a gift basket. It also looks very special, and with a nice arrangement, can look very expensive as well. Receiving a gift basket can be synonymous with receiving a bouquet of flowers, but with more practical content. Ever wonder why gift baskets are a mainstay as a consolation price in an event raffle? It's because it always looks special and valuable. Gift baskets are also desirable to a wide-ranging client from Gen X, Millennials, and Baby Boomers.",
+        noExperience: "You can create a gift with assorted products and put it in a nice and presentable gift basket to make it a new product altogether. Gift baskets are desirable for the recipient because they address multiple needs at the same time. It is not limiting as you can put as many unique items in a gift basket. It also looks very special, and with a nice arrangement, can look very expensive as well. Receiving a gift basket can be synonymous with receiving a bouquet of flowers, but with more practical content. Ever wonder why gift baskets are a mainstay as a consolation price in an event raffle? It's because it always looks special and valuable. Gift baskets are also desirable to a wide-ranging client from Gen X, Millennials, and Baby Boomers.",
         proTips: [
-          "The target market can either be individuals or businesses.  ",
-          "Make gift baskets for an occasion (Valentine's Day, Christmas, Father's Day, Grandparent's Day, New Year's Day, Anniversary, etc). ",
+          "The target market can either be individuals or businesses. ",
+          " Make gift baskets for an occasion (Valentine's Day, Christmas, Father's Day, Grandparent's Day, New Year's Day, Anniversary, etc).",
           "Assemble gift baskets containing quality products that you don't normally see in supermarkets. ",
-          "Always make a general consume-before date for your gift basket. ",
-          "You do not want customers to keep their gift baskets for weeks only to find out half of the products are only useful for a few days. ",
-          "Scout products from multiple sellers. ",
-          "Always ask for bulk order discounts ",
+          "Always make a general consume before date for your gift basket. You do not want customers to keep their gift baskets for weeks only to find out half of the products are only useful for a few days. ",
+          "Scout products from multiple sellers. Always ask for bulk order discounts. ",
         ]
       }
 
@@ -1266,16 +1273,14 @@ const gameData = {
       url: "/assets/images/HomeBasedBusiness/lease.png",
       description: "For further information, please read on for more details",
       content: {
-        whatIs: "Terrariums are much more complicated to build than succulent plants. It requires a lot more creativity and materials, but in return, you can charge more than a simple succulent plant. Your target market is also different as terrariums may not appeal to a lot of people given their price. It's much more complicated than simply growing succulent plants.\n\nBy its definition, terrariums are supposed to be an ecosystem on their own. Terrariums have plants and animals living together in a small space. You can do this, but this requires more materials and knowledge as you need to make sure these animals (reptiles or insects) can live together. Simple terrariums can just be an arrangement of rocks and plants. It's up to you if you want to make a complicated or just a simple terrarium.",
-        noExperience: "It is relatively easy to do as you will not create your own raw materials, instead, you will just buy existing products and re-arrange them in a nice gift basket. The real difficulty comes in marketing, selling your products, and looking for suppliers. Logistics can also be difficult as you need a rider or delivery person who will take care of the product so as not to mess it up.",
+        whatIs: "People simply do not have time to coordinate one of the more important days in their lives - a wedding. It is a huge social gathering that the outcome has become a reflection of the couple's finances, status, taste, etc. (Almost) everyone wants this day to be perfect in every way and they will spend anything to make it happen.",
+        noExperience: "Weddings used to be - Don't spend too much, it's only one day to today's - It only happens once (or rarely), so we need to make it perfect in every way. Of course, not everyone will subscribe to this but the truth is it is a multi-billion dollar industry. According to CNBC, an average couple in the US spends $33,900 in 2019 for a wedding? That's a lot of money!",
         proTips: [
-          "The target market can either be individuals or businesses.  ",
-          "Make gift baskets for an occasion (Valentine's Day, Christmas, Father's Day, Grandparent's Day, New Year's Day, Anniversary, etc). ",
-          "Assemble gift baskets containing quality products that you don't normally see in supermarkets. ",
-          "Always make a general consume-before date for your gift basket. ",
-          "You do not want customers to keep their gift baskets for weeks only to find out half of the products are only useful for a few days. ",
-          "Scout products from multiple sellers. ",
-          "Always ask for bulk order discounts ",
+          "1. Treat your suppliers similar to how you treat customers - with respect.",
+          "2. Focus on what customers want. Don't force something because of your limitations or because you'll get the most commission from XYZ supplier.",
+          "3. Try doing some project pro bono and just get some referral commissions from suppliers when you are starting out. This is a good way to build your portfolio.",
+          "4. Attend training certifications for event planning.",
+          "5. When doing your sales pitch, convince the customer that hiring a wedding coordinator will actually be more cost-effective as you can get discounts from your trusted suppliers. Of course, make sure that this is true. You will need a network for suppliers for photos, videos, flowers, emcees, tokens, wedding dresses, a printing, and a design company."
         ]
       }
 
@@ -1289,56 +1294,252 @@ const gameData = {
       name: "Types of Real Estate",
       slug: "types-of-real-estate",
       url: "/assets/images/RealEstate/rental.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+
     },
     {
       id: 2,
       name: "Condominiums",
       slug: "condominiums",
       url: "/assets/images/RealEstate/building.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: `You might have set your eyes already on buying a condo. That's good. A condo can be a very attractive investment indeed. But before investing, take a few minutes to consider the following points first.`,
+
+        subTitle: [
+          "Among all property types, condos have the most number of agents and brokers due to the sheer number of units that can be sold and earn commissions from. With more people involved, the more the competition. With more competition, the more creative ideas for persuasion. With more ideas for persuasion, more facts are flipped to make it look like condos are the best...Investment...Ever...",
+          "It is true that millions of people have benefited from condo investing. There is no question about that. Even I have condo investments. The point is, it is not all rosy and you need to consider these things before you invest. If you are okay with all these considerations, then by all means invest in a condo. ",
+          "(1) There is no perpetual ownership with any condo including freehold. There are 2 types of condo ownership. First is leasehold where you own it for a given time (eg. 50 to 99 years) and return it to the developer or government after the lease term. The other one is freehold where in principle you have perpetual ownership of the unit. Perpetual ownership is a misleading term but actually refers to 1 lifetime. It will last for you and your son's generation but will not last when your grandchildren reach mid-age. ",
+          "The life expectancy of conventional buildings with masonry and wood is 120 years. More modern buildings with glass walls and reinforced concrete are 60 years... No big deal, I only intend to use it in my lifetime. If this is you then you have no problem with condos. If you want your assets to be passed on, then you cannot do this with condos. ",
+          "Think about it, structures especially in today's world, aluminum, steel, nails, bolts, and other construction materials are mostly made in China, will they last forever? Obviously not. Have you tried fixing a screw lately? They are terribly soft nowadays. Don't believe condo agents who will tell you condos are perpetual ownership. There is no such thing. In your lifetime, yes but not perpetual. Hey, perpetual here means, your lifetime. There is no perpetual ownership with any real estate? Houses also need to be taken down eventually... Well, when purchasing a house and lot, you purchase the lot, in normal circumstances, by definition, no one can take that away from you, forever. Now that's perpetual ownership. With a condo are you entitled to a piece of land? No. Are you given fair compensation when it is time to demolish the building? No, who would compensate you for your property? The government? - dream on."
+        ],
+
+        sellingInfo: [
+          "Now, this app is not against condo investing per se. Condos are good due to their proximity to certain establishments. They are good for convenience. This app only aims to expose different styles of persuasion and sometimes lies that agents and brokers use to deceive people. ",
+          "(2) Condos tend to depreciate in price after 10 years of turnover. What? Of course not, how can this be? Have you seen a condo bought at 1,000,000 and sold at 500,000 after 20 years? What agents and brokers fail to factor in is inflation. You may purchase a condo worth 1,000,000 today and sell it for 1,200,000 after 20 years, gain but that is just due to the effect of inflation. Everything will be more expensive 20 years from now. If you compute for the present value and factor in inflation, you may not earn anything at all or at best with minimal gains. The question is, will your money could have been invested in a better investment vehicle? ",
+          "To explain price depreciation logically, prices of anything are dictated by supply and demand. Try selling a very old condo and see if you have a lot of buyers. People would prefer newer buildings obviously. If your area is a high-growth area, do you think your condo building is the only condo building there? Chances are the answer is no. Most likely there would always be newer buildings every 5 to 10 years there. ",
+          "(3) Another popular argument agents and brokers would tell you is you can easily flip it. Buy now during preselling and sell it during the turnover period and get thousands just by sitting on it for a few years. In reality, not everyone can do it successfully. It is a combination of skill and luck, a lot of luck. Real estate investing including condos is in most cases the single biggest investment of an ordinary household. You also need to consider taxes, transfer fees, developer penalties. In some countries, fees can reach up to 30% of the price you bought it for. Bottom line is, it is not very easy to flip properties. Otherwise, each and every one of us would do it. ",
+          "(4) Another thing to consider when investing in condos is the condo dues. Some posh condominiums would charge a per sqm fee that is more than the rent of a middle-class condominium. If you are having the condo rented and there is a high vacancy, guess what, you still need to pay the condo dues. In some condos, utilities like water and electricity are charged higher because they are considered commercial rates. ",
+          "(5) Lastly, agents and brokers would tell you that you can earn passive income for life. They would usually jack up the actual rental price for the property. They would say, it can be rented for 25,000 per month but in reality that is impossible to meet. 25,000 per month if you are the only one having a unit available for rent, but usually there are hundreds of you in the same building. The actual rental yield is usually 20% to 30% lower compared to their projections."
+        ],
+        proTips: [
+
+          "Consider all the above points when making a condo investment. Make sure you have done all the research and analysis yourself. Do not rely on what the agent tells you. Remember, most agents and brokers (not all), are there primarily for commissions and not really considering what is best for you financially. Real estate agents unlike professional financial planners who are not affiliated with any real estate developer, would tell you that you can only afford a maximum of 36% of income going to debt payment including house mortgage. This is for financial security. Investment advisors from real estate properties on the other hand will tell you, buy as much as you can now so you don't miss out on opportunities.",
+          "Lastly, be cautious when purchasing a pre-owned condo unit. Sellers would usually make it sound the property is newer. Oh, this property is 2 years old - in reality, they had it for 2 years, but the actual structure is 10 years old just newly painted. Always search the internet for the actual age of the building. DO NOT ASK THE AGENT. Why do they do this? Why would they tell you the wrong information and hope you don't find out the truth? No one wants to buy an old property."
+        ],
+      }
     },
     {
       id: 3,
       name: "Earning from Your Property ",
       slug: "earning-from-your-property",
       url: "/assets/images/RealEstate/investment.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "The first way to make money from real estate is from capital appreciation. Buy low and sell high after a few years. You need to have foresight on where growth and progress will be. If a city is getting too crowded, it is a good idea to scout for properties within its vicinity. If there is a new transportation infrastructure announcement, check which areas will benefit from it. You can also check which areas are big property developers going. If you see in one area that 4 or 5 big-time property developers are going there and developing land there, it means they have done their study and see huge potential for growth in that area.",
+
+        subTitle: [
+          "Another way to earn from properties is by rental income. Having a property rented is one of the best ways to earn passive income. You can still run your other business, you can continue to work as an employee, you can continue earning from a sideline. Having a rental property is a positive cash flow and enhances your earning capacity because you do not need to devote too much time to it. If you invest in a landed property, rental income plus appreciation can (in paper) take care of the loan.",
+          "Say you borrow from the bank to finance your property with a 7% interest rate. You have the property rented with a 6% return per year. If you consider property appreciation (for example 5% per year), then in paper, for year 1, you already gain a total of 11% return per year or net of 4% if you have less bank loan interest. What's even better is rent and property appreciation go up every year while debt payments go down.",
+          "You can have it rented for short term (Airbnb) if your property is near a tourist spot, medium-term (1 to 5 years) for small apartments for couples or starting families, or long term (more than 5 years) mostly for house and lots and townhouses with bigger space."
+        ],
+
+        sellingInfo: [
+          "Commercial spaces are rented for the long-term like banks, restaurants, and stores because they can recover their renovation fee and commercial establishments need time to establish their client base. Houses with a huge space can also be sub-leased to companies as a staff house. This is most effective if you have properties near universities, tertiary hospitals, warehouses, depots, and offices. ",
+          "Another way to earn from real estate is by the Buy-Renovate-Sell method or flipping. Obviously, this is not for everyone as you need construction, design, and marketing expertise. This is usually done by small and medium enterprises focused on flipping business rather than the average joe. This can be a very profitable business as we mentioned because properties don't have an expiration date and they always appreciate over time. If the property sector is down, no problem, you can have it rented then sell eventually when things get better. ",
+          "There are a lot of advantages when investing in REITs. (1) Liquidity - you can easily sell your shares with REITs unlike with real properties where you need to pay a lot of taxes and wait for 2 to 3 years before being able to liquidate. (2) Another advantage is no need to manage the property yourself. No need to search and screen for tenants, no need to haggle for rent, no need to stress over delayed payments, no need to go to the property to repair plumbings, wirings, leaks. In short, no more stress! (3) Capital appreciation - share prices of REITs can also increase over time (but generally slower than real properties) if the fund managers decide to purchase a new property which would increase the dividend yield, therefore, command a higher share price. "
+        ],
+
+      }
+
     },
     {
       id: 4,
       name: "Tenants",
       slug: "tenants",
       url: "/assets/images/RealEstate/real-estate.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "In case you decide to pursue a rental business, understand that success in the real estate business happens when you are able to match the needs of your tenants with what your property can offer. In this chapter, let us look at the different types of people and what they typically look for in a property and some advantages and disadvantages of having them as a tenant. ",
+
+        subTitle: [
+          "Students -",
+          "The location should be near the school.",
+          "Areas surrounding the property should be safe and well-lit.",
+          "The property or condo should have good amenities for fitness, relaxation, and study.",
+          "There should be a lot of cheap dining options in the area.",
+
+          "Ideally, there should be a wide drop off points or lobbies for loading and unloading.",
+
+          "Parents want safe and strict security.",
+
+          "Typically, students are good payers because their parents have an allotted budget and wouldn't want any trouble for their children.",
+
+          "Depending on the student, you are guaranteed 2 to 4 years of rental or until the student graduates.",
+
+          "The downside of catering to students for your rental property is they might not know how to really take care of the unit. They usually clean less (teenagers being teenagers) or they simply do not understand the value of a broken tile or cracked wall, etc.",
+
+          "It is hard to find a tenant in the middle of the school year.",
+
+          "They opt for condominiums, boarding houses, or dormitories.",
+        ],
+
+        sellingInfo: [
+          " Young Professionals - The location should be near their workplace. Should have good fitness facilities such as gyms, sports facilities, and jogging paths. Should be near dining places such as fast food, bars for relaxation, and healthy home-cooked food. The attached malls are a plus factor. Some prospective young professionals have the elevator load as one of their primary decision factors. If they would need to wait 20 minutes just to go up or down due to elevator load, then they'd stay away from your property.",
+
+          " Young professionals usually move a lot with an average of 1 to 3 years as they jump from one work to another.",
+
+          " They pay the rent but might get delayed for a few days to weeks due to wrong budgeting or they are just too busy.",
+
+          " They usually opt for condominiums. Parking is not an issue for them as they commute or walk to work.",
+
+          " They prefer to live in townships or mixed-use areas where you have commercial and residential in one area.",
+
+          " Expats - Probably the best tenants to have. They pay on time (sometimes they have secretaries to settle the rent for them) and can command a higher rental fee. They are obviously not as many as students, young professionals, or families.",
+
+          " They may average between 3 to 5 years depending on whether their work is per contract or not.",
+
+          " They usually look for high-end condominiums with wide spaces for their families. Parking spaces may or may not be an issue for them as some have company drivers.",
+
+          " Elderly - They want a secure, peaceful place that is near groceries, parks, and hospitals. They usually own the property fully paid by liquidating their bigger house and lot.",
+
+          " A lot of elderly opt to relocate from a house and lot to condominiums due to convenience and less maintenance - they do not need so much space. They would usually look for a more laid-back area, probably on the outskirts of the city in a low to a midrise condo. They do not want so many people. They want privacy and open spaces.",
+
+          " Young Families -  Grocery, shopping malls, schools, (sometimes places of worship) are their primary consideration. They need to have ample space for 3 to 4 people. They look for parks or places to unwind with their young ones during the weekends. They usually pay well and on time as they have stable jobs, probably in junior to mid-management level. They prefer units with parking spaces.",
+        ],
+        proTips: [
+          "Property rental is a business and should be treated like one. You need to identify who you want to cater to (and in some cases, who you can identify with) for you to be able to have the right network, to be able to decide which property to invest in, and so that you may have a harmonious relationship with your tenants."
+        ],
+
+      }
     },
     {
       id: 5,
       name: "Checklist",
       slug: "checklist",
       url: "/assets/images/RealEstate/blueprint.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Real Estate Investment Checklist At this point, you have now decided how you want to earn from real estate, you have identified what type of property you want to invest in, and the kind of market or tenants that you want to deal with. You are now convinced that you want to invest in a property. ",
+
+        subTitle: [
+          "Checklist ",
+          "1. Emergency Fund: You need to have 6 to 9 months' worth of expenses ready in a liquid investment. Previously, financial planners only recommended 3 to 6 months for an emergency fund, but now with what happened with the pandemic, a lot of people lost their jobs, and many businesses closed down. Financial planners now recommend 6 to 9 months worth of expenses for an emergency fund. The more, the better. Make sure you have this ready before committing to any real estate investment. ",
+          "2. Protection: What’s the use of all your investments if it’s locked for five years and you need to pay hospital bills today? Or if all your money is invested in real estate and you lose your job today? Do not go straight to investing if you have inadequate protection otherwise you may need to withdraw your money (or sell properties) at a loss during an emergency. ",
+          "Whenever applicable, you should first secure an HMO or health card to cover your medical expenses as medical emergencies can happen anytime. Next is an accident, emergency, critical illness, and disability insurance – this is different from HMO or health card. It may sound a lot but usually, they come in a package. HMO or health cards cover your immediate medical bills while disability and critical illness insurance give you a sum of money upon diagnosis. If you have dependents then life insurance is a must. Separate insurance from investment and buy term insurance. Insurance protection is not a liability, it is a necessary expense of a good financial plan. ",
+
+        ],
+
+        sellingInfo: [
+          "3. Pay off High-Interest Debts: Whenever possible, pay off your debts or keep it to a minimum. As a rule of thumb, keep your total monthly debt payments (credit cards, car loans, home loans, other loans) to less than 36% of your gross monthly income. The total mortgage for a house should not exceed 28% of your monthly income. This is what lenders generally use to determine your eligibility for a loan. If you are earning $4,000 a month, the maximum amount you can allot to pay a home mortgage is $1,120 ($4,000 x 20%) including principal, interest, taxes, and insurance. Total debt should not exceed $1,440 ($4,000 x 36%). ",
+          "According to Investopedia, if you are planning to invest in a house, a good rule of thumb is 2 to 2.5 times your gross annual income is a house that you can afford. If you are earning $100,000 per year, you can afford a $200,000 to $250,000 house. ",
+          "4. Investment Knowledge: Real estate although very attractive is not the only investment option you have. Determine your time horizon, your risk profile, and your goal for investing. After all these, refer to the table below to see which investment vehicle fits you. ",
+
+        ],
+        proTips: [
+          "Money Strategy When Investing in Multiple Rental Properties: (1) get the lowest downpayment term and (2) borrow with the longest term possible. If you do get the lowest downpayment term, you have enough money to acquire another property. If you borrow with the longest term, the rental income may be enough to pay for the monthly amortization. You can always pay it earlier if you have spare money. Follow Schaub's 10/10/10 rule - pay no more than 10% downpayment, avail no more than 10% interest rate for loans, and buy 10% below market value."
+        ],
+      }
     },
     {
       id: 6,
       name: "Before Buying",
       slug: "before-buying",
       url: "/assets/images/RealEstate/deal.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "In this chapter, we will talk about the different things that you need to check before buying a house, a condo, or a rental property. ",
+
+        subTitle: [
+          "(1) Location - visit the property multiple times on different days and at different hours. Your broker might invite you to visit the property when it is most quiet, when it is not raining, or when it is already dark!",
+          "Check for budding neighborhoods. Are there a lot of ongoing construction or newly constructed houses? This means there is progress in the area. On the other hand, if there are a lot of houses that are for sale or for rent, then the neighborhood may be regressing.",
+          "Check the surroundings and have a feel of the environment, especially your neighbors. Spend a few hours listening to or walking around the neighborhood. Do this multiple times on different days. No matter how good the internal of the house if you have problematic neighbors it's not worth it.",
+          "Whenever possible, check the behavior of your neighbors. Ask around. Do they party every night? Do they sing karaoke every day? Do they have environmentally destructive behaviors like burning leaves and others? All of these should be considered. You are the guy in town, you cannot impose your will on them, they'll say.",
+
+        ],
+
+        sellingInfo: [
+          "Check where are the nearest amenities like clubhouses, basketball courts, or schools. These places may generate too much noise. ",
+          "Check if there is any issue with utilities in the area on the internet. Are water, electricity, and the internet readily available? ",
+          "Check if the area has flooding problems. Most countries would have flood maps that you can check online. ",
+          "If you are buying a condo, check if there are any future projects in the surrounding area that might block the view. There are a lot of buyers that will consider a good view in case you want to sell the unit in the future. ",
+          "If you are buying a lot, make sure that it has the best features for maximum price appreciation. Remember that the lot is the one that appreciates not the house. Check if it is regularly shaped, and is a budding community. Not all buyers would prefer a corner lot. ",
+          "All these investigations are worth it whether you are buying a property to live there or for rental income. Remember, for most of us, this is a once in a lifetime investment. You do not want to go wrong with this one. ",
+          "(2) Structure - have an engineer look at the house. Check for termite problems, leaking faucets, problematic or vibrating pipes, faulty wirings, defective electrical systems. Check the ceiling and see if there are any water stains. If the property has appliances, turn it all ON and see if there is an electrical overload. When purchasing a house, consider putting an agreement that if there are problems with the house in the next 6 months, the seller would be liable."
+        ],
+        other: [
+          "(3) Price - if you are buying a condo, check the secondary market if someone is selling their unit. The secondary market is usually way lower compared to the developer price. ",
+          "If you are buying a pre-owned property, you can get the value of a property by either hiring an assessor or computing the per sqm price and adding the per sqm construction cost (not the practice in the US and Europe). For example, you are looking at a 300 sqm lot area with a 200 sqm floor area. Check the lots that are for sale in the area. If you get a 5,000 per sqm price then multiple 300 x 5,000 = 1,500,000 this is the price of the lot. Then search on the internet, the construction cost of a house per sqm in the area. This is usually divided according to build quality and finish - low end, mid-end, or high end. Apply this value to the property you are looking at. For example, 20,000 per sqm is your cost to build a house, yours would be 200 sqm x 20,000 = 4,000,000. Add both lot (1,500,000) and house cost (4,000,000), less depreciation (total house cost divided by 50 multiplied by the number of years). If the house is 5 years old then the depreciation cost would be (4,000,000 /50 * 5 = 400,000). So the total estimated value of this property would be 1,500,000 + 4,000,000 - 400,000 = 5,100,000. Compare this value with the surrounding properties and you have your house value. ",
+          "When checking a property online, if the post is 1 to 2 years old and still not sold, the price they posted is too high. If it gets sold within 3 to 6 months, then you can use that price for benchmarking. ",
+          "They want a secure, peaceful place that is near groceries, parks, and hospitals. They usually own the property fully paid by liquidating their bigger house and lot. ",
+          "A lot of elderly opt to relocate from a house and lot to condominiums due to convenience and less maintenance - they do not need so much space. They would usually look for a more laid-back area, probably on the outskirts of the city in a low to a midrise condo. They do not want so many people. They want privacy and open spaces. ",
+          "(4) Other things to check are the condo dues or village or association dues that you have to pay per month. Check also the track record of the developer that you are purchasing from. Search on the internet some headaches that people encountered and if these issues are already resolved. Some developers have a good reputation for building quality but are very poor in title distribution. ",
+        ],
+        proTips: [
+          "Take all your time when deciding whether to buy a property or not. If it gets sold during your thinking process, that's okay. The property is not for you, move on. There are always other properties that will open in the future.",
+          "When buying condos, do not let brokers rush you. They would tell you to take this unit now, it is really hot selling and there are a lot of people in line for this property. Well, guess what, if the demand for the property is very high, the developer would find a way to get another property nearby and develop another project. This is a common strategy. Developers don't care if you get rich or not with their projects, they only want to make money! If your property would get diluted because they have another project, they won't care! You already purchased it!",
+          "For agents and brokers who are reading this app. These comments are not to say bad things about the profession. This is meant to challenge you to be more truthful to your clients. It is when you are truthful that you get rewarded."
+        ],
+      }
+
     },
     {
       id: 7,
       name: "Negotiating the Price",
       slug: "negotiating-the-price",
       url: "/assets/images/RealEstate/key.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "The first step to a successful negotiation is to have a fair value of a property. You really cannot haggle if you do not have a sensible baseline. ",
+
+        subTitle: [
+          "The idea of low-balling is to persuade the seller that the property is far lower than the listed price. Some people's negotiating skill simply includes offering 40% lower than the listed price. If the seller gives in, then good, you've tricked the person. But is this the best way to do it? The simple answer is no. A win-win situation is always best in any negotiation.",
+          "The alternative to law-balling is to offer your best price and stick to it. If after an educated valuation you came up with a price of $300,000, and the property is being sold for $400,000. You can make an offer of +/- 10% of your calculated price. If the seller does not agree, never mind, move on, and find another property.",
+          "Never put emotion in any negotiation. The seller might say, the money from the sale will go to the hospitalization of Mr. so and so. You do not need to care. Offer your prayers but stick to the price. Whenever brokers will open the explanation phase, I would just interrupt them and say this is my price, I do not need to hear any explanation, thank you.",
+
+        ],
+
+        sellingInfo: [
+          "Other tactics that brokers use to spark emotions:",
+          "This is the finest property and you won't find anything like it anywhere. Tell them you appreciate the feedback but do not give in to their price. This is a good property as it is very close to the entrance. Have your own judgment, is being close to the entrance mean more noise and distraction? I bought this for XXX amount and you are offering a lower price. Do not care. You are not responsible for their miscalculation. You get the idea. Calculate your fair value of a property, formulate your own logical reasons for buying a property, and stick to your offer and plan. The best way to take out emotions in negotiation is to have alternatives. If you do this, that little voice inside your head will stop telling you that you are missing out on a once in a lifetime opportunity. There are a hundred and one once in a lifetime opportunities that will come to you if you are really looking for it.",
+          "Another way to increase your chances of getting your price is to look for properties that have been in the market for more than 6 months. Sellers would be anxious to sell these properties and would be more than willing to settle with the buyer's terms. Again, you should not low-ball, you should offer a fair value according to your calculation.",
+          "Another way to increase your chances of success is to find sellers with high urgency to sell. These can be people who will be relocating very soon or families who already bought a new house and just waiting to liquidate their old unused house. You need to ask questions to judge how urgent they need to sell the house. The more urgent, the better chances that they can settle to your terms.",
+          "Consider that there are a lot of fees that need to be settled when purchasing a property: Capital Gains Tax, documentary stamp, commission for agent or broker, real estate transfer tax, notarial fees, titling service fees, and others."
+        ],
+        proTips: [
+          "When negotiating, offer your best price and avoid low-balling. Have a fixed price and have alternatives, and always think there's always a better deal in the future, this way you will avoid being emotional with the deal. Once you've laid out your terms, send it to the seller/broker and wait for their reply. You do not need to say anything. When they go to the explanation phase, tell them nicely that you do not need to hear anything because you have already computed for the fair value and your offer is fixed. After that, do not message, do not call, do not do anything. If your valuation is correct, just watch the seller/broker go down to your price eventually. If the property is for you, it is for you. If not move on."
+        ],
+      }
     },
     {
       id: 8,
       name: "Notes ",
       slug: "notes",
       url: "/assets/images/RealEstate/agent.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "How much can house can I afford? You shouldn't spend more than 28% of your gross monthly income on home-related expenses or up to 36% total debt (car loans, house mortgage, credit card). The maximum price of a house you can afford is 3x your gross annual income. ",
+
+        subTitle: [
+          "How much rental income should I expect from my property?It typically ranges from 4% to 7% of your property price per annum if you buy the property today and have it rented today. Of course, if you bought it 20 years ago, the return per year would be much higher if you have it rented today. Some investors will tell you not to buy any property unless it will net 12% per annum. This is impossible in most markets.",
+          "Is a house an asset or a liability? If you are earning from it then it is an asset. If you are spending on it, it is a necessary expense.",
+          "For rental property, is a condo better or a landed apartment?",
+          "It depends on the location, price, and yield. Long term, buying a landed apartment is better as land appreciates and improvements (buildings & houses) depreciate. Also, note that condo dues normally go up 5% to 10% per year or two."
+        ],
+
+        sellingInfo: [
+          "How can I calculate which is a better investment?",
+          "You can use a simple ROI (yearly income / total price *100) or IRR (Internal Rate of Return). The higher ROI and IRR, the better.",
+          " When is the perfect time to buy a condo?",
+          "During the pre-selling stage. Condo prices may peak from 3 to 7 years and depreciate after 10 years if there are no major improvements in the area. Just ask yourself, are you willing to buy a unit in an old building?",
+          "What is the most common problem with rental properties?",
+          "Unruly tenants, and non-payment of rent. You should take time to screen your prospective tenants and reject them if you feel you will have problems in the future. It is better to have the property vacant for 1 or 2 months than 1 or 2 years of stress! Remember almost all of us invest in real estate for passive income. If you are thinking about issues with your tenant the whole year then it is not passive income.",
+          "How do I make sure that tenants pay?",
+          "Screen them, check their credit score, ask for post-dated checks, ask for 2 months advance and 2 months deposit (this gives you a hint that they have enough liquidity), and have everything in writing, including terms for eviction.",
+          "Is it better to buy one big property for a rental business or many small ones?",
+          "With one big property, management can be relatively easier as you only need to visit one site. Having multiple smaller properties has the following advantages: varying price appreciation for different properties, better protection from losing all tenants in one go as you are exposed to different areas and different income classes."
+        ],
+      }
     }
   ],
 
@@ -1973,20 +2174,36 @@ const gameData = {
     {
       id: 1,
       name: "Paytm Money",
-      slug: "/paytm-money",
+      slug: "paytm-money",
       url: "/assets/images/ReferEarn/salaryOne.png",
       description: "For further information, please read on for more details. ",
       content: {
         whatIs: "It is an online discount broker with a simple pricing model. If you are a beginner and want to start your journey in the share market then I feel Paytm Money will be one of the best options for you. It offers a fixed brokerage plan to its customers. Paytm Money claims that they provide a low-cost trading option and their trading charges are low compared to others.",
         subTitle: [
           "Users can open a Demat account on the Paytm Money app with their basic details like PAN Card number, Aadhar Number, a Mobile number linked with Aadhar etc. In this app, you can buy stocks, mutual funds and gold. Any user can log in to the Paytm Money app with their Paytm number or can sign up if they don’t have a Paytm account yet. ",
-          "paytm Money claims that users can upload their documents and within 24 hours their Demat account will be opened. You can set the price alerts and create multiple watchlists to track real-time price changes up to 50 stocks. For the first time you have to add ₹50 funds into your account then you are ready to invest your money in stocks, equity or NPS."
+          "paytm Money claims that users can upload their documents and within 24 hours their Demat account will be opened. You can set the price alerts and create multiple watchlists to track real-time price changes up to 50 stocks. For the first time you have to add ₹50 funds into your account then you are ready to invest your money in stocks, equity or NPS.",
         ],
-        AmountPerSurvey: "50 - 500 points (100 points = $1 or £0.77).",
-        reward: "$5 (£3.75).",
+        url: "/assets/images/ReferEarnImg/ReferEarn1.png ",
+        reward: "Paytm Money Refer and Earn ₹300 -",
         OurReview: [
           "As we mention in our Branded Surveys review, this survey site is one of our personal favourites. Great new website, easy to use, well-reviewed on Trustpilot and fast paying.",
           "You can also earn ongoing points for referring friends and get a percentage of everything they earn.",
+        ],
+        HowToDownload: [
+          "1. First of all, download the Paytm Money app. ",
+          "2. Register on this app. ",
+          "3. Complete your registration. ",
+          "4. Add funds and complete your first trading in the Paytm Money app. ",
+          "5. Now tap on the Refer and Earn option. ",
+          "6. Share your referral link with your friends. ",
+          "7. Earn up to ₹300 in your trading balance. ",
+        ],
+        TermsAndConditions: [
+          "1. Paytm Money referral offer is only valid for those users who have a Demat account in this app. ",
+          "2. If your referred friend does not complete their Demat account and trades for the first time then both of you will get nothing. ",
+          "3. Cashback will be credited to your trading balance within 48 hours. ",
+          "4. You will receive a scratch card only after the successful registration of your referred friends. ",
+          "5. You will receive up to ₹300 by scratching the scratch card. ",
         ]
       }
 
@@ -1994,142 +2211,560 @@ const gameData = {
     {
       id: 2,
       name: "Upstox",
-      slug: "/upstox",
+      slug: "upstox",
       url: "/assets/images/ReferEarn/revenue.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "If you are a regular viewer of some famous YouTube Vloggers then you may have seen the Upstox ad in their video. It is a mutual fund app. In this app, we can invest our money in stocks, mutual funds and digital gold.",
+        subTitle: [
+          "We can earn money from this app by referring our friends and family members. If you share the Upstox Referral Code and referral link then you will get ₹600 in your wallet. You can withdraw this balance to your bank account whenever you want.",
+        ],
+        url: "/assets/images/ReferEarnImg/ReferEarn2.png ",
+        AmountPerSurvey: "50 - 500 points (100 points = $1 or £0.77).",
+        reward: "Refer and Earn ₹300 -",
+        OurReview: [
+          "As we mention in our Branded Surveys review, this survey site is one of our personal favourites. Great new website, easy to use, well-reviewed on Trustpilot and fast paying.",
+          "You can also earn ongoing points for referring friends and get a percentage of everything they earn.",
+        ],
+        HowToDownload: [
+          "1. First of all, download the Upstox App. ",
+          "2. Create an account by uploading correct details. ",
+          "3. After creating your Upstox Demat and trading account. ",
+          "4. Tap on the profile icon. ",
+          "5. Choose the ‘Refer and Earn’ tab. ",
+          "6. Share your Upstox referral link on WhatsApp or SMS. ",
+          "7. Once your referred friends completes their profile, you will get ₹300 in your Upstox account. ",
+          "8. If they invest some money then you will get ₹300 more from them. ",
+          "9. You can check your referrals and earnings on the ‘Your Earnings & Referrals’ tab."
+        ],
+
+      }
+
     },
     {
       id: 3,
       name: "YSense Survey",
-      slug: "/ysense-survey",
+      slug: "ysense-survey",
       url: "/assets/images/ReferEarn/interest-rate.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "If you want to earn money by completing online surveys along with inviting friends then ySense will be the best option for you. It comes with a great referral program for all users. If you have some friends who want to earn money online by completing online surveys then you can recommend ySense and earn up to 30% ySense affiliate commission.",
+        subTitle: [
+          "Your referred friends can complete paid surveys, cash offers to earn money from ySense. And if they earn some you will get a 20% commission from them. If you work genuinely and if you get good results then they will increase your commission up to 30% for a referral. I feel the ySense survey is also the best refer and earn website for all users. Simply join the ySense Survey affiliate program and withdraw your earnings in PayPal or via Amazon Gift Cards.",
+        ],
+        url: "/assets/images/ReferEarnImg/ReferEarn3.png ",
+        OurReview: [
+          "After your referred friend’s signup, you will get $0.10 to $0.30 from selected countries. Once your invited friend’s earn their first $5.00 (excluding commissions and bonuses) you will also earn an extra $2.00 bonus.",
+        ],
+        HowToDownload: [
+          "1. First of all, download the Upstox App. ",
+          "2. Create an account by uploading correct details. ",
+          "3. After creating your Upstox Demat and trading account. ",
+          "4. Tap on the profile icon. ",
+          "5. Choose the ‘Refer and Earn’ tab. ",
+          "6. Share your Upstox referral link on WhatsApp or SMS. ",
+          "7. Once your referred friends completes their profile, you will get ₹300 in your Upstox account. ",
+          "8. If they invest some money then you will get ₹300 more from them. ",
+          "9. You can check your referrals and earnings on the ‘Your Earnings & Referrals’ tab."
+        ],
+
+      }
+
     },
     {
       id: 4,
       name: "Amazon Pay UPI",
-      slug: "/amazon-pay-upi",
+      slug: "amazon-pay-upi",
       url: "/assets/images/ReferEarn/favorite.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "In this new year 2022, Amazon has relaunched their existing refer and earn offer. Now if you refer a friend on Amazon Pay, then you will get a ₹75 cashback into your Amazon Pay Balance. Also, the person who will join through your link will get up to ₹125 rewards.",
+        subTitle: [
+          "But please remember if your referred friend already has an existing Amazon UPI account or if they don’t complete their first UPI transaction successfully then you won’t get anything. They need to complete their first UPI transaction as Scan & Pay or Send Money."
+        ],
+        url: "/assets/images/ReferEarnImg/ReferEarn4.png ",
+        OurReview: [
+          "You will find the Amazon refer and earn a link on the updated Amazon Pay app. Simply tap on the explore tab on the Amazon Pay section. Here you will find out the Invite and Earn option."
+        ],
+        HowToDownload: [
+        ],
+
+      }
     },
     {
       id: 5,
       name: "IIFL Securities",
-      slug: "/iifl-securities",
+      slug: "iifl-securities",
       url: "/assets/images/ReferEarn/earningTwo.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "This is one of the largest stock brokers in India. It offers online trading and research-based advisory services to Indian customers. They offer brokerage free equity delivery trading and for all other tradings, you have to pay flat Rs 20 as a charge. IIFL Securities comes with free account opening charges and a Rs 250 annual fee for account maintenance. But you don’t have to pay any maintenance charges for the first year.",
+        url: "/assets/images/ReferEarnImg/ReferEarn5.png ",
+        OurReview: [
+          "IIFL Securities comes with an amazing refer and earn offer. I feel it is one of the best refer and earn apps in India. Any user can earn a lot through the IIFL referral program.",
+          "How To Open a Demat Account on IIFL",
+          "You need to keep some documents before opening a Demat account online. Please keep proof of identity (ex- Aadhar Card), Proof of address (ex- Aadhar, Voter Card), Proof of Income (ex- Bank front page, Pan Card)."
+        ],
+        HowToDownload: [
+          "1. First of all, apply for a Demat account online on IIFL App. ",
+          "2. Submit your name, and mobile number to start the account opening process. ",
+          "3. They will call you soon to continue the process. ",
+          "4. Next, submit KYC details online. ",
+          "5. Fill out the form with all the required details. ",
+          "6. Upload some proof of documents. ",
+          "7. Wait for document verification. ",
+          "8. You will receive a unique beneficiary owner identity (BOID). ",
+          "9. Now you are ready to refer and earn a gift voucher worth ₹500 on IIFL Securities. ",
+        ],
+        other: [
+          "IIFL Securities Refer and Earn ",
+          "If you invite friends and share your unique referral link then both of you will get a ₹500 referral reward. This gift voucher will be sent to you within 7 working days of every successful referral. You can claim within 60 days of credit of the voucher. Please remember, you will get an IIFL referral reward only if your friends open a Demat Account, download the IIFL Market App and start trading on the app.",
+          "If you invite friends and share your unique referral link then both of you will get a ₹500 referral reward. This gift voucher will be sent to you within 7 working days of every successful referral. You can claim within 60 days of credit of the voucher. Please remember, you will get an IIFL referral reward only if your friends open a Demat Account, download the IIFL Market App and start trading on the app. ",
+          "First of all, download the IIFL Securities Apk.",
+          "Open your Demat Account.",
+          "Tap on three lines and then choose ‘Refer & Earn’ option.",
+          "Enter your linked mobile number and enter OTP to log in.",
+          "Now share your invite link with your friends.",
+          "Once they open their Demat Account, you will get rewarded with a ₹500 gift voucher."
+        ]
+
+      }
     },
     {
       id: 6,
       name: "5Paisa",
-      slug: "/5paisa",
+      slug: "5paisa",
       url: "/assets/images/ReferEarn/earn-money.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      OurReview: {
+        whatIs: "This is also a stock brokerage in India. It charges a flat brokerage fee irrespective of the size, commodity or trade exchange. It comes with zero account opening charges and a flat ₹10 per executed order for mutual fund investment. In 5Paisa you can buy direct mutual funds and regular mutual funds. You have to pay some AMC charges too.",
+        subTitle: [
+          "5 Paisa comes with three subscription plans. Such as basic pack, power investor pack and ultra trader pack. These plans will help you a lot.",
+          "5 Paisa Refer and Earn The online stock brokerage company 5Paisa comes with a beautiful referral offer. If you refer a friend then you will earn ₹500 (for the first referral) and up to 40% brokerage fee for a lifetime. To refer a friend you need to open a Demat account in 5Paisa first.",
+          "There are three sections in 5Paisa referral. Such as Star, Elite Club and Pro. Your referral commission will keep increasing if you refer more friends.",
+
+        ],
+        url: "/assets/images/ReferEarnImg/ReferEarn6.png ",
+        HowToDownload: [
+          "1. First of all, open the 5Paisa App. ",
+          "2. Tap on the ‘User’ option. ",
+          "3. Scroll down and tap on the ‘Refer and Earn’ option. ",
+          "4. Copy your 5Paisa referral code. ",
+          "5. Now tap on the WhatsApp option and share the referral link. ",
+          "6. Once your friend completes their profile and opens their Demat account, you will get the reward. ",
+        ],
+        other: [
+          "Referral Commission",
+          "Category",
+          "Referrals ",
+          "Commission ",
+          "First Referral ",
+          "1 ",
+          "₹500 ",
+          "STAR ",
+          "5 Friends ",
+          "12.5% Brokerage Sharing ",
+          "ELITE Club ",
+          "6+ Friends ",
+          "25% Brokerage Sharing ",
+          "PRO Referrer ",
+          "26+ Friends ",
+          "40% Brokerage Sharing "
+        ]
+      }
     },
     {
       id: 7,
       name: "Zerodha",
-      slug: "/zerodha",
+      slug: "zerodha",
       url: "/assets/images/ReferEarn/profit.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "You have to pay a ₹200 Demat account opening fee. If you open your Demat account offline then you have to pay ₹400. After opening a Demat account in Zerodha you are ready to start investing online. I have written a blog on Zerodha. By reading that article you will know how to open a Demat account and start investing in Zerodha",
+        subTitle: [
+        ],
+        url: "/assets/images/ReferEarnImg/ReferEarn7.png ",
+        OurReview: [
+          "Zerodha Refer and Earn - ",
+          "If you refer a friend then you will earn 10% of the brokerage fee for a lifetime. Investors can withdraw this balance to their bank accounts."
+        ],
+        HowToDownload: [
+          " 1. First of all, open the Kite by Zerodha app.",
+          " 2. Tap on the User ID or Profile section.",
+          " 3. Scroll down and then tap on the ‘Invite Friends’ option.",
+          " 4. Click on the ‘Share’ button.",
+          " 5. Share your referral link and earn 10% brokerage commission",
+        ],
+
+      }
     },
     {
       id: 8,
       name: "Google Pay",
-      slug: "/google-pay",
+      slug: "google-pay",
       url: "/assets/images/ReferEarn/salary.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "We can transfer money in various ways. UPI is one of the best money transfer ways in India. We can easily transfer our money from one bank account to another. Google Pay is one of the most loved UPI money transfer apps in India.",
+        subTitle: [
+          "The reason why most of us prefer to transfer money through Google Pay is we have a chance to earn a scratch card for every transaction of ₹150 or more."
+        ],
+        url: "/assets/images/ReferEarnImg/ReferEarn8.png ",
+        OurReview: [
+          "Google Pay has a refer and earn scheme too. This is an evergreen offer from Google Pay or Tez. But it changes its terms and conditions from time to time. Some of the time you will get ₹201 or sometimes you will get ₹180 or ₹150 for a referral. All your earned cashback through Google Pay will be deposited to your primary bank account linked with UPI. Recently Google Pay has changed its referral policy. Now you will get ₹150 or sometimes ₹21 for a new referral and the person who will join through your link will also get ₹21 cash in their bank."
+        ],
+        HowToDownload: [
+          "Google Pay Refer and Earn Offer -",
+          "1. First of all, download the Google Pay App.",
+          "2. Register and link your Bank account. ",
+          "3. Now tap on the profile icon. ",
+          "4. Again click on the ‘Invite friends, get rewards’ option. ",
+          "5. Copy your Google Pay referral code and tap on ‘Share’. ",
+          "6. Share your Google Pay Refer and Earn link on WhatsApp and other social media platforms. ",
+          "7. Once they register through your link and make their first UPI payment you will get ₹150 cashback in Bank. At the same time, they will get ₹21 in their bank account too. ",
+        ],
+
+      }
     },
     {
       id: 9,
       name: "PhonePe",
-      slug: "/phonepe",
+      slug: "phonepe",
       url: "/assets/images/ReferEarn/revenueOne.png",
-      description: "For further information, please read on for more details"
+      description: "For further information, please read on for more details",
+      content: {
+        whatIs: "Apart from Google Pay, PhonePe is another most used UPI app in India. In this app, you can make a lot of different kinds of online payments. From Bank transfers to investment, gold purchases or in-app purchases, everything is possible through the PhonePe App.",
+        subTitle: [
+          "PhonePe comes with a referral offer from the beginning days. If you refer your friends to join and make UPI payments through PhonePe, you will get cashback."
+        ],
+        url: "/assets/images/ReferEarnImg/ReferEarn9.png ",
+        OurReview: [
+          "You will receive ₹125 in your PhonePe wallet for a successful referral. After that, you can easily transfer your PhonePe wallet balance to your Bank account within a few minutes."
+        ],
+        HowToDownload: [
+          "1. First of all, download the PhonePe App. ",
+          "2. Register and link your Bank account. ",
+          "3. Now tap on ‘Refer & Earn ₹125’. ",
+          "4. Tap on any social media icon and share your invite link. ",
+          "5. Once your referred friend joins through your link and makes their first UPI payment, you will receive a ₹125 cashback in your PhonePe wallet. ",
+        ],
+
+      }
     },
     {
       id: 10,
       name: "Mobikwik",
-      slug: "/mobikwik",
+      slug: "mobikwik",
       url: "/assets/images/ReferEarn/mobile-money.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "MobiKwik is also a Payment app. In this app, we can do a lot of things from online money transfers to recharge, and bill payments. MobiKwik recently changed its previous referral offer. And now they have relaunched the referral offer with new terms and conditions.",
+        subTitle: [
+          "Now, if you refer your friends to MobiKwik and if they start inviting friends you will get ₹75 cashback in your MobiKwik Wallet. Also, the person who will join MobiKwik through your referral link will get a ₹75 cashback in their MobiKwik wallet after their first UPI transfer. The minimum transfer amount is ₹75."
+        ],
+        url: "/assets/images/ReferEarnImg/ReferEarn10.png ",
+        OurReview: [
+          "Please note that, if you have changed your UPI ID before on MobiKwik or if you have linked your Payment Bank on MobiKwik then you will not earn any cashback. You can use your MobiKwik referral balance to recharge, LIC premium, EMI payments, pay bills etc."
+        ],
+        HowToDownload: [
+          "MobiKwik Refer and Earn Offer - ",
+          "1. First of all, download the MobiKwik App. ",
+          "2. Create an account and link your Bank account. ",
+          "3. Now scroll down and find the ‘Refer & Earn’ option on the ‘offers for you’ tab. ",
+          "4. Simply copy your invite link and share it on your social media. ",
+          "5. Once your referred friend makes their first UPI payment you will get ₹75 cashback. ",
+          "6. If they add money through your link you will receive ₹100 cashback. ",
+        ],
+
+      }
     },
     {
       id: 11,
       name: "Groww App",
-      slug: "/groww-app",
+      slug: "groww-app",
       url: "/assets/images/ReferEarn/earn.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "Groww is a mutual fund app. In this app, you can buy stocks, mutual funds, and digital gold. To refer and earn money from the Groww App you need to create an account here first. After that, you can easily earn money from the Groww App through referral.",
+        url: "/assets/images/ReferEarnImg/ReferEarn11.png ",
+        OurReview: [
+          "You will get ₹100 for a new referral once they signup through your link and activate their stocks account. The money will directly be deposited to both of your Groww balances. If you don’t make a withdrawal or invest the referral money then Groww will automatically deposit the money to your linked Bank account within some period of time."
+        ],
+        HowToDownload: [
+          "Groww App Refer and Earn -",
+          "1. First of all, download the Groww App. ",
+          "2. Register and create your account. ",
+          "3. After submitting all the details, your account will be activated. ",
+          "4. Now tap on the profile icon. ",
+          "5. Scroll down and tap on the ”Share and earn cash rewards” option. ",
+          "6. You can check all your successful and pending invites on the About Invite tab. ",
+          "7. Both of you will receive ₹100 in your Groww balance once they complete their Groww account. ",
+        ],
+
+      }
     },
     {
       id: 12,
       name: "Meesho App",
-      slug: "/meesho-app",
+      slug: "meesho-app",
       url: "/assets/images/ReferEarn/online-earnings.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "Meesho is known as India’s no 1 reselling app. Here you can earn money by referral and reselling products. I have already written an article on this topic before. Here you can earn money by reselling products and through referrals.",
+        subTitle: [
+          "This post is all about ‘the best refer and earn app in India’. So there is no value to talking about Meesho reselling. There are four sections in the Meesho Referral. If you refer your friends to join the Meesho App then you will earn 25% of their sales for the next 12 months."
+        ],
+        url: "/assets/images/ReferEarnImg/12.png ",
+        OurReview: [
+          "The four sections are Zero Referral, Rising Star, Super Star, and Mega Star. Reselling App Meesho claims that you can earn up to ₹50,000 in 12 months from the Meesho App."
+        ],
+        HowToDownload: [
+          "Meesho Refer and Earn - ",
+          "1. First of all, download the Meesho App. ",
+          "2. Register on this app. ",
+          "3. Tap on the Account option. ",
+          "4. And then choose the ‘Refer & Earn’ option. ",
+          "5. Simply choose the ‘Refer a friend’ and share your Meesho invite link. ",
+          "6. Once your friend joins through your link and starts shopping or reselling, you will get 25% of sales for the first 3 orders. "
+        ],
+
+      }
     },
     {
       id: 13,
       name: "My11Circle",
-      slug: "/my11circle",
+      slug: "my11circle",
       url: "/assets/images/ReferEarn/earningOne.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "It is a fantasy cricket app. In this app, you can play fantasy cricket, football, and rummy. This app is also known as the Sourav Ganguly fantasy cricket app or Rummy Circle. In this app, you will earn a ₹551 cashback directly in your bank account.",
+
+        url: "/assets/images/ReferEarnImg/ReferEarn13.png ",
+        OurReview: [
+          "If you wish you can play fantasy cricket, football, and rummy games on this app. But to earn ₹551 for a referral in the bank, there is no need to play or invest a single rupee. All you can do is through a referral.",
+          "You have to complete KYC through your PAN Card and Bank details. After that, you can withdraw your referral money from a Bank account.",
+          "The minimum withdrawal limit is ₹100. You will get only one free withdrawal per month. It will take up to 3-7 days to reflect the amount into your bank account.",
+
+        ],
+        HowToDownload: [
+          "My11Circle Refer and Earn -",
+          "1. First of all, download the My11Circle App. ",
+          "2. Create an account and complete your Profile. ",
+          "3. Now Tap on the ‘Refer & Earn’ section. ",
+          "4. Copy Link or Share Invite Link on WhatsApp. ",
+          "5. If your friend plays for the first time, you will receive ₹51 in your wallet.X ",
+          "6. After that, if they play of amount ₹40 or a total of ₹40, you will receive ₹4 in your wallet. ",
+          "7. In this way, you can earn ₹4 per friend 125 times if they play ₹40 amount 125 times. ",
+        ],
+
+      }
     },
     {
       id: 14,
       name: "EarnKaro",
-      slug: "/earnkaro",
+      slug: "earnkaro",
       url: "/assets/images/ReferEarn/earning.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "If you want to join an affiliate program and earn money from sitting at home then EarnKaro is the best platform for you. As you know, you have to apply for approval for any particular affiliate program.",
+        url: "/assets/images/ReferEarnImg/ReferEarn5.png ",
+        url: "/assets/images/ReferEarnImg/ReferEarn14.png ",
+        OurReview: [
+          "But in EarnKaro, there is no need to wait for the approval. You can easily start promoting products link on your social media and earn money.",
+          "Apart from affiliate marketing, you can earn money from the EarnKaro App by referral too. In this case, you will earn 10% of the profit your friends make forever.",
+          "The minimum withdrawal limit is ₹10. You can easily withdraw your earnings from your Bank account. "
+        ],
+        HowToDownload: [
+          " EarnKaro Refer and Earn -",
+          " 1. First of all, download the EarnKaro App and SignUp.",
+          " 2. Tap on the profile option.",
+          " 3. Now select the ‘My Referral’ option.",
+          " 4. Tap on ‘Refer & Earn Lifetime’.",
+          " 5. Share your referral link on Facebook, Telegram, or WhatsApp.",
+          " 6. You will get 10% of the profit your friends make forever.",
+        ],
+
+      }
     },
     {
       id: 15,
       name: "OneCode Referral Program",
-      slug: "/onecode-referral-program",
+      slug: "onecode-referral-program",
       url: "/assets/images/ReferEarn/coints.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "This is also a similar kind of application to EarnKaro. But you will get to see some different and trending brands that offer great referral benefits in this app. This is the beauty of the One Code app. Here you will get to see a lot of different brands like Upstox, Groww, Dhani, Paytm Money, etc. By referring to these brands with the One Code unique link you will earn more cashback. Apart from this, you can also share the OneCode referral link with your friends and earn 10% of their earnings for life. I feel One Code is one of the best refer and earn apps in India. All of your earnings, referrals, and pending profits can be seen in the app.",
+        url: "/assets/images/ReferEarnImg/ReferEarn15.png ",
+        HowToDownload: [
+
+          " One Code Refer and Earn -",
+          " 1. First of all, download the One Code app.",
+          " 2. Register with your email, mobile number, and OTP.",
+          " 3. Verify KYC.",
+          " 4. Tap on the ‘Profile’ icon and then choose the ‘Share Now’ option.",
+          " 5. Simply share your OneCode referral link and referral code with friends.",
+          " 6. All your earnings will be sent to your Paytm Bank.",
+          " 7. If you want to promote any brand then first you have to complete training, give some answers and then you are ready to promote any brand",
+        ],
+
+      }
+
     },
     {
       id: 16,
       name: "Paytm First Games",
-      slug: "/paytm-first-games",
+      slug: "paytm-first-games",
       url: "/assets/images/ReferEarn/money.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "It is an official gaming app from Paytm. We can play different types of online games in this app. From fantasy cricket, and rummy card games to puzzles, quizzes, poker everything we can play in this Paytm First Games.",
+        subTitle: [
+          "Sachin Tendulkar is the brand ambassador of the Paytm First Games App. This app comes with an amazing refer and earn offer. ",
+          "If you refer friends to download and play games on the Paytm First Games then you will earn up to 10% winning cash and spins. You can withdraw the winning cash on your Paytm wallet or Bank account once you get ₹100 or more winning balance. "
+        ],
+        url: "/assets/images/ReferEarnImg/ReferEarn16.png ",
+        OurReview: [
+          "The best part of the Paytm First Games is you don’t need to complete KYC if you have signed on to this app with your Paytm number. Also, you will get instant withdrawal in your Paytm wallet or Bank account."
+        ],
+        HowToDownload: [
+
+          " Paytm First Games Refer and Earn Offer -",
+          " 1. First of all, download the Paytm First Games Apk.",
+          " 2. SignUp with your registered Paytm number.",
+          " 3. Tap on the three lines.",
+          " 4. Now select the ‘Refer & Earn Cash’.",
+          " 5. Copy the Paytm First Games referral code and link.",
+          " 6. Share the invite link on your social media.",
+          " 7. If your friend adds money to their wallet of ₹1-₹100 then you will get 10% winning cash.",
+          " 8. Similarly, if they add ₹101-₹1000, ₹1001-₹1L or ₹1L+ then you will get 5%, 3%, and 1% winning cash respectively.",
+        ],
+
+      }
     },
     {
       id: 17,
       name: "Vision11",
-      slug: "/vision11",
+      slug: "vision11",
       url: "/assets/images/ReferEarn/passive-income.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "You must not hear about the Vision11 app. It is a fantasy cricket app. In this app, you can play fantasy games like fantasy cricket, football, basketball, baseball, handball, etc.",
+        subTitle: [
+          "Users can play fantasy games and earn money through this app. Apart from the fantasy games, you can earn money through the refer and earn offers too. Usually, you will get a ₹100 bonus for a new referral. But as per the new referral policy, you will earn 20% of your friend’s deposit. It means if your friend deposits ₹100 in the Vision11 wallet, you will get ₹20 in your Vision11 winning balance. The minimum withdrawal on this app is ₹100. You can withdraw your winning balance on your Paytm App and Bank Account instantly."
+        ],
+        HowToDownload: [
+          "Refer and Earn a 20% Winning Balance -",
+          "1. First of all, download the Vision11 App.",
+          "2. Enter referral code SUVAM and register on this app.",
+          "3. Tap on the ‘More’ section.",
+          "4. Select the ‘Refer & Earn’ option.",
+          "5. Share your Vision11 Invite Link with your friends.",
+          "6. Once they sign up through your link and deposit money, you will get a 20% winning balance.",
+        ],
+
+      }
     },
     {
       id: 18,
       name: "11Challengers",
-      slug: "/11challengers",
+      slug: "11challengers",
       url: "/assets/images/ReferEarn/profit-margin.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "This is a fantasy cricket application. In this app, you can earn money in your bank or Paytm cash by playing online games and referring friends. If you have some friends or members who love to play online games then you have a great chance to earn some passive income for your whole life through the 11Challengers fantasy app.",
+        url: "/assets/images/ReferEarnImg/ReferEarn18.png ",
+        OurReview: [
+          "If you refer a user to play games on the 11Challengers fantasy app then you will get a ₹50 cash bonus. At the same time if they deposit money in their wallet then you will get 20% of the amount in your winning balance. You can withdraw all your earnings from the 11Challengers affiliate to your Bank account or Paytm wallet. The minimum withdrawal limit is ₹200."
+        ],
+        HowToDownload: [
+          "Earn 20% Contest Commission -",
+          "First of all, download the 11Challengers App.",
+          "Register or create an account.",
+          "Enter 11Challengers Referral Code SUVAM.",
+          "Tap on three lines and choose the Invite Friends option.",
+          "Tap on Invite Via WhatsApp and share the link.",
+          "Once your friend plays a cash contest you will get 20% of their contest commission."
+        ],
+
+      }
     },
     {
       id: 19,
       name: "Samsung Referral",
-      slug: "/samsung-referral",
+      slug: "samsung-referral",
       url: "/assets/images/ReferEarn/investment.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "If you or your friends want to buy a Samsung smartphone from the official website then you have a great chance to earn some vouchers and discount coupons. Users will get up to ₹4500 vouchers and up to a 5% discount coupon for every sale they make.",
+
+        url: "/assets/images/ReferEarnImg/ReferEarn19.png ",
+        OurReview: [
+          "For the first time, you have to log in or sign up on the official website. After that, you can easily get your referral link by entering your mobile number and email id within 30 seconds. There are some specific smartphones and products listed on the portal.",
+          "By referring friends you will get vouchers worth ₹750, ₹1500, and ₹4500 for a sale. Apart from this, they will get a discount also. Users can redeem the vouchers at Samsung online store and app. You will get more about the Samsung Affiliate Program on this page."
+        ],
+
+
+      }
     },
     {
       id: 20,
       name: "SEO ToolAdda",
-      slug: "/seo-tooladda",
+      slug: "seo-tooladda",
       url: "/assets/images/ReferEarn/profitOne.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "This is an SEO tools platform. If you are a blogger or content creator then you may know about this website. Many small bloggers use this platform to access many keyword research platforms at a very low price. Although they can check only a few keywords every day. But still, I feel it is a profitable option for every small creator and blogger.",
+        subTitle: [
+          "You can easily join SeoToolAdda Affiliate and promote it with your blogger friends and community. You will get a 20% referral commission for 1-10 sales, 30% referral commission for 11-20 sales, and 40% referral commission for 20+ sales in a month. ",
+          "You can signup on SeoToolAdda with your email id, mobile number, name, and password. They provide PayPal, Bank Transfer, UPI, and Paytm withdrawal options. They will send payment every Sunday on Paytm and UPI. At the same time, if you will choose Bank transfer or PayPal withdrawal options then you will get the payment within 7-14 days in your account. "
+        ],
+
+        HowToDownload: [
+          "Our review",
+
+          "1 - 10 Sales",
+
+          "20 %",
+
+          " 11 - 20 Sales",
+
+          "30 %",
+          "21 + Sales",
+
+          "40 %"
+
+        ],
+
+      }
     },
     {
       id: 21,
       name: "Pro SEO Tools",
-      slug: "/pro-seo-tools",
+      slug: "pro-seo-tools",
       url: "/assets/images/ReferEarn/salaryTwo.png",
-      description: "For further information, please read on for more details. "
+      description: "For further information, please read on for more details. ",
+      content: {
+        whatIs: "ProSeoTools also runs a similar kind of affiliate program like SeoToolAdda. The process is exactly similar to each other. You just need to signup on to the ProSeoTools website and then you can share your referral link with your friends and community. Users can use this website for keyword research, site analysis, backlink check etc.",
+        subTitle: [
+          "You will get 20% for 1-10 sales, 30% referral commission for 11-20 sales, and 40% commission for 21+ sales in a month. You can withdraw your referral commission to Paytm, Bank account, PayPal, and UPI ID. I feel SeoToolAdda and ProSeoTools are the best refer and earn websites in India."
+        ],
+        HowToDownload: [
+          " Our review",
+
+          " 1-10 Sales",
+
+          " 20%",
+
+          " 11-20 Sales",
+
+          " 30%",
+
+          " 21+ Sales",
+
+          " 40%"
+        ],
+
+      }
     }
   ],
 
@@ -2187,7 +2822,7 @@ const gameData = {
       url: "/assets/images/PassiveIncomeIdea/PassiveIncomeIdea2.png",
       description: "For further information, please read on for more details.",
       content: {
-        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea3.png",
+        url: "/assets/images/PassiveIncomeIdeaInfo/PassiveIncomeIdea2.png",
         whatIs: "Being a blogger is one of the easiest ways to earn money from home. Unlike any other job, if you are blogging from home, you don’t need to work 9-5.",
         subTitle: [
           "You can work at any time of the day with ease. But beware. Blogging takes time before you start earning.",
@@ -3579,7 +4214,7 @@ const gameData = {
           "Collect design stuff: Find free resources for images, fonts, icons, and vectors.",
           "Get started: Start designing your quote printable using selected tools and collected resources."
         ],
-        "HowToMonetize": [
+        Monetize: [
           "Upload designs to art selling sites like Fineartamerica.com, Cafepress.com, etc.",
           "Set prices between $5 to $25 or higher."
         ]
@@ -3732,7 +4367,7 @@ const gameData = {
           "Ability to use a computer proficiently",
           "Ability to communicate effectively using the internet"
         ],
-        HowToGetStarted: [
+        HowToGetStarteds: [
           "Visit https://learntobeabookkeeper.com and sign up for a free training series by Bookkeeper Business Academy.",
           "Learn everything about bookkeeping, finding clients, and closing deals."
         ],

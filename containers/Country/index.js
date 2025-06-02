@@ -19,7 +19,7 @@ function Country() {
     }
     return (
         <Layout title={"Country"} className={"text-[15px]"}>
-            <div className="flex flex-col gap-5 mx-auto h-max ls:w-[365px] p-4 pb-[100px]">
+            <div className="flex flex-col gap-5 mx-auto h-max pt-[100px]p-4 pb-[100px]">
                 <div className="">
                     <Ads
                         data-ad-format="auto"

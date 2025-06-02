@@ -1,4 +1,5 @@
-import EarnMoneyInfo from '@containers/EarnMoneyInfo'
+
+import PassiveIncomeIdeaInfo from '@containers/PassiveIncomeIdeaInfo'
 import Head from 'next/head'
 import React, { Fragment } from 'react'
 
@@ -11,7 +12,7 @@ function index() {
                     crossorigin="anonymous"></script>
             </Head>
             <div>
-                <EarnMoneyInfo type={"PassiveIncomeIdea"} />
+                <PassiveIncomeIdeaInfo type={"PassiveIncomeIdea"} />
             </div>
         </Fragment>
     )
