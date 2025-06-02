@@ -19,10 +19,18 @@ function Home() {
 
 
     <Fragment >
+
       <div className="text-center bg-primary1 p-5 rounded-b-[30px] shadow-2xl ">
         {"Smart & Easy Earn Money"}
       </div>
-      <div className="flex flex-col gap-12 p-5 pt-[80px] items-center justify-center text-black bg-white   ">
+      <div className="">
+        <Ads
+          data-ad-format="auto"
+          data-ad-slot="9852606619"
+          data-full-width-responsive="true"
+        />
+      </div>
+      <div className="flex flex-col gap-12 p-5 pt-[80px] items-center justify-center text-black bg-white pb-[200px]  ">
         <img src="/assets/images/homePage/homePage.png"
           className="w-[100px] h-[100px]"
         />
