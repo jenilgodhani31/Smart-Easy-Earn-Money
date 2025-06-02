@@ -17,7 +17,7 @@ const ReferEarnInfo = ({ type }) => {
 
     if (!marketingItem) return <Layout title="Not Found"><div className="pt-10 pb-10 flex items-center text-black justify-center"> item not found</div></Layout>
 
-    const { name, title, Heading, content, Details, piITitle } = marketingItem
+    const { name, content, } = marketingItem
 
     return (
         <Layout title={name} className="p-5  text-[15px]">

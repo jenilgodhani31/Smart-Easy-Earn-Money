@@ -1294,7 +1294,106 @@ const gameData = {
       name: "Types of Real Estate",
       slug: "types-of-real-estate",
       url: "/assets/images/RealEstate/rental.png",
-      description: "For further information, please read on for more details. ",
+      description: "For further information, please read on for more details.",
+      content: {
+        info: [
+          {
+            type: "House and Lot",
+            PROS: [
+              "Truly perpetual ownership. It can last for generations.",
+              "Tenants tend to stay longer compared to condos and apartments. This reduces repairs and vacancy expenses.",
+              "Land appreciates, buildings, and improvements depreciate.",
+              "You get bigger space compared with townhouses or condos if you choose to live there.",
+              "No expensive condo dues.",
+              "Target tenants are big families."
+            ],
+            CONS: [
+              "Higher physical maintenance compared to condos as now you have a roof/ceiling to maintain, more faucets, more tiles, more walls, etc.",
+              "Generally more expensive than condos or townhouses as you are buying more space.",
+              "In most cases, it takes a car ride to go to malls, groceries, offices. Condos are built for convenience and are usually located near these establishments."
+            ]
+          },
+          {
+            type: "Apartment",
+            PROS: [
+              "Good for rental income as you can fit multiple doors in an area. If one tenant leaves, you still have other units that generate income.",
+              "No expensive condo dues.",
+              "You get the rental income of a condo and the long-term appreciation of a house and lot.",
+              "Target tenants are couples or starting families."
+            ],
+            CONS: [
+              "More exposure to multiple tenants, unlike if you are renting out a house and lot, you only talk to one family. More people, more problems.",
+              "Faster turnaround of tenants. House tenants tend to stay longer.",
+              "Higher maintenance costs if you don't screen your tenants properly.",
+              "When it's time to sell, the only people you will attract are investors who wouldn't love the property. They only care about getting the lowest price for it."
+            ]
+          },
+          {
+            type: "Townhouse",
+            PROS: [
+              "You get the bigger space of a house and lot, and the rental income of an apartment (if you decide to rent it out).",
+              "Command a higher rental price compared to apartments as it has more space.",
+              "Target tenants are families or couples."
+            ],
+            CONS: [
+              "Attached units have disadvantages such as shared noise, and vibrations.",
+              "Usually, townhouses have smaller space compared to a house and lot."
+            ]
+          },
+          {
+            type: "Condominium",
+            PROS: [
+              "Convenience. Condos are usually built near malls, schools, groceries, churches, and offices.",
+              "Readily accessible amenities like pools, gyms, play areas, events place, and gardens.",
+              "Target tenants are young urban professionals, couples, and small families."
+            ],
+            CONS: [
+              "See next chapter"
+            ]
+          },
+          {
+            type: "Condotel (Condo + Hotel)",
+            PROS: [
+              "Hassle-free rental income. No need to market, no need to screen tenants, no need to maintain the unit. Everything will be done by the property management."
+            ],
+            CONS: [
+              "Higher price.",
+              "Expensive management fees.",
+              "Your success depends on the management of the property.",
+              "Harder to liquidate in the future. In normal condos, you can either live in it or invest for the rental income. In condotels, you only buy it for rental income. If after 20 years, the condotel is not as attractive anymore and people will have better newer options, then investors will not look to buy your condotel property.",
+              "Tip: look for condotels with a buyback feature after XX number of years. Consider inflation. If the buyback program is 150% of your purchase amount after 10 years, and your country's average inflation rate is 3% per year, then this is a good deal as it beats inflation while you earn rental income for 10 years."
+            ]
+          },
+          {
+            type: "Residential Lots",
+            PROS: [
+              "Almost zero maintenance.",
+              "Perfect for investors who are just waiting for price appreciation.",
+              "Can be held for a very long time.",
+              "Good for investors who do not live in the area.",
+              "Only need to visit once or twice a year."
+            ],
+            CONS: [
+              "Income is only realized when the lot is sold.",
+              "Takes time to appreciate especially if there is no significant improvement in the area."
+            ]
+          },
+          {
+            type: "Commercial Properties",
+            PROS: [
+              "May include commercial spaces, parking lots, warehouses (industrial), banks, gasoline stations, restaurants, shops, or hotels.",
+              "Can be rented to business entities that would command higher rental yields.",
+              "If business is good, you will have a tenant for a very long time.",
+              "Generally, more straightforward negotiations as you are dealing with companies unlike when dealing with individuals."
+            ],
+            CONS: [
+              "Will have specific requirements like banks, convenience stores, parking lots. If the next tenant would be in a different industry, then you would need to have it remodeled. In most cases, if the next tenant is really interested, then they will pay for the renovation.",
+              "The value of the property will only depend on how much income it is generating."
+            ]
+          }
+        ]
+      }
+
 
     },
     {
@@ -2767,9 +2866,6 @@ const gameData = {
       }
     }
   ],
-
-
-
 
   PassiveIncomeIdea: [
     {

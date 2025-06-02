@@ -355,6 +355,33 @@ const EarnMoneyInfo = ({ type }) => {
                     </section>
                 )}
 
+                {content.info && (
+                    <div>
+                       
+                        {content.info?.map((item, index) => (
+                            <div key={index} className="mb-10">
+                                <div className="">{item.type}</div>
+                                <div className="mt-2">
+                                    <div>PROS:</div>
+                                    <div className="list-disc">
+                                        {item?.PROS?.map((item, idx) => (
+                                            <div key={idx}>{item}</div>
+                                        ))}
+                                    </div>
+                                </div>
+                                <div className="mt-2">
+                                    <div>CONS:</div>
+                                    <div className="list-disc ">
+                                        {item?.CONS?.map((item, idx) => (
+                                            <div key={idx}>{item}</div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                )}
+
                 {/* Button */}
                 <div className='pt-10'>
                     <a href="/emoney" className="w-full pt-10 ">
