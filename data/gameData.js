@@ -747,8 +747,11 @@ const gameData = {
         whatIs: "Email Marketing is another form of affiliate marketing where you use your email list of blog subscribers to promote a certain product.",
         suitableFor: "People who love to talk, write, explain and have the ability to persuade.",
         skillsRequired: "Ability to write promotional emails.",
-        timeRequired: "Email marketing is very profitable but building an email list takes time. You can build one by giving away a free ebook or course in exchange for emails. If you already own a blog, use opt-in forms and newsletters. On average, it takes 1 to 3 months to build a profitable list, but long-term it's one of the most stable income sources.",
-        tips: [],
+        timeRequired: [
+          "Email marketing is very profitable but building an email list takes time. To build an email list, you will give away a free ebook or an email course anything that will help them in exchange for their email list.",
+          "If you already own a blog you can create an opt-in form and ask your blog readers to subscribe to the weekly newsletter in exchange for their email.",
+          "On an average, it takes 1 to 3 months to build a profitable size of the email list. But from a long-term perspective, an email list is one of the most profitable and stable ways of passive income"
+        ],
         howToMonetize: [
           "Send promotional emails to your email list which include affiliate links to products you are promoting.",
           "The more people on your list, the more chances of clicks and purchases — thus, more affiliate commissions."
@@ -771,7 +774,7 @@ const gameData = {
           "Ability to persuade people with proper reasoning."
         ],
         timeRequired: "You can easily start Facebook marketing by creating promotional posts and a Facebook page promoting a product. This can be done within minutes.",
-        tips: [],
+       
         howToMonetize: [
           "Get more people to visit your Facebook page.",
           "Start promoting any affiliate product relevant to the Facebook page’s topic.",
@@ -796,7 +799,7 @@ const gameData = {
           "Ability to persuade people with proper reasoning."
         ],
         timeRequired: "You can easily start Facebook marketing by creating promotional posts and a Facebook page promoting a product. This can be done within minutes.",
-        tips: [],
+       
         howToMonetize: [
           "Get more people to visit your Facebook page.",
           "Start promoting any affiliate product relevant to the Facebook page’s topic.",

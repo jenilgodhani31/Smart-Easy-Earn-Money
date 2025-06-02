@@ -3,7 +3,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Modal from "@components/model";
 import Ads from "@components/Ads";
-import Layout from "@components/Layout";
+
 
 
 function Home() {
@@ -30,7 +30,7 @@ function Home() {
           data-full-width-responsive="true"
         />
       </div>
-      <div className="flex flex-col gap-12 p-5 pt-[80px] items-center justify-center text-black bg-white pb-[200px]  ">
+      <div className="flex flex-col gap-12 p-5 pt-[80px] items-center justify-center text-black bg-white pb-[400px]  ">
         <img src="/assets/images/homePage/homePage.png"
           className="w-[100px] h-[100px]"
         />
@@ -51,7 +51,18 @@ function Home() {
 
       </div>
 
+      {isClient && (
+        <Modal
+          outerClassName="border-[1px] border-white"
+          isOpen={isOpen}
+          onClose={() => setIsOpen(false)}
+        >
+          <div className=" md:mt-[18px] mt-[20px]">
 
+            <Ads display={true} data-ad-slot="7438833981" />
+          </div>
+        </Modal>
+      )}
 
 
     </Fragment>

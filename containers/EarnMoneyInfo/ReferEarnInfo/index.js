@@ -61,13 +61,20 @@ const ReferEarnInfo = ({ type }) => {
                 )}
                 {content?.TermsAndConditions && (
                     <section className="mb-4">
-                         <h2 className="">Terms And Conditions -</h2>
+                        <h2 className="">Terms And Conditions -</h2>
                         <div className="list-disc list-inside ">
                             {content?.TermsAndConditions.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
                         </div>
                     </section>
                 )}
+                <div className='pt-10'>
+                    <a href="/emoney" className="w-full pt-10 ">
+                        <button className="flex items-center justify-center w-full p-5 text-white gap-3 rounded-[15px] bg-primary1 shadow-xl/20 transition-shadow duration-300">
+                            {"Earn Now"}
 
+                        </button>
+                    </a>
+                </div>
             </div>
 
 
