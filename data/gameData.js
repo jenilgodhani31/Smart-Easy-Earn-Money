@@ -774,7 +774,7 @@ const gameData = {
           "Ability to persuade people with proper reasoning."
         ],
         timeRequired: "You can easily start Facebook marketing by creating promotional posts and a Facebook page promoting a product. This can be done within minutes.",
-       
+
         howToMonetize: [
           "Get more people to visit your Facebook page.",
           "Start promoting any affiliate product relevant to the Facebook page’s topic.",
@@ -799,7 +799,7 @@ const gameData = {
           "Ability to persuade people with proper reasoning."
         ],
         timeRequired: "You can easily start Facebook marketing by creating promotional posts and a Facebook page promoting a product. This can be done within minutes.",
-       
+
         howToMonetize: [
           "Get more people to visit your Facebook page.",
           "Start promoting any affiliate product relevant to the Facebook page’s topic.",
@@ -1134,8 +1134,9 @@ const gameData = {
       }
     },
     {
-      id: 3, name: "Personal Lending ",
-      slug: "personal-lending ",
+      id: 3,
+      name: "Personal Lending ",
+      slug: "personal-lending",
       url: "/assets/images/HomeBasedBusiness/busines.png",
       description: "For further information, please read on for more details",
       content: {
@@ -1153,6 +1154,24 @@ const gameData = {
           "Keep the terms short (e.g., 3 to 6 months). The longer the terms, the riskier.",
           "Allot provisions for default loans.",
           "Open multiple avenues for payment. Open accounts on different banks or online payment platforms to make it easier for your clients to pay you."
+        ]
+      },
+      content: {
+        whatIs: "A home photography studio is a hit today since there are a lot of individuals who found themselves selling all kinds of stuff from home. You can do food photography, crafts photography, shirts, and any other merchandise that people are selling online. There is good business here because most sellers understand that product presentation is one key ingredient for success, and at the same time, not everyone (especially new sellers) will invest in photography equipment.",
+        howToStart: "You can approach any online seller and offer your services. Tell them you can make the image of their merchandise more attractive and appetizing because you have the right equipment.",
+        noExperience: "No experience in food photography before? No problem! A 10-minute tutorial video on YouTube can already drastically make your photography skills better. Of course, if you want to be the best, years of experience in photography are still required.",
+        whyGoodIdea: "There are a lot of new online sellers today and most of them understand the need for a good image but do not know how to do it. You do not need to invest in expensive equipment! Some great shots can be taken using a camera phone and a few rechargeable lamps.",
+        requirements: [
+          "Camera, lenses, or a good camera phone (especially for macro shots)",
+          "Tripod",
+          "Diffuser lights",
+          "Reflectors",
+          "Editing software (e.g.Canva)"
+        ],
+        proTips: [
+          "Start with offering your services for a small amount or even free — this is to help build your portfolio.",
+          "Take your work to social media and let your work do the talking. Always remember to put watermarks on your work to prevent people from stealing it.",
+          "Enjoy what you are doing."
         ]
       }
     }, {
@@ -1917,7 +1936,7 @@ const gameData = {
     },
     {
       id: 7, name: "Life Points",
-      slug: "/life-points",
+      slug: "life-points",
       url: "/assets/images/Survey/surveyy.png",
       description: "For further information, please read on for more details",
       content: {
@@ -2255,7 +2274,7 @@ const gameData = {
     },
     {
       id: 27, name: "Curious Cat",
-      slug: "/curious-cat",
+      slug: "curious-cat",
       url: "/assets/images/Survey/checklisttt.png",
       description: "For further information, please read on for more details",
       content: {
@@ -2438,7 +2457,7 @@ const gameData = {
       slug: "5paisa",
       url: "/assets/images/ReferEarn/earn-money.png",
       description: "For further information, please read on for more details",
-      OurReview: {
+      content: {
         whatIs: "This is also a stock brokerage in India. It charges a flat brokerage fee irrespective of the size, commodity or trade exchange. It comes with zero account opening charges and a flat ₹10 per executed order for mutual fund investment. In 5Paisa you can buy direct mutual funds and regular mutual funds. You have to pay some AMC charges too.",
         subTitle: [
           "5 Paisa comes with three subscription plans. Such as basic pack, power investor pack and ultra trader pack. These plans will help you a lot.",

@@ -19,6 +19,8 @@ const HomeBasedBusinessInfo = ({ type }) => {
 
     const { name, content, } = marketingItem
 
+    console.log("marketingItem",marketingItem)
+
     return (
         <Layout title={name} className="p-5  text-[15px]">
             <div className="text-black font-semibold px-5 pb-5 pt-[100px]">

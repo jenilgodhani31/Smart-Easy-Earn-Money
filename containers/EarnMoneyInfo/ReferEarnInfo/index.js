@@ -19,6 +19,8 @@ const ReferEarnInfo = ({ type }) => {
 
     const { name, content, } = marketingItem
 
+        console.log("marketingItem",marketingItem)
+
     return (
         <Layout title={name} className="p-5  text-[15px]">
             <div className="text-black font-semibold px-5 pb-5 pt-[100px]">
@@ -28,9 +30,12 @@ const ReferEarnInfo = ({ type }) => {
                     </section>)}
 
                 {content?.subTitle && (
-                    <section className="mb-4 mt-2">
-                        <p>{content?.subTitle}</p>
-                    </section>)}
+                    <section className="mb-4">
+                        <div className="list-disc list-inside ">
+                            {content?.subTitle.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
+                        </div>
+                    </section>
+                )}
 
                 {content?.reward && (
                     <section className="mb-4 mt-2">
