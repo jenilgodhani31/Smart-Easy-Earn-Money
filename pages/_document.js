@@ -50,7 +50,7 @@ export default function Document() {
           window.OneSignalDeferred = window.OneSignalDeferred || [];
           OneSignalDeferred.push(async function(OneSignal) {
             await OneSignal.init({
-              appId: "05a168f7-8419-43bb-95be-32e838893a65",
+              appId: "3d213798-d7c2-439f-bba7-95628891957c",
             });
           });
         `,
