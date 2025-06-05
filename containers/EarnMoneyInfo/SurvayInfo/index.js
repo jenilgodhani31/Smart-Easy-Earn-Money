@@ -48,7 +48,7 @@ const SurveyInfo = ({ type }) => {
                         <h2 className="">Amount per survey -</h2>
                         <p>{content?.AmountPerSurvey}</p>
                     </section>)}
-                <div className=" ">
+                <div className="p-5 ">
                     <Ads
                         data-ad-format="auto"
                         data-ad-slot="6816460021"

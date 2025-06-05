@@ -31,7 +31,7 @@ function EarnMoney() {
           </a>
         ))}
       </div>
-      <div className=" ">
+      <div className="p-5 ">
         <Ads
           data-ad-format="auto"
           data-ad-slot="6816460021"

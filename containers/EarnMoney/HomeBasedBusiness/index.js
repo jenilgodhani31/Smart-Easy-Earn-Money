@@ -14,7 +14,7 @@ function HomeBasedBusiness() {
   }
   return (
     <Layout title={"Home-based Business"} className={"text-[15px]"}>
-      <div className=" ">
+      <div className="pt-[100px] p-5 ">
         <Ads
           data-ad-format="auto"
           data-ad-slot="6816460021"
@@ -39,7 +39,7 @@ function HomeBasedBusiness() {
           </div>
         ))}
       </div>
-            <div className=" ">
+            <div className="p-5 ">
         <Ads
           data-ad-format="auto"
           data-ad-slot="6816460021"
