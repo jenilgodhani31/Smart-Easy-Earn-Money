@@ -1174,7 +1174,8 @@ const gameData = {
           "Enjoy what you are doing."
         ]
       }
-    }, {
+    },
+       {
       id: 4, name: "Succulent Plants",
       slug: "succulent-plants",
       url: "/assets/images/HomeBasedBusiness/business.png",
@@ -1888,7 +1889,7 @@ const gameData = {
     {
       id: 3, name: "Toluna ",
       slug: "toluna",
-      url: "/assets/images/Earnmoneyinfo/affiliate-marketing.png",
+      url: "/assets/images/Survey/activities.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "A trusted opinion website working on behalf of leading companies. They want to know what you think about certain products, services and issues. In return, you get rewarded! ",
@@ -1904,7 +1905,7 @@ const gameData = {
     {
       id: 4, name: "i-Say (Ipsos)",
       slug: "i-Say",
-      url: "/assets/images/Survey/activities.png",
+      url: "/assets/images/Survey/qualitative-researchh.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "One of the largest and best paying survey-based market research companies. IPSOS collaborates with trusted brands worldwide.",
@@ -1921,7 +1922,7 @@ const gameData = {
     {
       id: 5, name: "Opinion Outpost",
       slug: "opinion-outpost",
-      url: "/assets/images/Survey/qualitative-researchh.png",
+      url: "/assets/images/Survey/c.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "Opinion Outpost have shot up in popularity due to fast payouts and fun surveys. ",
@@ -1937,7 +1938,7 @@ const gameData = {
     {
       id: 7, name: "Life Points",
       slug: "life-points",
-      url: "/assets/images/Survey/surveyy.png",
+      url: "/assets/images/Survey/customer-review.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "Two very popular survey sites, MySurvey and GlobalTestMarket, have merged to form LifePoints.",
@@ -1955,7 +1956,7 @@ const gameData = {
     {
       id: 8, name: "Pinecone Research  ",
       slug: "pinecone-research",
-      url: "/assets/images/Survey/donor-consent-form.png",
+      url: "/assets/images/Survey/surveyy.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "Pinecone is an exclusive survey and product testing company, currently available by invite only.",
@@ -1972,7 +1973,7 @@ const gameData = {
     {
       id: 9, name: "YouGov",
       slug: "youGov",
-      url: "/assets/images/Survey/surveyingFive.png",
+      url: "/assets/images/Survey/donor-consent-form.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "YouGov is different from typical survey sites, focusing on social issues, politics, public affairs, and general interest topics. Great if you have big opinions!",
@@ -1990,7 +1991,7 @@ const gameData = {
     {
       id: 10, name: "Prize Rebel",
       slug: "prize-rebel",
-      url: "/assets/images/Survey/home-inspection.png",
+      url: "/assets/images/Survey/surveyingFive.png",
       description: "For further information, please read on for more details. ",
       content: {
         whatIsSurvey: "PrizeRebel is a 'get paid to' site that features a strong paid survey section.",
@@ -2008,7 +2009,7 @@ const gameData = {
     {
       id: 11, name: "Market agent",
       slug: "Market-agent",
-      url: "/assets/images/Survey/surveyone.png",
+      url: "/assets/images/Survey/home-inspection.png",
       description: "For further information, please read on for more details. ",
       content: {
         whatIsSurvey: "Marketagent boasts more than 2 million users worldwide.",
@@ -2025,7 +2026,7 @@ const gameData = {
     {
       id: 12, name: "Y live",
       slug: "y-live",
-      url: "/assets/images/Survey/market-research.png",
+      url: "/assets/images/Survey/surveyone.png",
       description: "For further information, please read on for more details. ",
       content: {
         whatIsSurvey: "Opinion Outpost have shot up in popularity due to fast payouts and fun surveys.",
@@ -2042,7 +2043,7 @@ const gameData = {
     {
       id: 13, name: "Inbox Pounds ",
       slug: "inbox-pounds",
-      url: "/assets/images/Survey/checklistt.png",
+      url: "/assets/images/Survey/market-research.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "This is a little different to other survey sites. YouGov focuses more on social issues and general interest topics. Their polls include politics, public affairs, and commercial products. Great if you have big opinions!",
@@ -2061,7 +2062,7 @@ const gameData = {
     {
       id: 14, name: "Valued Opinions",
       slug: "valued-opinions",
-      url: "/assets/images/Survey/surveyyy.png",
+      url: "/assets/images/Survey/checklistt.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "Valued Opinions are part of a larger market research group. They send out online surveys to members whose profiles match broad demographics and requirements.",
@@ -2078,7 +2079,7 @@ const gameData = {
     {
       id: 16, name: "Triba Panel",
       slug: "triba-panel",
-      url: "/assets/images/Survey/clipboard.png",
+      url: "/assets/images/Survey/surveyyy.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "Part of the Cint exchange, Triaba offers paid surveys via computer and mobile.",
@@ -2091,10 +2092,11 @@ const gameData = {
           "You can earn an average of 70p"
         ]
       }
-    }, {
+    },
+     {
       id: 17, name: "Panel Base",
       slug: "panel-base",
-      url: "/assets/images/Survey/customer-survey.png",
+      url: "/assets/images/Survey/qualitative-research.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "PanelBase isn't your average survey site. They don't inundate you with surveys, but the ones they do send are very well paid and relevant.",
@@ -2112,7 +2114,7 @@ const gameData = {
     {
       id: 18, name: "Mingle Surveys",
       slug: "mingle-surveys",
-      url: "/assets/images/Survey/polling.png",
+      url: "/assets/images/Survey/clipboard.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "A site running surveys for the UK and EU.",
@@ -2129,7 +2131,7 @@ const gameData = {
     {
       id: 19, name: "Maru  Voice ",
       slug: "maru-voice",
-      url: "/assets/images/Survey/question.png",
+      url: "/assets/images/Survey/customer-survey.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "Provide information to government bodies and not-for-profit organisations.",
@@ -2146,7 +2148,7 @@ const gameData = {
     {
       id: 20, name: "The OpinionPanel Community",
       slug: "the-opinionPanel-community",
-      url: "/assets/images/Survey/feedback.png",
+      url: "/assets/images/Survey/polling.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "The UK’s largest research panel for anyone aged 13-30. OpinionPanel offers interesting surveys and online focus groups for big brands and universities, with research often reaching the media spotlight.",
@@ -2162,9 +2164,9 @@ const gameData = {
       }
     },
     {
-      id: 21, name: "The Opinion Panel Community",
-      slug: "the-opinion-panel-community",
-      url: "/assets/images/Survey/financial.png",
+      id: 21, name: "Opinion Bureau",
+        slug: "opinion-bureau",
+      url: "/assets/images/Survey/question.png",
       description: "For further information, please read on for more details",
       content: {
         whatIsSurvey: "YouGov focuses on social issues and general interest topics. Their polls include politics, public affairs, and commercial products — great if you have big opinions!",
@@ -2182,28 +2184,28 @@ const gameData = {
       }
     },
     {
-      id: 22, name: "Opinion Bureau Bureauving",
-      slug: "opinion-bureau",
-      url: "/assets/images/Survey/financial.png",
-      description: "For further information, please read on for more details",
-      content: {
-        whatIsSurvey: "YouGov focuses on social issues and general interest topics. Their polls include politics, public affairs, and commercial products — great if you have big opinions!",
-        Rewards: "Money and prize draws.",
-        AmountPerSurvey: "50p - £3",
-        reward: " £50.",
-        OurReview: [
-          "YouGov is one of the more interesting survey sites because of the kinds of surveys they conduct.",
-          "Most surveys focus on current news and encourage you to express your views.",
-          "Surveys can take up to 30 minutes but are not very frequent (1-2 per fortnight).",
-          "It can take a few months to reach the threshold.",
-          "You get £1 just for joining.",
-          "Referring friends can quickly earn you more points and cash."
-        ]
-      }
-    },
-    {
-      id: 23, name: "New Vista Live ",
+      id: 22, name: "New Vista Live ",
       slug: "new-vista-live ",
+      url: "/assets/images/Survey/feedback.png",
+      description: "For further information, please read on for more details",
+      content: {
+        whatIsSurvey: "YouGov focuses on social issues and general interest topics. Their polls include politics, public affairs, and commercial products — great if you have big opinions!",
+        Rewards: "Money and prize draws.",
+        AmountPerSurvey: "50p - £3",
+        reward: " £50.",
+        OurReview: [
+          "YouGov is one of the more interesting survey sites because of the kinds of surveys they conduct.",
+          "Most surveys focus on current news and encourage you to express your views.",
+          "Surveys can take up to 30 minutes but are not very frequent (1-2 per fortnight).",
+          "It can take a few months to reach the threshold.",
+          "You get £1 just for joining.",
+          "Referring friends can quickly earn you more points and cash."
+        ]
+      }
+    },
+    {
+      id: 23, name: "Hiving",
+      slug: "hiving",
       url: "/assets/images/Survey/financial.png",
       description: "For further information, please read on for more details",
       content: {
@@ -2291,7 +2293,7 @@ const gameData = {
 
   ],
 
-  ReferEarn: [
+  ReferEarn: [  
     {
       id: 1,
       name: "Paytm Money",
@@ -2635,7 +2637,7 @@ const gameData = {
         subTitle: [
           "This post is all about ‘the best refer and earn app in India’. So there is no value to talking about Meesho reselling. There are four sections in the Meesho Referral. If you refer your friends to join the Meesho App then you will earn 25% of their sales for the next 12 months."
         ],
-        url: "/assets/images/ReferEarnImg/12.png ",
+        url: "/assets/images/ReferEarnImg/ReferEarn12.png ",
         OurReview: [
           "The four sections are Zero Referral, Rising Star, Super Star, and Mega Star. Reselling App Meesho claims that you can earn up to ₹50,000 in 12 months from the Meesho App."
         ],

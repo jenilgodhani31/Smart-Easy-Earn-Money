@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import gameData from 'data/gameData'
 import Layout from '@components/Layout'
+import Ads from '@components/Ads'
 
 const RealEstateInfo = ({ type }) => {
     const router = useRouter()
@@ -21,6 +22,13 @@ const RealEstateInfo = ({ type }) => {
 
     return (
         <Layout title={name} className="p-5  text-[15px]">
+            <div className=" ">
+                <Ads
+                    data-ad-format="auto"
+                    data-ad-slot="6816460021"
+                    data-full-width-responsive="true"
+                />
+            </div>
             <div className="text-black font-semibold px-5 pb-5 pt-[100px]">
                 {content?.whatIs && (
                     <section className="mb-4 mt-2">
@@ -31,39 +39,6 @@ const RealEstateInfo = ({ type }) => {
                         <div className="list-disc list-inside ">
                             {content?.subTitle.map((tip, idx) => <div className='mb-3' key={idx}>{tip}</div>)}
                         </div>
-                    </section>
-                )}
-
-                {content?.sellingInfo && (
-                    <section className='mt-5'>
-
-                        {Array.isArray(content?.sellingInfo) ? (
-                            <div className="list-disc list-inside">
-                                {content?.sellingInfo.map((item, idx) => <div className="mb-5" key={idx}>{item}</div>)}
-                            </div>
-                        ) : (
-                            <p>{content?.sellingInfo}</p>
-                        )}
-                    </section>
-                )}
-                {content?.other && (
-                    <section className="mt-4">
-
-                        <div className="list-disc list-inside ">
-                            {content.other.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
-                        </div>
-                    </section>
-                )}
-                {content?.proTips && (
-                    <section className='mt-5'>
-                        <h2 className="">Pro Tips -</h2>
-                        {Array.isArray(content?.proTips) ? (
-                            <div className="list-disc list-inside">
-                                {content?.proTips.map((item, idx) => <div className="pb-2" key={idx}>{item}</div>)}
-                            </div>
-                        ) : (
-                            <p>{content?.proTips}</p>
-                        )}
                     </section>
                 )}
                 {content.info && (
@@ -92,6 +67,47 @@ const RealEstateInfo = ({ type }) => {
                         ))}
                     </div>
                 )}
+                <div className=" ">
+                    <Ads
+                        data-ad-format="auto"
+                        data-ad-slot="6816460021"
+                        data-full-width-responsive="true"
+                    />
+                </div>
+                {content?.sellingInfo && (
+                    <section className='mt-5'>
+
+                        {Array.isArray(content?.sellingInfo) ? (
+                            <div className="list-disc list-inside">
+                                {content?.sellingInfo.map((item, idx) => <div className="mb-5" key={idx}>{item}</div>)}
+                            </div>
+                        ) : (
+                            <p>{content?.sellingInfo}</p>
+                        )}
+                    </section>
+                )}
+
+                {content?.other && (
+                    <section className="mt-4">
+
+                        <div className="list-disc list-inside ">
+                            {content.other.map((tip, idx) => <div className='mb-1' key={idx}>{tip}</div>)}
+                        </div>
+                    </section>
+                )}
+                {content?.proTips && (
+                    <section className='mt-5'>
+                        <h2 className="">Pro Tips -</h2>
+                        {Array.isArray(content?.proTips) ? (
+                            <div className="list-disc list-inside">
+                                {content?.proTips.map((item, idx) => <div className="pb-2" key={idx}>{item}</div>)}
+                            </div>
+                        ) : (
+                            <p>{content?.proTips}</p>
+                        )}
+                    </section>
+                )}
+
                 <div className='pt-10'>
                     <a href="/emoney" className="w-full pt-10 ">
                         <button className="flex items-center justify-center w-full p-5 text-white gap-3 rounded-[15px] bg-primary1 shadow-xl/20 transition-shadow duration-300">

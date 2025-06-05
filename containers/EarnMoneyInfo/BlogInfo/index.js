@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import gameData from 'data/gameData'
 import Layout from '@components/Layout'
+import Ads from '@components/Ads'
 
 const BlogInfo = ({ type }) => {
     const router = useRouter()
@@ -22,7 +23,13 @@ const BlogInfo = ({ type }) => {
     return (
         <Layout title={name} className="p-5  text-[15px]">
             <div className="text-black font-semibold px-5 pb-5 pt-[100px]">
-
+                <div className=" ">
+                    <Ads
+                        data-ad-format="auto"
+                        data-ad-slot="6816460021"
+                        data-full-width-responsive="true"
+                    />
+                </div>
                 {title && (<section className="">
                     <h2 className="">What is it {title} ?</h2>
                 </section>)}
@@ -75,6 +82,14 @@ const BlogInfo = ({ type }) => {
                         </div>
                     </section>
                 )}
+
+                <div className=" ">
+                    <Ads
+                        data-ad-format="auto"
+                        data-ad-slot="6816460021"
+                        data-full-width-responsive="true"
+                    />
+                </div>
 
                 {content?.howToMonetize && (
                     <section>

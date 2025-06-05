@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import Layout from '@components/Layout'
 import gameData from 'data/gameData'
 import React from 'react'
+import Ads from '@components/Ads'
 
 function Marketing() {
   const router = useRouter()
@@ -14,6 +15,14 @@ function Marketing() {
 
   return (
     <Layout title={"Marketing"} className={"text-[15px]"}>
+
+      <div className=" ">
+        <Ads
+          data-ad-format="auto"
+          data-ad-slot="6816460021"
+          data-full-width-responsive="true"
+        />
+      </div>
       <div className='flex pt-[100px] flex-col items-center p-5 gap-4'>
         {gameData?.Marketing?.map((item, index) => (
           <div

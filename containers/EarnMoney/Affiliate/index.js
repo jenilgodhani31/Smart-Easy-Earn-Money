@@ -1,3 +1,4 @@
+import Ads from '@components/Ads'
 import Layout from '@components/Layout'
 import gameData from 'data/gameData'
 import { useRouter } from 'next/router'
@@ -12,6 +13,13 @@ function Affiliate() {
   }
   return (
     <Layout title={"Affiliate"} className={"text-[15px]"}>
+      <div className=" ">
+        <Ads
+          data-ad-format="auto"
+          data-ad-slot="6816460021"
+          data-full-width-responsive="true"
+        />
+      </div>
       <div className='flex  flex-col items-center p-5 gap-4 pt-[100px]'>
         {gameData?.Affiliate?.map((item, index) => (
           <div onClick={() => handleClick(item.slug)} key={index}>

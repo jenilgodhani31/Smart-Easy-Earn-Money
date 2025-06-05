@@ -1,3 +1,4 @@
+import Ads from '@components/Ads'
 import Layout from '@components/Layout'
 import gameData from 'data/gameData'
 import React from 'react'
@@ -6,6 +7,14 @@ function EMoney() {
   return (
     <Layout title={"eMoney"} className={"text-[15px]"}>
       <div className='flex  flex-col items-center p-5 gap-4 pt-[100px] h-screen'>
+
+        <div className="">
+          <Ads
+            data-ad-format="auto"
+            data-ad-slot="6816460021"
+            data-full-width-responsive="true"
+          />
+        </div>
         {gameData?.EMoney?.map((item, index) => (
           <a href={item.slug} key={index}>
             <div className="flex gap-2 cursor-pointer p-2 bg-primary1 shadow-2xl rounded-[15px]">

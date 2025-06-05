@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import gameData from 'data/gameData'
 import Layout from '@components/Layout'
+import Ads from '@components/Ads'
 
 const ReferEarnInfo = ({ type }) => {
     const router = useRouter()
@@ -19,10 +20,17 @@ const ReferEarnInfo = ({ type }) => {
 
     const { name, content, } = marketingItem
 
-        console.log("marketingItem",marketingItem)
+    console.log("marketingItem", marketingItem)
 
     return (
         <Layout title={name} className="p-5  text-[15px]">
+            <div className=" ">
+                <Ads
+                    data-ad-format="auto"
+                    data-ad-slot="6816460021"
+                    data-full-width-responsive="true"
+                />
+            </div>
             <div className="text-black font-semibold px-5 pb-5 pt-[100px]">
                 {content?.whatIs && (
                     <section className="mb-4 mt-2">
@@ -57,6 +65,13 @@ const ReferEarnInfo = ({ type }) => {
                         </div>
                     </section>
                 )}
+                <div className=" ">
+                    <Ads
+                        data-ad-format="auto"
+                        data-ad-slot="6816460021"
+                        data-full-width-responsive="true"
+                    />
+                </div>
                 {content?.HowToDownload && (
                     <section className="mb-4">
                         <div className="list-disc list-inside ">

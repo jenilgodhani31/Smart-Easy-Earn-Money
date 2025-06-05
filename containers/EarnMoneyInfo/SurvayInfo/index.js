@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import gameData from 'data/gameData'
 import Layout from '@components/Layout'
+import Ads from '@components/Ads'
 
 const SurveyInfo = ({ type }) => {
     const router = useRouter()
@@ -21,6 +22,13 @@ const SurveyInfo = ({ type }) => {
 
     return (
         <Layout title={name} className="p-5  text-[15px]">
+            <div className=" ">
+                <Ads
+                    data-ad-format="auto"
+                    data-ad-slot="6816460021"
+                    data-full-width-responsive="true"
+                />
+            </div>
             <div className="text-black font-semibold px-5 pb-5 pt-[100px]">
 
                 {content?.whatIsSurvey && (
@@ -40,7 +48,13 @@ const SurveyInfo = ({ type }) => {
                         <h2 className="">Amount per survey -</h2>
                         <p>{content?.AmountPerSurvey}</p>
                     </section>)}
-
+                <div className=" ">
+                    <Ads
+                        data-ad-format="auto"
+                        data-ad-slot="6816460021"
+                        data-full-width-responsive="true"
+                    />
+                </div>
                 {content?.reward && (
                     <section className="mb-4 mt-2">
                         <h2 className="">Min. reward threshold -</h2>

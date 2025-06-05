@@ -24,10 +24,9 @@ function Age() {
 
                 <Ads
                     data-ad-format="auto"
-                    data-ad-slot="9852606619"
+                    data-ad-slot="6816460021"
                     data-full-width-responsive="true"
                 />
-
 
                 <div className='grid grid-cols-1 gap-4 '>
                     {gameData?.Age?.map((item, index) => (

@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import gameData from 'data/gameData'
 import Layout from '@components/Layout'
+import Ads from '@components/Ads'
 
 const SideHustleInfo = ({ type }) => {
     const router = useRouter()
@@ -21,6 +22,13 @@ const SideHustleInfo = ({ type }) => {
 
     return (
         <Layout title={name} className="p-5  text-[15px]">
+            <div className=" ">
+                <Ads
+                    data-ad-format="auto"
+                    data-ad-slot="6816460021"
+                    data-full-width-responsive="true"
+                />
+            </div>
             <div className="text-black font-semibold px-5 pb-5 pt-[100px]">
 
                 {title && (<section className="">
@@ -63,18 +71,7 @@ const SideHustleInfo = ({ type }) => {
                     </section>
                 )}
 
-                {content?.proTips && (
-                    <section className='mt-5'>
-                        <h2 className="">Pro Tips -</h2>
-                        {Array.isArray(content?.proTips) ? (
-                            <div className="list-disc list-inside">
-                                {content?.proTips.map((item, idx) => <div className="pb-2" key={idx}>{item}</div>)}
-                            </div>
-                        ) : (
-                            <p>{content?.proTips}</p>
-                        )}
-                    </section>
-                )}
+
 
                 {content?.startHere && (
                     <section className='mt-5'>
@@ -88,7 +85,13 @@ const SideHustleInfo = ({ type }) => {
                         )}
                     </section>
                 )}
-
+                <div className=" ">
+                    <Ads
+                        data-ad-format="auto"
+                        data-ad-slot="6816460021"
+                        data-full-width-responsive="true"
+                    />
+                </div>
                 {content?.similarSites && (
                     <section className='mt-5'>
                         <h2 className="">Similar Sites -</h2>

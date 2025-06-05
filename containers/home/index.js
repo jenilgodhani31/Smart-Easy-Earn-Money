@@ -26,7 +26,7 @@ function Home() {
       <div className="">
         <Ads
           data-ad-format="auto"
-          data-ad-slot="9852606619"
+          data-ad-slot="6816460021"
           data-full-width-responsive="true"
         />
       </div>
@@ -66,7 +66,7 @@ function Home() {
         >
           <div className=" md:mt-[18px] mt-[20px]">
 
-            <Ads display={true} data-ad-slot="7438833981" />
+            <Ads display={true} data-ad-slot="6220180766" />
           </div>
         </Modal>
       )}
