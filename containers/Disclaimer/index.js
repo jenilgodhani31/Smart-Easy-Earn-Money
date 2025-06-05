@@ -5,7 +5,7 @@ import React from 'react'
 function Disclaimer() {
     return (
         <Layout className={"text-[15px]"}>
-            <div className="p-4 pt-[100px] ">
+            <div className="p-5 pt-[100px]">
                 <Ads
                     data-ad-format="auto"
                     data-ad-slot="6816460021"

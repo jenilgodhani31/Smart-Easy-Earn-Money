@@ -22,14 +22,14 @@ const LearnToEarnInfo = ({ type }) => {
 
     return (
         <Layout title={name} className="p-5  text-[15px]">
-            <div className="">
+            <div className="p-5 pt-[100px]">
                 <Ads
                     data-ad-format="auto"
                     data-ad-slot="6816460021"
                     data-full-width-responsive="true"
                 />
             </div>
-            <div className="text-black font-semibold px-5 pb-5 pt-[100px]">
+            <div className="text-black font-semibold px-5 pb-5 ">
                 {Heading && (
                     <section className="mb-1 mt-2">
                         <p>{Heading}</p>
@@ -38,21 +38,21 @@ const LearnToEarnInfo = ({ type }) => {
                 {Details && (
                     <section className="">
                         <div className="list-disc list-inside ">
-                            {Details.slice(0,2).map((tip, idx) => <div className='mb-4' key={idx}>{tip}</div>)}
+                            {Details.slice(0, 2).map((tip, idx) => <div className='mb-4' key={idx}>{tip}</div>)}
                         </div>
                     </section>
                 )}
-            <div className="">
-                <Ads
-                    data-ad-format="auto"
-                    data-ad-slot="6816460021"
-                    data-full-width-responsive="true"
-                />
-            </div>
-                                {Details && (
+                <div className="">
+                    <Ads
+                        data-ad-format="auto"
+                        data-ad-slot="6816460021"
+                        data-full-width-responsive="true"
+                    />
+                </div>
+                {Details && (
                     <section className="">
                         <div className="list-disc list-inside ">
-                            {Details.slice(2,10).map((tip, idx) => <div className='mb-4' key={idx}>{tip}</div>)}
+                            {Details.slice(2, 10).map((tip, idx) => <div className='mb-4' key={idx}>{tip}</div>)}
                         </div>
                     </section>
                 )}

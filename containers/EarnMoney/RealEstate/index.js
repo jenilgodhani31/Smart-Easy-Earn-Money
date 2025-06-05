@@ -13,14 +13,14 @@ function RealEstate() {
   }
   return (
     <Layout title={"Real Estate"} className={"text-[15px]"}>
-      <div className=" ">
+      <div className="p-5 pt-[100px]">
         <Ads
           data-ad-format="auto"
           data-ad-slot="6816460021"
           data-full-width-responsive="true"
         />
       </div>
-      <div className='flex pt-[100px] flex-col items-center p-5 gap-4 '>
+      <div className='flex  flex-col items-center p-5 gap-4 '>
         {gameData?.RealEstate?.slice(0, 4).map((item, index) => (
           <div onClick={() => handleClick(item.slug)} key={index}>
             <div className="flex gap-2 cursor-pointer p-2 bg-primary1 shadow-2xl rounded-[15px]">
@@ -45,7 +45,7 @@ function RealEstate() {
           data-full-width-responsive="true"
         />
       </div>
-      <div className='flex pt-[100px] flex-col items-center p-5 gap-4 '>
+      <div className='flex  flex-col items-center p-5 gap-4 '>
         {gameData?.RealEstate?.slice(4, 9).map((item, index) => (
           <div onClick={() => handleClick(item.slug)} key={index}>
             <div className="flex gap-2 cursor-pointer p-2 bg-primary1 shadow-2xl rounded-[15px]">

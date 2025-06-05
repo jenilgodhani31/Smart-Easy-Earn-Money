@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     import("react-onesignal").then((OneSignal) => {
       OneSignal.default.init({
-        appId: "05a168f7-8419-43bb-95be-32e838893a65",
+         appId: "05a168f7-8419-43bb-95be-32e838893a65",
         serviceWorkerPath: "/OneSignalSDKWorker.js",
       });
     });

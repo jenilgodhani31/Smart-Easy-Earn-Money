@@ -16,14 +16,14 @@ function Marketing() {
   return (
     <Layout title={"Marketing"} className={"text-[15px]"}>
 
-      <div className=" ">
+      <div className="p-5 pt-[100px]">
         <Ads
           data-ad-format="auto"
           data-ad-slot="6816460021"
           data-full-width-responsive="true"
         />
       </div>
-      <div className='flex pt-[100px] flex-col items-center p-5 gap-4'>
+      <div className='flex  flex-col items-center p-5 gap-4'>
         {gameData?.Marketing?.map((item, index) => (
           <div
             key={index}
