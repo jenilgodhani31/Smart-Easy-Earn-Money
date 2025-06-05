@@ -42,7 +42,7 @@ const LearnToEarnInfo = ({ type }) => {
                         </div>
                     </section>
                 )}
-      <div className="p-5">
+                <div className="p-5">
                     <Ads
                         data-ad-format="auto"
                         data-ad-slot="6816460021"
