@@ -20,7 +20,7 @@ function Age() {
 
     return (
         <Layout title={"Age"} className={"text-[15px]"}>
-            <div className="flex flex-col gap-5 mx-auto h-max p-4 pb-[100px]">
+            <div className="flex flex-col gap-5 mx-auto h-max p-4 pt-[100px] pb-[400px]">
 
                 <Ads
                     data-ad-format="auto"

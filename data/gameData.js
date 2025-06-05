@@ -4351,7 +4351,7 @@ const gameData = {
         subTitle: [
           "If yes, then you can definitely make money online writing slogans and taglines.",
           " Most companies need corporate taglines, product taglines, and advertising slogans that convey a strong message using short phrases.",
-          " Apart from companies, Tee-shirt, sticker, toy, and greeting card makers need catchy sayings or funny one-liners to print on their products. You can write slogans and thoughts for these and earn extra money."
+          " Apart from companies, Tee-shirt, sticker, toy, and greeting card makers need catchy sayings or funny one-liners to print on their products. You can write slogans and thoughts for these and Smart Ways to Earn Money."
         ],
         GreatFor: [
           "Avid readers",

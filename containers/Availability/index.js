@@ -19,7 +19,7 @@ function Availability() {
     }
     return (
         <Layout title={"Availability"} className={"text-[15px]"}>
-            <div className="flex flex-col gap-5 mx-auto h-max p-4 pb-[100px]">
+            <div className="flex flex-col gap-5 mx-auto h-max p-4 pt-[100px] pb-[400px]">
                 <div className="">
                     <Ads
                         data-ad-format="auto"
