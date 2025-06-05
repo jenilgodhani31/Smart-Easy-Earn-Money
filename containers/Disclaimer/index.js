@@ -4,7 +4,7 @@ import React from 'react'
 
 function Disclaimer() {
     return (
-        <Layout>
+        <Layout className={"text-[15px]"}>
             <div className="p-4 ">
                 <Ads
                     data-ad-format="auto"
@@ -12,11 +12,10 @@ function Disclaimer() {
                     data-full-width-responsive="true"
                 />
             </div>
-            <div className=" px-8   pb-[125px]">
+            <div className=" px-8 text-black  pb-[125px]">
 
-                <div className='pt-10 font-bold'>{"Disclaimer: This Site is for entertainment and informational purposes only. RBX does not provide any free Robux hacks,  or any unauthorized services. All features are designed in compliance with the Official Studio Terms of Use."}</div>
-                <div className='font-bold pt-10'>{"This is an unofficial site and has no affiliation with OFFICIAL CORPORATION. It functions solely as a free daily Robux  and RBX Skins  for fans and players, without any ability to earn free Robux. We want to emphasize that this site is NOT a hack or cheat. we are committed to promoting fair play!  Any content like name, logo or other visual elements within this app follows the guidelines established in the official terms of use.  If you have any questions or suspect that we may have breached then we are inviting you to contact us."}</div>
-            </div>
+                <div className='pt-10 font-bold'>{"Disclaimer:  The information provided in this web app is for educational purposes only. We strive for accuracy but make no warranties regarding reliability or suitability. Your use of this web app is at your own risk. We are not liable for any loss or damage resulting from the use of this web app or linked content."}</div>
+                  </div>
         </Layout>
     )
 }

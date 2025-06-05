@@ -30,7 +30,7 @@ function Home() {
           data-full-width-responsive="true"
         />
       </div>
-      <div className="flex flex-col gap-12 p-5 pt-[80px] items-center justify-center text-black bg-white pb-[400px]  ">
+      <div className="flex flex-col gap-12 p-5 pt-[80px] items-center justify-center text-black bg-white ">
         <img src="/assets/images/homePage/homePage.png"
           className="w-[100px] h-[100px]"
         />
@@ -47,6 +47,13 @@ function Home() {
               />
             </span>
           </button>
+        </a>
+        <a href="/disclaimer">
+          <div className="flex justify-center   pb-5">
+            <div className=" text-[15px] font-bold text-black text-center w-fit">
+              Disclaimer
+            </div>
+          </div>
         </a>
 
       </div>
