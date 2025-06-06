@@ -23,7 +23,7 @@ function Home() {
       <div className="text-center bg-primary1 p-5 rounded-b-[30px] shadow-2xl ">
         {"Smart & Easy Earn Money"}
       </div>
-      <div className="">
+      <div className="p-5 pt-10">
         <Ads
           data-ad-format="auto"
           data-ad-slot="6816460021"
